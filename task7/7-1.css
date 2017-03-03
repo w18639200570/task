@@ -1,0 +1,60 @@
+html{
+    max-width:680px;
+    margin:0 auto;
+}
+body{
+    margin:0 auto;
+    max-width:680px;
+    font-family:"Microsoft YaHei";
+    text-align:center;
+    font-size:2rem;
+}
+.big{
+    margin:0 4%;
+    width:92%;
+    max-width:680px;
+}
+header{padding:10px 0;width:100%;background:#29bde0;overflow:hidden;}
+.menu{margin-left:10px;float:left;}
+.menus{border:none;background:none;}
+.im{width:20px;}
+main .row{margin-top:15px;}
+.container{
+    max-width:620px;
+    margin-top:15px;border:1px solid #c9c9c9;background:#fff;}
+.lasttime{padding:10px 0;color:#9a9a9a;}
+.rightback{position:absolute;top:13px;right:20px;width:15px;}
+.content{}
+.name{padding:10px 0;color:#fbb435;}
+.content .col-xs-12{border-bottom:1px solid #fbb435;}
+.type1{margin:15px 0;padding:20px 0;color:white;background:#69d1e9;}
+.synopsis{font-size:1.5rem;color:#787878;text-overflow :ellipsis;overflow:hidden;white-space: nowrap;}
+.col-xs-4{margin-top:-15px;}
+.origins{display:inline-block;width:10px;height:10px;border-radius:50%;background:#f0f0f0;}
+.origins:hover{
+    background:#69d1e9;
+}
+.triangle
+{
+    width:50px;
+    border-top:20px solid transparent;
+    border-left:15px solid #fbb435;
+    border-bottom:20px solid transparent;
+}
+.next{
+    float:right;
+    margin-top:-227px;
+    margin-right:-5px;
+    border-top:20px solid transparent;
+    border-left:15px solid #fbb435;
+    border-bottom:20px solid transparent;
+    background:none;
+    outline:none;
+}
+.row{
+    overflow:hidden;
+}
+.biger{
+    padding:15px 0;
+    background:#f0f0f0;
+}
