@@ -2,117 +2,264 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-100%, initial-scale=1" />
+    <meta name="viewport" content="width=device-100%, initial-scale=1"/>
     <style type="text/css">
-        body{margin:0;
-            font-family:"Microsoft YaHei";
-            font-size:1.5rem;}
-        header{position:absolute;top:0;
-            margin:0;padding:10px 0 5px;width:100%;
-            color:white;text-align:center;
-            background-color:#68cdd5;}
-        .back{position:absolute;left:10px;width:.8rem;}
-        .home{display:block;width:100%;}
-        main{margin-top:45px;
-            width:100%;
-            background-image:url(../images/work.png);
-            background-size:130%;
-            overflow:hidden;}
-        .women{float:left;margin:45px 20px;width:98px;}
-        .mainright{float:left;margin:70px 0 0;color:white;font-size:1.5rem;}
-        .year{float:right;font-size:1.2rem;}
-        .address{font-size:1rem;}
-        .shape{width:10px;}
-        content{font-size:1rem;line-height:90%;letter-spacing:.1rem;}
-        .skill{margin:0;padding:20px 0;
-            border-bottom:1px solid #e1e5e7;}
-        .major{margin-left:20px;padding-left:15px;border-left:2px solid #68cdd5;}
-        .star{margin-left:20px;padding:20px 0;
-            border-bottom:1px solid #e1e5e7;overflow:hidden;}
-        .star1{width:15px;}
-        .star2{width:15px;}
-        .starleft{float:left;margin:0 20px;}
-        .starright{float:left;padding-left:20px;border-left:1px solid #e1e5e7;}
-        .years{margin-left:20px;padding:20px 0;
-            border-bottom:1px solid #e1e5e7;overflow:hidden;}
-        .yearsleft{float:left;margin-left:20px;padding-right:20px;color:#999999;border-right:1px solid #e1e5e7;}
-        .yearsright{float:left;margin-left:20px;letter-spacing:-.2rem;}
-        .time{margin-left:20px;padding:20px 0;
-            border-bottom:1px solid #e1e5e7;overflow:hidden;}
-        .timeleft{float:left;margin-left:20px;padding-right:20px;color:#999999;border-right:1px solid #e1e5e7;}
-        .timeright{float:left;margin-left:20px}
-        .price{margin-left:20px;padding:20px 0;
-            border-bottom:1px solid #e1e5e7;overflow:hidden;}
-        .priceleft{float:left;margin-left:20px;padding-right:20px;color:#999999;border-right:1px solid #e1e5e7;}
-        .priceright{float:left;margin-left:20px;color:#e26163;}
+        body {
+            margin: 0;
+            font-family: "Microsoft YaHei";
+            font-size: 1.5rem;
+        }
+
+        header {
+            position: absolute;
+            top: 0;
+            margin: 0;
+            padding: 10px 0 5px;
+            width: 100%;
+            color: white;
+            text-align: center;
+            background-color: #68cdd5;
+        }
+
+        .back {
+            position: absolute;
+            left: 10px;
+            width: .8rem;
+        }
+
+        .home {
+            display: block;
+            width: 100%;
+        }
+
+        main {
+            margin-top: 45px;
+            width: 100%;
+            background-image: url(../images/work.png);
+            background-size: 130%;
+            overflow: hidden;
+        }
+
+        .women {
+            float: left;
+            margin: 45px 20px;
+            width: 98px;
+        }
+
+        .mainright {
+            float: left;
+            margin: 70px 0 0;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        .year {
+            float: right;
+            font-size: 1.2rem;
+        }
+
+        .address {
+            font-size: 1rem;
+        }
+
+        .shape {
+            width: 10px;
+        }
+
+        content {
+            font-size: 1rem;
+            line-height: 90%;
+            letter-spacing: .1rem;
+        }
+
+        .skill {
+            margin: 0;
+            padding: 20px 0;
+            border-bottom: 1px solid #e1e5e7;
+        }
+
+        .major {
+            margin-left: 20px;
+            padding-left: 15px;
+            border-left: 2px solid #68cdd5;
+        }
+
+        .star {
+            margin-left: 20px;
+            padding: 20px 0;
+            border-bottom: 1px solid #e1e5e7;
+            overflow: hidden;
+        }
+
+        .star1 {
+            width: 15px;
+        }
+
+        .star2 {
+            width: 15px;
+        }
+
+        .starleft {
+            float: left;
+            margin: 0 20px;
+        }
+
+        .starright {
+            float: left;
+            padding-left: 20px;
+            border-left: 1px solid #e1e5e7;
+        }
+
+        .years {
+            margin-left: 20px;
+            padding: 20px 0;
+            border-bottom: 1px solid #e1e5e7;
+            overflow: hidden;
+        }
+
+        .yearsleft {
+            float: left;
+            margin-left: 20px;
+            padding-right: 20px;
+            color: #999999;
+            border-right: 1px solid #e1e5e7;
+        }
+
+        .yearsright {
+            float: left;
+            margin-left: 20px;
+            letter-spacing: -.2rem;
+        }
+
+        .time {
+            margin-left: 20px;
+            padding: 20px 0;
+            border-bottom: 1px solid #e1e5e7;
+            overflow: hidden;
+        }
+
+        .timeleft {
+            float: left;
+            margin-left: 20px;
+            padding-right: 20px;
+            color: #999999;
+            border-right: 1px solid #e1e5e7;
+        }
+
+        .timeright {
+            float: left;
+            margin-left: 20px
+        }
+
+        .price {
+            margin-left: 20px;
+            padding: 20px 0;
+            border-bottom: 1px solid #e1e5e7;
+            overflow: hidden;
+        }
+
+        .priceleft {
+            float: left;
+            margin-left: 20px;
+            padding-right: 20px;
+            color: #999999;
+            border-right: 1px solid #e1e5e7;
+        }
+
+        .priceright {
+            float: left;
+            margin-left: 20px;
+            color: #e26163;
+        }
+
         .introduction {
-            position:relative;
-            margin-bottom:18%;
-            padding:20px 0;
-            width:100%;
-            border-bottom:1px solid #e1e5e7;
-            overflow:hidden;
+            position: relative;
+            margin-bottom: 18%;
+            padding: 20px 0;
+            width: 100%;
+            border-bottom: 1px solid #e1e5e7;
+            overflow: hidden;
         }
-        .introductionleft{
-            position:absolute;
-            top:50%;
-            transform:translateY(-50%);
-            margin-left:20px;
-            padding:0 20px;
-            color:#999;
-            border-right:1px solid #e1e5e7;
-            overflow:hidden;
+
+        .introductionleft {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-left: 20px;
+            padding: 0 20px;
+            color: #999;
+            border-right: 1px solid #e1e5e7;
+            overflow: hidden;
         }
-        .introductionright{
-            margin-left:150px;
-            line-height:1.3rem;
+
+        .introductionright {
+            margin-left: 150px;
+            line-height: 1.3rem;
         }
-        footer{
-            position:fixed;
-            bottom:20px;
-            margin:0;width:100%;
-            text-align:center;
+
+        footer {
+            position: fixed;
+            bottom: 20px;
+            margin: 0;
+            width: 100%;
+            text-align: center;
         }
-        .message{float:left;;width:50%;}
-        .messages{margin:0;
-            width:95%;
-            font-family:"Microsoft YaHei";
-            font-size:1.5rem;
-            color:#68cdd5;
-            background:white;
-            border:1px solid #68cdd5;
-            border-radius:8px;}
-        .telephone{float:left;width:50%;}
-        .tele{margin:0;
-            width:95%;
-            font-family:"Microsoft YaHei";
-            font-size:1.5rem;
-            color:white;
-            background:#68cdd5;
-            border:none;
-            border-radius:8px}
+
+        .message {
+            float: left;;
+            width: 50%;
+        }
+
+        .messages {
+            margin: 0;
+            width: 95%;
+            font-family: "Microsoft YaHei";
+            font-size: 1.5rem;
+            color: #68cdd5;
+            background: white;
+            border: 1px solid #68cdd5;
+            border-radius: 8px;
+        }
+
+        .telephone {
+            float: left;
+            width: 50%;
+        }
+
+        .tele {
+            margin: 0;
+            width: 95%;
+            font-family: "Microsoft YaHei";
+            font-size: 1.5rem;
+            color: white;
+            background: #68cdd5;
+            border: none;
+            border-radius: 8px
+        }
     </style>
     <title>护工个人主页</title>
 </head>
 <body>
 <header>
-    <img class="back" src="../images/back.png" /><span class="home">个人主页</span>
+    <img class="back" src="../images/back.png"/><span class="home">个人主页</span>
 </header>
 <main>
-    <img class="women" src="../images/women.png" />
+    <img class="women" src="../images/women.png"/>
     <p class="mainright">
         高素雅<span class="year">&nbsp;&nbsp;51岁</span><br/>
-        <img class="shape" src="../images/Shape.png" />
+        <img class="shape" src="../images/Shape.png"/>
         <span class="address">北京&nbsp;.通州&nbsp;.果园</span>
     </p>
 </main>
 <content>
     <div class="skill"><span class="major">专业技能</span></div>
     <div class="star">
-        <div class="starleft"><img class="star1" src="../images/xing.png" />
-            住家</div>
-        <div class="starright"><img class="star2" src="../images/xing.png" />
-            不含餐</div>
+        <div class="starleft"><img class="star1" src="../images/xing.png"/>
+            住家
+        </div>
+        <div class="starright"><img class="star2" src="../images/xing.png"/>
+            不含餐
+        </div>
     </div>
     <div class="years">
         <div class="yearsleft">从业年限</div>
@@ -132,8 +279,12 @@
     </div>
 </content>
 <footer>
-    <div class="message"><button class="messages" type="button">留言</button></div>
-    <div class="telephone"><button class="tele" type="button">电话联系</button></div>
+    <div class="message">
+        <button class="messages" type="button">留言</button>
+    </div>
+    <div class="telephone">
+        <button class="tele" type="button">电话联系</button>
+    </div>
 </footer>
 </body>
 </html>
