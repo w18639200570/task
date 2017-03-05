@@ -299,3 +299,21 @@ footer ul a {
 .banners {
     width:100%;
 }
+
+.nav-tabs {
+    border:none;
+}
+
+.biglist {
+    height:500px;
+}
+
+.nav-tabs > li > a:visited {
+    color:blue;
+    border:none;
+    outline:none;
+}
+
+.nav-tabs li {
+    outline:none;
+}
