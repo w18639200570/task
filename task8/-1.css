@@ -316,11 +316,23 @@ footer ul a {
     border:none;
 }
 
-.biglist .nav-tabs li a {
+.menu .nav-tabs>li>a:hover {
+
+    border-bottom:4px solid white;
+}
+
+.menu .nav-tabs li a {
+    padding:16px 20px;
+    text-align:right;
+    font-size:2rem;
+    color:white;
+}
+
+.nav-tabs li a {
     border:none;
 }
 
-.biglist .nav li a:hover {
+.nav li a:hover {
     background:none;
     border:none;
 }
