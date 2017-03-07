@@ -391,3 +391,35 @@ img {
     padding:30px 45px 60px;
 }
 
+.logo {
+    padding:6px 0;
+}
+
+
+
+.pagethree {
+    border-bottom:1px solid #999;
+}
+
+.contentthree ul {
+    padding-bottom:40px;
+    border-bottom:1px solid #c9c9c9;
+}
+
+.contentthree .nav-tabs li a {
+    padding:0;
+    margin:10px 15px;
+    color:black;
+    border:none;
+    border-radius:0;
+}
+
+.contentthree .nav li a:hover {
+    background:#29b078;
+    border:none;
+}
+
+.threecap {
+    margin:10px 15px;
+}
+
