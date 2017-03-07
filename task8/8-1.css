@@ -423,3 +423,90 @@ img {
     margin:10px 15px;
 }
 
+.threeshow {
+    margin:20px 0;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 1px 1px #999;
+}
+
+.showcap {
+    font-size:1.5rem;
+}
+
+.box {
+    margin:30px 0;
+    display:flex;
+    flex-wrap:wrap;
+    background:white;
+    border-radius:5px;
+    box-shadow:0 1px 1px #999;
+}
+
+.rows {
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-basis:100%;
+    align-items:center;
+    border-bottom:1px solid #ccc;
+}
+
+.rows div {
+    padding:10px;
+}
+
+.boxcap strong {
+    display:block;
+    padding:5px 0;
+    font-size:1.5rem;
+}
+
+.left {
+    width:50%;
+}
+
+.right {
+    width:50%;
+    border-left:1px solid #ccc;
+}
+
+.dleft {
+    width:50%;
+}
+.dright {
+    width:50%;
+    border-left:1px solid #ccc;
+}
+
+.aleft {
+    width:40%;
+}
+
+.aright {
+    width:60%;
+    border-left:1px solid #ccc;
+}
+
+.aright1 {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:100%;
+    border-bottom:1px solid #ccc;
+}
+.tip {
+    padding:10px;
+    color:#999;
+    font-size:.7rem;
+}
+
+b {
+    display:inline-block;
+    padding-left:10px;
+    color:orangered;
+}
+
+.box span {
+    color:red;
+}
