@@ -452,19 +452,19 @@ img {
         background: rgba(10, 250, 100, .7);
         box-shadow: inset 0 0 400px black;
         height: 200px;
-        transform:rotate(0deg);
+        transform: rotate(0deg);
     }
     60% {
         background: rgba(200, 10, 200, .7);
         box-shadow: inset 0 0 50px white;
         margin-left: 100px;
-        transform:rotate(180deg);
+        transform: rotate(180deg);
     }
     80% {
         background: rgba(0, 200, 255, .8);
         box-shadow: inset 0 0 500px black;
         margin-bottom: 100px;
-        transform:rotate(360deg);
+        transform: rotate(360deg);
     }
     100% {
         background: rgba(60, 60, 60, .8);
@@ -473,116 +473,118 @@ img {
 }
 
 .pagethree {
-    border-bottom:1px solid #999;
+    border-bottom: 1px solid #999;
 }
 
 .contentthree ul {
-    padding-bottom:40px;
-    border-bottom:1px solid #c9c9c9;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #c9c9c9;
 }
 
 .contentthree .nav-tabs li a {
-    padding:0;
-    margin:10px 15px;
-    color:black;
-    border:none;
-    border-radius:0;
+    padding: 0;
+    margin: 10px 15px;
+    color: black;
+    border: none;
+    border-radius: 0;
 }
 
 .contentthree .nav li a:hover {
-    background:#29b078;
-    border:none;
+    background: #29b078;
+    border: none;
 }
 
 .threecap {
-    margin:10px 15px;
+    margin: 10px 15px;
 }
 
 .threeshow {
-    margin:20px 0;
-    background:white;
-    border-radius:10px;
-    box-shadow:0 1px 1px #999;
+    margin: 20px 0;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px #999;
 }
 
 .showcap {
-    font-size:1.5rem;
+    font-size: 1.5rem;
 }
 
 .box {
-    margin:30px 0;
-    display:flex;
-    flex-wrap:wrap;
-    background:white;
-    border-radius:5px;
-    box-shadow:0 1px 1px #999;
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px #999;
 }
 
 .rows {
-    margin:0;
-    padding:0;
-    display:flex;
-    flex-basis:100%;
-    align-items:center;
-    border-bottom:1px solid #ccc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
 }
 
 .rows div {
-    padding:10px;
+    padding: 10px;
 }
 
 .boxcap strong {
-    display:block;
-    padding:5px 0;
-    font-size:1.5rem;
+    display: block;
+    padding: 5px 0;
+    font-size: 1.5rem;
 }
 
 .left1 {
-    width:50%;
+    width: 50%;
 }
 
 .right1 {
-    width:50%;
-    border-left:1px solid #ccc;
+    width: 50%;
+    border-left: 1px solid #ccc;
 }
 
 .dleft {
-    width:50%;
+    width: 50%;
 }
+
 .dright {
-    width:50%;
-    border-left:1px solid #ccc;
+    width: 50%;
+    border-left: 1px solid #ccc;
 }
 
 .aleft {
-    width:40%;
-    text-align:center;
+    width: 40%;
+    text-align: center;
 }
 
 .aright {
-    width:60%;
-    border-left:1px solid #ccc;
+    width: 60%;
+    border-left: 1px solid #ccc;
 }
 
 .aright1 {
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    width:100%;
-    border-bottom:1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
 }
+
 .tip {
-    padding:10px;
-    color:#999;
-    font-size:.7rem;
+    padding: 10px;
+    color: #999;
+    font-size: .7rem;
 }
 
 b {
-    display:inline-block;
-    padding-left:10px;
-    color:orangered;
+    display: inline-block;
+    padding-left: 10px;
+    color: orangered;
 }
 
 .box span {
-    color:red;
+    color: red;
 }
