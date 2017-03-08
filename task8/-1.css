@@ -26,6 +26,20 @@ header .nav > li > a {
     padding: 6px 5px;
 }
 
+.headtop {
+    display:flex;
+    justify-content:space-between;
+}
+
+header .nav>li {
+    position:static;
+    display:inline-block;
+}
+
+header .navbar-nav {
+    margin:0;
+}
+
 .menu {
     height: 64px;
     background: #29b078;
@@ -186,8 +200,9 @@ h5 {
 }
 
 .col-zdsm-2-5 {
-    float: left;
+    display:inline-block;
     width: 20%;
+    min-width:200px;
     height: 150px;
     line-height: 150px;
     text-align: center;
