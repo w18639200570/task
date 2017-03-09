@@ -11,6 +11,13 @@ p {
     text-align: left;
 }
 
+.header {
+    display:none;
+}
+
+.xiuzhen{
+    display:none;
+}
 .navbar {
     margin: 0;
     min-height: 10px;
@@ -41,7 +48,6 @@ header .navbar-nav {
 }
 
 .menu {
-    height: 64px;
     background: #29b078;
 }
 
@@ -337,7 +343,7 @@ footer ul a {
 }
 
 .menu .nav-tabs li a {
-    padding: 16px 20px;
+    padding: 18px 20px;
     text-align: right;
     font-size: 2rem;
     color: white;
