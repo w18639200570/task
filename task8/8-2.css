@@ -36,7 +36,7 @@ justify-content:space-between;
 .set {
 display:block;
 background:none;
-border:none;
+border:1px solid rgba(0,0,0,0);
 height:50px;
 border-radius:10px;
 outline:none;
