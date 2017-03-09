@@ -61,6 +61,19 @@ header .navbar-nav {
     border: none;
     outline: none;
 }
+.set {
+    display:none;
+}
+.sets {
+    display:none;
+}
+.menu .col-xs-9 {
+    display:flex;
+    justify-content:flex-end;
+}
+.menutwo {
+    display:none;
+}
 
 .menus:hover {
     border-bottom: 4px solid white;
@@ -449,7 +462,6 @@ img {
 }
 
 .opacitycap {
-    margin: 0 auto;
     text-align: center;
     margin-bottom: 20px;
 }

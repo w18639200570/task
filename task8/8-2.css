@@ -27,8 +27,51 @@ border-left:2px solid #29b078;
 color:black;
 }
 
+.menu .row {
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.set {
+display:block;
+background:none;
+border:none;
+height:50px;
+border-radius:10px;
+outline:none;
+}
+.set:hover {
+background:#1c6d44;
+border:1px solid #999;
+}
+.set:active #myTabb{
+display:block;
+}
+.sets {display:block;}
+.menu .col-xs-9 {display:none;}
+
 .menu .col-xs-3 {
 width:80%;
+}
+
+#myTabb {
+display:none;
+}
+
+.menutwo li {
+text-align:center;
+background:#29b078;
+}
+
+.menu .nav-stacked>li+li {
+margin-top:0;
+}
+
+.menutwo li a {
+color:white;
+font-size:1.5rem;
+background:#29b078;
 }
 
 .logo {
@@ -43,4 +86,8 @@ padding:6px 0;
 
 .carousel-control {
 padding-top:0;
+}
+
+.menutwo {
+display:block;
 }
