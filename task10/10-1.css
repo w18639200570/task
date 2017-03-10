@@ -95,8 +95,48 @@ color:orange;
 }
 
 .customized {
-margin-top:40px;
+margin:40px 0 20px;
 padding-left:10px;
 font-size:1.5rem;
 border-left:3px solid #1d7ad9;
+}
+
+.information {
+border:1px solid #e8e8e8;
+}
+
+.captioncontent {
+padding:10px 0 10px 10px;
+font-size:1.5rem;
+color:#1d7ad9;
+}
+
+.box {
+margin:0 10px -3px 0;
+display:inline-block;
+width:20px;
+height:15px;
+background:url(../images/10-1.png) no-repeat;
+background-position:-36px 0;
+background-size:95px;
+}
+
+.inforcontent form {
+padding:20px 0;
+background:#fbfcff;
+}
+
+.information label {
+margin:15px 20px;
+font-weight:500;
+}
+
+.ruler {
+margin:0 10px -3px 0;
+display:inline-block;
+width:22px;
+height:20px;
+background:url(../images/10-1.png) no-repeat;
+background-position:-74px 0;
+background-size:95px;
 }
