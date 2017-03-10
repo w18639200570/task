@@ -1,0 +1,27 @@
+.navigation{ display:none; }
+
+#btn1{
+display:block;
+border:1px solid #999;
+border-radius:10px;
+background:#1d7ad9;
+}
+
+.menutwo{ display:block; }
+
+#myTabb{ display:none; }
+
+.nav-tabs>li>a{
+color:black;
+text-align:center;
+border:1px solid #999;
+border-radius:5px;
+}
+
+.nav-tabs>li>a:hover{
+background:#1d7ad9;
+color:white;
+}
+
+.navbar-toggle {margin-right:0;}
+
