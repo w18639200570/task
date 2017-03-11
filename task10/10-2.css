@@ -25,3 +25,17 @@ color:white;
 
 .navbar-toggle {margin-right:0;}
 
+.information form{
+display:flex;
+flex-direction:column;
+align-items:center;
+margin-left:20px;
+}
+
+.wechat {
+display:flex;
+justify-content:space-between;
+}
+
+.wechat>img {display:block;}
+

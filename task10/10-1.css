@@ -123,16 +123,15 @@ background-size:95px;
 
 .inforcontent form {
 padding:20px 0;
-background:#fbfcff;
 }
 
-.information label {
+form label {
 margin:15px 20px;
 font-weight:500;
 }
 
 .ruler {
-margin:0 10px -3px 0;
+margin:0 10px -5px 0;
 display:inline-block;
 width:22px;
 height:20px;
@@ -141,3 +140,91 @@ background-position:-74px 0;
 background-size:95px;
 }
 
+.cut {
+margin:0 10px -5px 0;
+display:inline-block;
+width:18px;
+height:19px;
+background:url(../images/10-1.png) no-repeat;
+background-position:0 0;
+background-size:95px;
+}
+
+.inforcontent {
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#fbfcff;
+}
+
+.inforcaption {background:#f4f4f4;}
+
+.number {
+margin:0 5px;
+width:5rem;
+}
+
+.see {
+margin:0 10px;
+font-weight:500;
+}
+
+.next {
+display:flex;
+align-items:center;
+justify-content:center;
+height:200px;
+}
+
+.btn-danger {width:150px;}
+
+.wechat {
+display:flex;
+flex-direction:row-reverse;
+}
+
+.tel {
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+}
+
+.footbottom {
+background:#1d7ad9;
+color:white;
+text-align:center;
+overflow:hidden;
+}
+
+.foottop a {
+display:inline-block;
+margin:5px;
+}
+
+.wuyi {
+font-size:2rem;
+color:#999;
+}
+
+.foottop {
+padding:50px 0;
+background:#f9f9f9;
+}
+
+footer {margin-top:40px;}
+
+.see select {
+background: transparent;
+width: 110px;
+padding: 5px;
+font-size: 16px;
+border: 1px solid #ccc;
+height: 34px;
+-webkit-appearance: none;} /*for chrome*/
+
+.see {
+margin-right:10px;
+width: 120px;
+height: 34px;
+background: url(../images/daoshanjiao.png) no-repeat 82px 4px;
+}
