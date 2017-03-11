@@ -87,6 +87,7 @@ height:20px;
 color:white;
 background:orange;
 border-radius:50%;
+border:none;
 }
 
 .content .col-xs-3 p {
