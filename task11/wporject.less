@@ -1,12 +1,56 @@
-@abs:absolute;
-@300:300px;
-@5:5px;
-@yahei:"Microsoft YaHei";
-.radius(@radius:5px){
-  border-radius:@radius;
+@import "../sky";
+
+body{
+  .fz;
+  .yahei;
+  margin:0;
+  background:#eff0f4;
 }
-.border(@1:1px;){
-  border:@1 solid #999;
+header{
+  .flex;
+  .bai;
+  color:@w;
+  height:@100 - 12;
+  background:@b;
+  justify-content:space-between;
+  align-items:center;
+  .close{padding-left:@15 * 2;}
+  .register{padding-right:@15 * 2;}
 }
-.fl{float:left;}
-.fr{float:right;}
+.main{
+  .maintop{
+    margin-top:@15;
+    .flex;
+    overflow:hidden;
+    background:@w;
+    img {
+      padding-right:@15 * 3;
+      margin:@15 * 2;
+      border-right:1px solid #ccc;
+    }
+    input{
+      .fz;
+      .bai;
+      outline:none;
+      border:none;
+    }
+  }
+}
+footer{
+  button{
+    margin-top:@100 - 31;
+    text-align:center;
+    border:none;
+    background:@b;
+    .bai;
+    outline:none;
+    .fz;
+    height:100px;
+    color:@w;
+  }
+  p{
+    color:@b;
+    .fr;
+    margin:@15 + 5 @15 * 2 0 0;
+  }
+}

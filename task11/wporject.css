@@ -1,6 +1,96 @@
+.abs {
+  position: absolute;
+}
+.fz {
+  font-size: 36px;
+}
+.db {
+  display: block;
+}
+.di {
+  display: inline;
+}
+.dib {
+  display: inline-block;
+}
+.flex {
+  display: flex;
+}
+.rel {
+  position: relative;
+}
+.fix {
+  position: fixed;
+}
+.f {
+  display: flex;
+}
+.bai {
+  width: 100%;
+}
+.yahei {
+  font-family: "Microsoft YaHei";
+}
+.tc {
+  text-align: center;
+}
 .fl {
   float: left;
 }
 .fr {
   float: right;
+}
+body {
+  font-size: 36px;
+  font-family: "Microsoft YaHei";
+  margin: 0;
+  background: #eff0f4;
+}
+header {
+  display: flex;
+  width: 100%;
+  color: white;
+  height: 88px;
+  background: lightblue;
+  justify-content: space-between;
+  align-items: center;
+}
+header .close {
+  padding-left: 30px;
+}
+header .register {
+  padding-right: 30px;
+}
+.main .maintop {
+  margin-top: 15px;
+  display: flex;
+  overflow: hidden;
+  background: white;
+}
+.main .maintop img {
+  padding-right: 45px;
+  margin: 30px;
+  border-right: 1px solid #ccc;
+}
+.main .maintop input {
+  font-size: 36px;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+footer button {
+  margin-top: 69px;
+  text-align: center;
+  border: none;
+  background: lightblue;
+  width: 100%;
+  outline: none;
+  font-size: 36px;
+  height: 100px;
+  color: white;
+}
+footer p {
+  color: lightblue;
+  float: right;
+  margin: 20px 30px 0 0;
 }
