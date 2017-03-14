@@ -1,0 +1,83 @@
+@import (reference)"../sky";
+
+body {
+  .m0;
+  .yahei;
+  .fz;
+}
+
+header {
+  .abs;
+  top:0;
+  .m0;
+  padding:@5 * 2 0 @5;
+  .bai;
+  color:@w;
+  .tc;
+  background:@b;
+  .back{
+    .abs;
+    left:@5 * 2;
+    width:@5 * 2.5;
+  }
+  .home{
+    .db;
+    .bai;
+  }
+}
+
+main {
+  .flex;
+  margin-top:@15 * 3;
+  .itemsc;
+  .bai;
+  height:@100 * 2;
+  background:url(../images/work.png);
+  background-size:100%;
+  .of;
+  .women {
+    margin:0 @15;
+    width:@100;
+  }
+  .mainright {
+    color:@w;
+    .fz;
+    .year {
+      font-size:1.2rem;
+    }
+    .address {font-size:1.2rem;}
+    .shape {width:@5 * 2.5;}
+  }
+}
+
+footer {
+  .fix;
+  bottom:@5 * 4;
+  .m0;
+  .bai;
+  .tc;
+  .message {
+    .fl;
+    width:@5 * 10;
+    .messages {
+      .m0;
+      width:@100 - 5;
+      color:@w;
+      background:@b;
+      .bn;
+      .br(8px);
+    }
+  }
+  .telephone {
+    .fl;
+    width:@100 / 2;
+    .tele {
+      .m0;
+      width:@100 - 5;
+      color:@w;
+      background:@b;
+      .bn;
+      .br(8px);
+    }
+  }
+}

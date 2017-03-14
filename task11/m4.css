@@ -1,0 +1,31 @@
+header {
+  padding: 6% 0;
+  font-size: 5vw;
+}
+header .close {
+  padding-left: 5%;
+}
+header .register {
+  padding-right: 5%;
+}
+.main .maintop {
+  margin-top: 3%;
+}
+.main .maintop input {
+  font-size: 6vw;
+}
+.main .maintop img {
+  padding-right: 5%;
+  margin: 3%;
+  width: 5%;
+  height: 10%;
+}
+footer button {
+  margin-top: 10%;
+  padding: 6% 0;
+  font-size: 5vw;
+}
+footer p {
+  margin: 3% 3% 0 0;
+  font-size: 5vw;
+}
