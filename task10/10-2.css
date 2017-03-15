@@ -1,41 +1,65 @@
-.navigation{ display:none; }
-
-#btn1{
-display:block;
-border:1px solid #999;
-border-radius:10px;
-background:#1d7ad9;
+.navigation
+{
+    display: none;
 }
 
-.menutwo{ display:block; }
+#btn1
+{
+    display: block;
 
-#myTabb{ display:none; }
-
-.nav-tabs>li>a{
-color:black;
-text-align:center;
-border:1px solid #999;
-border-radius:5px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    background: #1d7ad9;
 }
 
-.nav-tabs>li>a:hover{
-background:#1d7ad9;
-color:white;
+.menutwo
+{
+    display: block;
 }
 
-.navbar-toggle {margin-right:0;}
-
-.information form{
-display:flex;
-flex-direction:column;
-align-items:center;
-margin-left:20px;
+#myTabb
+{
+    display: none;
 }
 
-.wechat {
-display:flex;
-justify-content:space-between;
+.nav-tabs > li > a
+{
+    text-align: center;
+
+    color: black;
+    border: 1px solid #999;
+    border-radius: 5px;
 }
 
-.wechat>img {display:block;}
+.nav-tabs > li > a:hover
+{
+    color: white;
+    background: #1d7ad9;
+}
 
+.navbar-toggle
+{
+    margin-right: 0;
+}
+
+.information form
+{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 20px;
+
+    align-items: center;
+}
+
+.wechat
+{
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.wechat > img
+{
+    display: block;
+}
