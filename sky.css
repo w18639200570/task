@@ -1,0 +1,84 @@
+.abs {
+  position: absolute;
+}
+.fz36 {
+  font-size: 36px;
+}
+.fz {
+  font-size: 1.5rem;
+}
+.fzs {
+  font-size: 1rem;
+}
+.db {
+  display: block;
+}
+.di {
+  display: inline;
+}
+.dib {
+  display: inline-block;
+}
+.flex {
+  display: flex;
+}
+.rel {
+  position: relative;
+}
+.fix {
+  position: fixed;
+}
+.f {
+  display: flex;
+}
+.bai {
+  width: 100%;
+}
+.yahei {
+  font-family: "Microsoft YaHei";
+}
+.tc {
+  text-align: center;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.m0 {
+  margin: 0;
+}
+.p0 {
+  padding: 0;
+}
+.of {
+  overflow: hidden;
+}
+.liangduan {
+  justify-content: space-between;
+}
+.itemsc {
+  align-items: center;
+}
+.bn {
+  border: none;
+}
+.wushi {
+  width: 50%;
+}
+.borb {
+  border-bottom: 1px solid #e1e5e7;
+}
+.ml2 {
+  margin-left: 20px;
+}
+.aic {
+  align-items: center;
+}
+.nowrap {
+  flex-wrap: nowrap;
+}
+.wnowrap {
+  white-space: nowrap;
+}
