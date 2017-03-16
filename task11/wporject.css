@@ -103,6 +103,9 @@
 .p0 {
   padding: 0;
 }
+.tn {
+  text-decoration: none;
+}
 body {
   font-size: 1.5rem;
   font-family: "Microsoft YaHei";
