@@ -1,14 +1,17 @@
-.abs {
-  position: absolute;
-}
 .fz36 {
   font-size: 36px;
+}
+.fz34 {
+  font-size: 34px;
 }
 .fz {
   font-size: 1.5rem;
 }
 .fzs {
   font-size: 1rem;
+}
+.fz2 {
+  font-size: 2rem;
 }
 .db {
   display: block;
@@ -21,6 +24,9 @@
 }
 .flex {
   display: flex;
+}
+.abs {
+  position: absolute;
 }
 .rel {
   position: relative;
@@ -81,4 +87,19 @@
 }
 .wnowrap {
   white-space: nowrap;
+}
+.jz {
+  margin: 0 auto;
+}
+.wushi {
+  width: 50%;
+}
+.bgn {
+  background: none;
+}
+.on {
+  outline: none;
+}
+.p0 {
+  padding: 0;
 }

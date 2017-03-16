@@ -177,13 +177,13 @@ select {
     right: 6px;
     top: 50%;
     margin-top: -5px;
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 10px solid #0f7fc7;
-    font-size: 0px;
-    line-height: 0px
+    font-size: 0;
+    line-height: 0;
 }
 
 .select-green {

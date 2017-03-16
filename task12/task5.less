@@ -54,7 +54,7 @@ ul {
   .m0;
   .p0;
   .fzs;
-  margin-bottom:@100;
+  margin-bottom:63px;
   li {
     .flex;
     .ml2;
@@ -75,6 +75,9 @@ ul {
       color:black;
     }
     .stars {width:@15;}
+    .liright{
+      strong { color: red; }
+    }
   }
   .skill {
     .m0;
@@ -94,32 +97,25 @@ footer {
   .bai;
   .tc;
   background:white;
-  .message {
-    padding:2px 0;
-    .fl;
-    .wushi;
-    .messages {
-      .m0;
-      width:95%;
-      color:@b;
-      background:@w;
-      .fz;
-      .border(2px);
-      .br(8px);
-    }
+  div {
+    .dib;
+    width:50%;
   }
-  .telephone {
-    .fl;
+  button {
+    .dib;
     .wushi;
-    .tele {
-      padding:4px 0;
-      .m0;
-      width:95%;
-      color:@w;
-      background:@b;
-      .fz;
-      .bn;
-      .br(8px);
-    }
+    padding:4px 0;
+    .jz;
+    width:95%;
+    color:@w;
+    background:@b;
+    .fz;
+    .border(2px);
+    .br(8px);
+
+  }
+  button:focus {
+    color:@b;
+    background:@w;
   }
 }

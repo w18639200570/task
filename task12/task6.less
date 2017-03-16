@@ -1,0 +1,143 @@
+@import (reference)"../sky";
+
+html {
+  .jz;
+  max-width:720px;
+}
+
+body { .m0; }
+
+p {margin:0;}
+
+header {
+  .fix;
+  top:0;
+  .bai;
+  max-width:720px;
+  background:@b;
+  .of;
+  .head {
+    margin:24px auto 8px;
+    .wushi;
+    background:@bs;
+    .br(10px);
+    button {
+      padding:10px 0;
+      .wushi;
+      color:@w;
+      .fz2;
+      .bn;
+      background:@bs;
+      .br(10px);
+      .on;
+      &:focus {
+        color:@b;
+        background:@w;
+      }
+    }
+  }
+  >button {
+    .abs;
+    top:33px;
+    right:30px;
+    .bn;
+    .bgn;
+    img { width:@15 * 2; }
+  }
+}
+
+label {
+  .flex;
+  .fix;
+  top:80px;
+  .bai;
+  max-width:720px;
+  font-weight:500;
+  background:white;
+  border-bottom:1px solid #ccc;
+  select {
+    flex-grow:1;
+    margin:@15 0;
+    padding:0 4vw;
+    min-width:50px;
+    .fz;
+    color:#999;
+    .bn;
+    .on;
+    border-right:1px solid #ccc;
+    -webkit-appearance:none;
+    background:url(../images/sanjiao.png) no-repeat;
+    background-position:80% 7px;
+  }
+  .patient {.bn;}
+}
+
+.main {
+  .borb;
+  .fz;
+  .clender {
+    margin:@15 0;
+    padding:0 @15;
+    color:@9;
+    img {
+      width:@15;
+      margin-right:10px;
+    }
+    .clend {
+      .dib;
+      width:18px;
+      margin-top:-3px;
+    }
+  }
+  .time {
+    .flex;
+    .liangduan;
+    .itemsc;
+    margin:0 15px 0 40px;
+    div {
+      .flex;
+      .itemsc;
+      strong {color:red;}
+      .next {
+        width:10px;
+        margin-left:8px;
+      }
+    }
+  }
+}
+
+.content {margin:140px 0 72px;}
+
+footer {
+  .fix;
+  bottom:0;
+  .bai;
+  max-width:720px;
+  background:#f8fafb;
+  border-top:1px solid #ccc;
+  .of;
+  div {
+    .dib;
+    .wushi;
+    .tc;
+    button {
+      margin-bottom:10px;
+      .p0;
+      .bn;
+      .on;
+      .bgn;
+    }
+  }
+  .edit {
+    .abs;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    width:70px;
+    height:70px;
+    .br(50%);
+    .bn;
+    .on;
+    background:@b;
+  }
+}

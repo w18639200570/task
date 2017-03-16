@@ -1,0 +1,146 @@
+html {
+  margin: 0 auto;
+  max-width: 720px;
+}
+body {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 720px;
+  background: #5fc0cd;
+  overflow: hidden;
+}
+header .head {
+  margin: 24px auto 8px;
+  width: 50%;
+  background: #55a8b3;
+  border-radius: 10px;
+}
+header .head button {
+  padding: 10px 0;
+  width: 50%;
+  color: white;
+  font-size: 2rem;
+  border: none;
+  background: #55a8b3;
+  border-radius: 10px;
+  outline: none;
+}
+header .head button:focus {
+  color: #5fc0cd;
+  background: white;
+}
+header > button {
+  position: absolute;
+  top: 33px;
+  right: 30px;
+  border: none;
+  background: none;
+}
+header > button img {
+  width: 30px;
+}
+label {
+  display: flex;
+  position: fixed;
+  top: 80px;
+  width: 100%;
+  max-width: 720px;
+  font-weight: 500;
+  background: white;
+  border-bottom: 1px solid #ccc;
+}
+label select {
+  flex-grow: 1;
+  margin: 15px 0;
+  padding: 0 4vw;
+  min-width: 50px;
+  font-size: 1.5rem;
+  color: #999;
+  border: none;
+  outline: none;
+  border-right: 1px solid #ccc;
+  -webkit-appearance: none;
+  background: url(../images/sanjiao.png) no-repeat;
+  background-position: 80% 7px;
+}
+label .patient {
+  border: none;
+}
+.main {
+  border-bottom: 1px solid #e1e5e7;
+  font-size: 1.5rem;
+}
+.main .clender {
+  margin: 15px 0;
+  padding: 0 15px;
+  color: #999;
+}
+.main .clender img {
+  width: 15px;
+  margin-right: 10px;
+}
+.main .clender .clend {
+  display: inline-block;
+  width: 18px;
+  margin-top: -3px;
+}
+.main .time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px 0 40px;
+}
+.main .time div {
+  display: flex;
+  align-items: center;
+}
+.main .time div strong {
+  color: red;
+}
+.main .time div .next {
+  width: 10px;
+  margin-left: 8px;
+}
+.content {
+  margin: 140px 0 72px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 720px;
+  background: #f8fafb;
+  border-top: 1px solid #ccc;
+  overflow: hidden;
+}
+footer div {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+footer div button {
+  margin-bottom: 10px;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+}
+footer .edit {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background: #5fc0cd;
+}
