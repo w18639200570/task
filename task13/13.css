@@ -1,0 +1,99 @@
+html {
+  max-width: 640px;
+  margin: 0 auto;
+}
+p {
+  margin: 0;
+}
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  max-width: 640px;
+  background-color: #29bde0;
+  justify-content: space-between;
+  z-index: 999;
+}
+header button {
+  margin: 20px;
+}
+.homepage {
+  margin-top: 69px;
+  padding: 25px 40px 50px;
+  background: #f0f0f0;
+  overflow: hidden;
+}
+.homepage .pagetop {
+  position: relative;
+  width: 100%;
+  font-size: 34px;
+  color: #9a9a9a;
+  text-align: center;
+  background: white;
+  border: 1px solid #ccc;
+}
+.homepage .pagetop p {
+  padding: 30px;
+}
+.homepage .pagetop button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  outline: none;
+}
+.homepage .pagebottom {
+  position: relative;
+  margin-top: 25px;
+  background: white;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.homepage .pagebottom h4 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 34px;
+  color: #fbb435;
+  border-bottom: 2px solid #fbb435;
+}
+.homepage .pagebottom button {
+  margin: 20px;
+  padding: 20px 20%;
+  font-size: 34px;
+  color: white;
+  background: #29bde0;
+}
+.homepage .pagebottom p {
+  font-size: 1.5rem;
+}
+.homepage .pagebottom div {
+  margin: 10px 0;
+}
+.homepage .pagebottom div span {
+  margin: 2px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ccc;
+}
+.homepage .pagebottom div span:hover {
+  background: #29bde0;
+}
+.homepage .pagebottom .rightnext {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+  background: none;
+  border-top: 20px solid transparent;
+  border-left: 20px solid #fbb435;
+  border-bottom: 20px solid transparent;
+  outline: none;
+}
