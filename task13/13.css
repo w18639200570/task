@@ -1,3 +1,5 @@
+/*引用私有库*/
+/*通用设置*/
 html {
   max-width: 640px;
   margin: 0 auto;
@@ -6,6 +8,7 @@ html {
 p {
   margin: 0;
 }
+/*头部内容*/
 header {
   position: fixed;
   top: 0;
@@ -19,11 +22,13 @@ header {
 header button {
   margin: 20px;
 }
+/*主要内容*/
 .homepage {
   margin-top: 69px;
   padding: 25px 40px 50px;
   background: #f0f0f0;
   overflow: hidden;
+  /*下半部分*/
 }
 .homepage .pagetop {
   position: relative;

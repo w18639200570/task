@@ -1,5 +1,7 @@
+/*引用私有库*/
 @import (reference)"../sky";
 
+/*通用设置*/
 html {
   .maxw;
   .jz;
@@ -8,6 +10,7 @@ html {
 
 p {.m0;}
 
+/*头部内容*/
 header {
   .fix;
   top:0;
@@ -39,6 +42,7 @@ header {
   }
 }
 
+/*中上部内容*/
 .main {
   .dib;
   margin-top:83px;
@@ -71,6 +75,7 @@ header {
   }
 }
 
+/*中下部内容*/
 .content {
   padding:0 10% 20px;
   background:@w;
@@ -95,7 +100,12 @@ header {
 
   }
 }
+.contents {
+  .content;
+  margin-bottom:130px;
+}
 
+/*尾部内容*/
 footer {
   .fix;
   bottom:0;

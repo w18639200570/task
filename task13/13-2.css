@@ -1,3 +1,5 @@
+/*引用私有库*/
+/*通用设置*/
 html {
   max-width: 640px;
   margin: 0 auto;
@@ -6,6 +8,7 @@ html {
 p {
   margin: 0;
 }
+/*头部内容*/
 header {
   position: fixed;
   top: 0;
@@ -35,6 +38,7 @@ header p {
   color: white;
   margin-top: 25px;
 }
+/*中上部内容*/
 .main {
   position: relative;
   margin-top: 80px;
@@ -68,6 +72,7 @@ header p {
   border-left: 25px solid white;
   border-bottom: 15px solid transparent;
 }
+/*中下部内容*/
 .content {
   position: relative;
   margin-bottom: 190px;
@@ -140,6 +145,7 @@ header p {
 .content .box .function .salvation {
   background-position: 33% 0;
 }
+/*尾部内容*/
 footer {
   position: fixed;
   bottom: 0;
