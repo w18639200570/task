@@ -3,6 +3,7 @@
 html {
   .maxw;
   .jz;
+  font-size:625%;
 }
 
 p {.m0;}
@@ -69,7 +70,92 @@ header {
       border-bottom: 15px solid transparent;
     }
   }
-  >span {
+}
+
+.content {
+  .rel;
+  margin-bottom:190px;
+  background:@lb;
+  .of;
+  span {
+    .abs;
+    top:0;
+    left:65px;
+    .db;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-top: 15px solid @qb;
+    border-right: 10px solid transparent;
+  }
+  h5 {
+    margin:20px 0 20px 65px;
+    .fz24;
+    color:@w;
+  }
+  .box {
+    .fl;
+    width:33.3%;
+    .of;
+    &:hover div{
+      opacity:1;
+    }
+    .info {
+      .rel;
+      margin:20px 15%;
+      width:70%;
+      .tc;
+      border:5px solid @w;
+      h3 {
+        .m0;
+        padding:25% 0 30%;
+        .fz30;
+        background:@th;
+      }
+      p {
+        padding:2px 0;
+        background:@tl;
+        .fz24;
+        color:@w;
+      }
+    }
+    .function {
+      .tc;
+      opacity:0;
+      button {
+        padding-top:16%;
+        width:16%;
+        background-size:100%;
+        background:url(../images/spr.png) no-repeat;
+        background-size:400%;
+      }
+      .killer { background-position:100% 0;}
+      .search { background-position:68% 0;}
+      .aim { background-position:0 0;}
+      .salvation { background-position:33% 0;}
+    }
   }
 }
 
+footer {
+  .fix;
+  bottom:0;
+  .bai;
+  .maxw;
+  height:190px;
+  background-color:@lb;
+  div {
+    margin:0 5%;
+    width:90%;
+    .maxw;
+    border-top:2px solid @w;
+    button {
+      margin:42px 10% 61px;
+      padding:25px 0;
+      width:80%;
+      .fz40;
+      color:@w;
+      background:@or;
+    }
+  }
+}

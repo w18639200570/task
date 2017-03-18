@@ -1,0 +1,120 @@
+html {
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 625%;
+}
+p {
+  margin: 0;
+}
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  max-width: 640px;
+  background-color: #29bde0;
+  justify-content: space-between;
+  border-bottom: 1px solid #74d4eb;
+  z-index: 999;
+}
+header button {
+  margin: 20px;
+  outline: none;
+}
+header .menu {
+  width: 51px;
+  height: 42px;
+  background: url(../images/home2.png) no-repeat;
+}
+header .clos {
+  width: 40px;
+  height: 40px;
+  background: url(../images/explain.png) no-repeat;
+}
+header p {
+  font-size: .28rem;
+  color: white;
+  margin-top: 25px;
+}
+.main {
+  display: inline-block;
+  margin-top: 83px;
+  padding-bottom: 15px;
+  width: 100%;
+  max-width: 640px;
+  background: #29bde0;
+}
+.main img {
+  display: block;
+  margin: 22px auto;
+  max-width: 100%;
+}
+.main > p {
+  padding: 0 10% 63px;
+  font-size: .27rem;
+  color: #ffc865;
+}
+.main div {
+  padding: 0 10%;
+  font-size: .24rem;
+  color: white;
+}
+.main div span {
+  display: inline-block;
+  padding-right: .3rem;
+}
+.main div p {
+  padding: 0 0 10px;
+  line-height: 41px;
+}
+.content {
+  padding: 0 10% 20px;
+  background: white;
+  border-top: 1px solid #ccc;
+}
+.content div {
+  display: flex;
+  justify-content: space-between;
+}
+.content div h4 {
+  font-size: .26rem;
+  line-height: 43px;
+}
+.content div h6 {
+  font-size: .22rem;
+  line-height: 43px;
+  color: #ccc;
+}
+.content p {
+  font-size: .24rem;
+  line-height: 19px;
+  color: #999;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 640px;
+  height: 130px;
+  background-color: rgba(41, 189, 224, 0.5);
+}
+footer div {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+footer div button {
+  margin-top: 24px;
+  padding: 25px;
+  width: 90%;
+  font-size: .3rem;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+}
+footer div .agin {
+  background: #f66f6f;
+}
+footer div .update {
+  background: #fbb435;
+}

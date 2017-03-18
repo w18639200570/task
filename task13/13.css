@@ -1,6 +1,7 @@
 html {
   max-width: 640px;
   margin: 0 auto;
+  font-size: 625%;
 }
 p {
   margin: 0;
@@ -27,7 +28,7 @@ header button {
 .homepage .pagetop {
   position: relative;
   width: 100%;
-  font-size: 34px;
+  font-size: .28rem;
   color: #9a9a9a;
   text-align: center;
   background: white;
@@ -53,19 +54,19 @@ header button {
 .homepage .pagebottom h4 {
   margin: 0;
   padding: 20px 0;
-  font-size: 34px;
+  font-size: .28rem;
   color: #fbb435;
   border-bottom: 2px solid #fbb435;
 }
 .homepage .pagebottom button {
   margin: 20px;
   padding: 20px 20%;
-  font-size: 34px;
+  font-size: .28rem;
   color: white;
   background: #29bde0;
 }
 .homepage .pagebottom p {
-  font-size: 1.5rem;
+  font-size: .15rem;
 }
 .homepage .pagebottom div {
   margin: 10px 0;

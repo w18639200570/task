@@ -8,6 +8,7 @@
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="StyleSheet" href="../reset.css">
     <link rel="StyleSheet" href="13-2.css">
+    <link rel="stylesheet" media="screen and (max-width:400px)" href="400.css">
     <title>投票页</title>
 </head>
 <body>
@@ -18,8 +19,170 @@
     </header>
     <div class="main">
         <p>发言讨论结束，大家请投票</p>
-        <button><span></span></button>
-        <span></span>
+        <audio src="../audio/daoshan.mp3" controls="controls" preload id="music" hidden></audio>
+        <button onclick="playPause()"><span></span></button>
     </div>
+    <div class="content">
+        <span></span>
+        <h5>点击得票数最多人的头像</h5>
+        <div class="box">
+            <div class="info">
+                <h3>水民</h3>
+                <p>1号</p>
+            </div>
+            <div class="function">
+                <button class="killer"></button>
+                <button class="search"></button>
+                <button class="aim"></button>
+                <button class="salvation"></button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="info">
+                <h3>水民</h3>
+                <p>2号</p>
+            </div>
+            <div class="function">
+                <button class="killer"></button>
+                <button class="search"></button>
+                <button class="aim"></button>
+                <button class="salvation"></button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="info">
+                <h3>警察</h3>
+                <p>3号</p>
+            </div>
+            <div class="function">
+                <button class="killer"></button>
+                <button class="search"></button>
+                <button class="aim"></button>
+                <button class="salvation"></button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="info">
+                <h3>法官</h3>
+                <p>4号</p>
+            </div>
+            <div class="function">
+                <button class="killer"></button>
+                <button class="search"></button>
+                <button class="aim"></button>
+                <button class="salvation"></button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="info">
+                <h3>狙击手</h3>
+                <p>5号</p>
+            </div>
+            <div class="function">
+                <button class="killer"></button>
+                <button class="search"></button>
+                <button class="aim"></button>
+                <button class="salvation"></button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="info">
+                <h3>医生</h3>
+                <p>6号</p>
+            </div>
+            <div class="function">
+                <button class="killer"></button>
+                <button class="search"></button>
+                <button class="aim"></button>
+                <button class="salvation"></button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="info">
+                <h3>杀手</h3>
+                <p>7号</p>
+            </div>
+            <div class="function">
+                <button class="killer"></button>
+                <button class="search"></button>
+                <button class="aim"></button>
+                <button class="salvation"></button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="info">
+                <h3>水民</h3>
+                <p>8号</p>
+            </div>
+            <div class="function">
+                <button class="killer"></button>
+                <button class="search"></button>
+                <button class="aim"></button>
+                <button class="salvation"></button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="info">
+                <h3>水民</h3>
+                <p>9号</p>
+            </div>
+            <div class="function">
+                <button class="killer"></button>
+                <button class="search"></button>
+                <button class="aim"></button>
+                <button class="salvation"></button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="info">
+                <h3>水民</h3>
+                <p>10号</p>
+            </div>
+            <div class="function">
+                <button class="killer"></button>
+                <button class="search"></button>
+                <button class="aim"></button>
+                <button class="salvation"></button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="info">
+                <h3>水民</h3>
+                <p>11号</p>
+            </div>
+            <div class="function">
+                <button class="killer"></button>
+                <button class="search"></button>
+                <button class="aim"></button>
+                <button class="salvation"></button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="info">
+                <h3>水民</h3>
+                <p>12号</p>
+            </div>
+            <div class="function">
+                <button class="killer"></button>
+                <button class="search"></button>
+                <button class="aim"></button>
+                <button class="salvation"></button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div><button>投死</button></div>
+    </footer>
+    <script>
+        function playPause() {
+            var audio = document.getElementById('music');
+            if (audio.paused){
+                audio.play();
+            }
+            else{
+                audio.pause();
+            }
+        }
+    </script>
 </body>
 </html>

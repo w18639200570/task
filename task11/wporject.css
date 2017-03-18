@@ -1,23 +1,44 @@
+.lh43 {
+  line-height: 43px;
+}
+.lh19 {
+  line-height: 19px;
+}
+.fz40 {
+  font-size: .3rem;
+}
 .fz36 {
-  font-size: 36px;
+  font-size: .29rem;
 }
 .fz34 {
-  font-size: 34px;
+  font-size: .28rem;
+}
+.fz33 {
+  font-size: .27rem;
+}
+.fz30 {
+  font-size: .26rem;
 }
 .fz26 {
-  font-size: 26px;
+  font-size: .24rem;
 }
 .fz24 {
-  font-size: 24px;
+  font-size: .23rem;
+}
+.fz20 {
+  font-size: .22rem;
 }
 .fz {
-  font-size: 1.5rem;
+  font-size: .15rem;
 }
 .fzs {
-  font-size: 1rem;
+  font-size: .1rem;
 }
 .fz2 {
-  font-size: 2rem;
+  font-size: .2rem;
+}
+.fz5 {
+  font-size: .5rem;
 }
 .db {
   display: block;
@@ -121,6 +142,9 @@
 .maxw {
   max-width: 640px;
 }
+.maxb {
+  max-width: 100%;
+}
 .czjz {
   transform: translateY(-50%);
 }
@@ -128,7 +152,7 @@
   transform: translateX(-50%);
 }
 body {
-  font-size: 1.5rem;
+  font-size: .15rem;
   font-family: "Microsoft YaHei";
   margin: 0;
   background: #eff0f4;
@@ -160,7 +184,7 @@ header .register {
   border-right: 1px solid #ccc;
 }
 .main .maintop input {
-  font-size: 1.5rem;
+  font-size: .15rem;
   width: 100%;
   outline: none;
   border: none;
@@ -172,7 +196,7 @@ footer button {
   background: #5fc0cd;
   width: 100%;
   outline: none;
-  font-size: 1.5rem;
+  font-size: .15rem;
   padding: 25px;
   color: white;
 }

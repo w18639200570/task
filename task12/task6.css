@@ -26,7 +26,7 @@ header .head button {
   padding: 10px 0;
   width: 50%;
   color: white;
-  font-size: 2rem;
+  font-size: .2rem;
   border: none;
   background: #55a8b3;
   border-radius: 10px;
@@ -61,7 +61,7 @@ label select {
   margin: 15px 0;
   padding: 0 4vw;
   min-width: 50px;
-  font-size: 1.5rem;
+  font-size: .15rem;
   color: #999;
   border: none;
   outline: none;
@@ -75,7 +75,7 @@ label .patient {
 }
 .main {
   border-bottom: 1px solid #e1e5e7;
-  font-size: 1.5rem;
+  font-size: .15rem;
 }
 .main .clender {
   margin: 15px 0;

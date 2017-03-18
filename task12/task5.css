@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Microsoft YaHei";
-  font-size: 1.5rem;
+  font-size: .15rem;
 }
 header {
   position: absolute;
@@ -38,7 +38,7 @@ main .women {
 }
 main .mainright {
   color: white;
-  font-size: 1.5rem;
+  font-size: .15rem;
 }
 main .mainright .year {
   font-size: 1.2rem;
@@ -52,7 +52,7 @@ main .mainright .shape {
 ul {
   margin: 0;
   padding: 0;
-  font-size: 1rem;
+  font-size: .1rem;
   margin-bottom: 63px;
 }
 ul li {
@@ -117,7 +117,7 @@ footer button {
   width: 95%;
   color: white;
   background: #5fc0cd;
-  font-size: 1.5rem;
+  font-size: .15rem;
   border: 2px solid #ccc;
   border-radius: 8px;
 }
