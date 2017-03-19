@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        table
+        {
+            border-collapse: collapse; /*相邻边被合并;separate: 边框独立*/
+            border: none;
+        }
+        td
+        {
+            padding:0 10px;
+            vertical-align:middle;
+        }
+
+        .tdleft {
+            height:25px;
+            width:50%;
+            color:#999;
+            border-top:1px solid #ccc;
+            border-right:1px solid #ccc;
+            border-bottom:1px solid #ccc;
+        }
+
+        .tdright {
+            height:25px;
+            width:50%;
+            color:#999;
+            border-top:1px solid #ccc;
+            border-bottom:1px solid #ccc;
+        }
+
+        td span {
+            color:orangered;
+        }
+
+        td b{
+            display:inline-block;
+            padding-left:10px;
+            color:orangered;
+        }
+
+        .tdup {
+            border-right:1px solid #ccc;
+            border-bottom:1px solid #ccc;
+        }
+
+        .tr {
+            border-bottom:1px solid #ccc;
+        }
+
+    </style>
+</head>
+<body>
+<div class="col-xs-12 col-sm-6 col-lg-4">
+    <div class="threeshow">
+        <table>
+            <tr>
+                <td style="width:160px;height:160px;">
+                    <img class="head" src="../images/datou.png">
+                </td>
+                <td style="height:160px;">
+                    <div class="showcap"><strong>Web前端工程师</strong></div>
+                    Web前端开发工程师，主要职责是利用 (X)HTML / CSS / JavaScript / flash
+                    等各种web技术进行产品开发。
+                </td>
+            </tr>
+        </table>
+        <table style="width:100%;">
+            <tr style="width:100%;">
+                <td class="tdleft">
+                    门槛<b class="glyphicon glyphicon-star"></b>
+                </td>
+                <td class="tdright">
+                    难易程度<b class="glyphicon glyphicon-star"></b><b class="glyphicon glyphicon-star"></b>
+                </td>
+            </tr>
+            <tr>
+                <td class="tdleft">
+                    成长周期&nbsp;<b>1-3</b>年
+                </td>
+                <td class="tdright">稀缺程度<b>345</b><span style="color:black">家公司需要</span></td>
+            </tr>
+        </table>
+        <table style="width:100%;">
+            <tr style="width:100%;">
+                <td class="tdup" style="width:40%;text-align:center;color:#999;">
+                    薪资待遇
+                </td>
+                <td class="tddown" style="width:60%;padding:0;">
+                    <table style="width:100%;">
+                        <tr class="tr">
+                            <td>0-1年</td>
+                            <td style="text-align:right;">5k-10k/月</td>
+                        </tr>
+                        <tr class="tr">
+                            <td>1-3年</td>
+                            <td style="text-align:right;">10k-20k/月</td>
+                        </tr>
+                        <tr class="tr">
+                            <td>3-5年</td>
+                            <td style="text-align:right;">20k-50k/月</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td style="height:30px;color:#999;font-size:.7rem;">
+                    提示：在你学习之前你应该已经掌握XXXX、XXXXX、XX等语言基础
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

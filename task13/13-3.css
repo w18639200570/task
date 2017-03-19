@@ -15,8 +15,10 @@ header {
   display: flex;
   width: 100%;
   max-width: 640px;
+  height: 93px;
   background-color: #29bde0;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid #74d4eb;
   z-index: 999;
 }
@@ -25,19 +27,21 @@ header button {
   outline: none;
 }
 header .menu {
-  width: 51px;
-  height: 42px;
+  width: 10%;
+  padding-top: 8%;
   background: url(../images/home2.png) no-repeat;
+  background-size: 100%;
 }
 header .clos {
-  width: 40px;
-  height: 40px;
+  width: 8%;
+  padding-top: 8%;
   background: url(../images/explain.png) no-repeat;
+  background-size: 100%;
 }
 header p {
   font-size: .28rem;
   color: white;
-  margin-top: 25px;
+  margin: 5%;
 }
 /*中上部内容*/
 .main {
