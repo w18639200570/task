@@ -43,7 +43,7 @@ header p {
 .main {
   display: inline-block;
   margin-top: 83px;
-  padding-bottom: 15px;
+  padding: 0 10% 15px;
   width: 100%;
   max-width: 640px;
   background: #29bde0;
@@ -54,12 +54,11 @@ header p {
   max-width: 100%;
 }
 .main > p {
-  padding: 0 10% 63px;
+  padding-bottom: 63px;
   font-size: .27rem;
   color: #ffc865;
 }
 .main div {
-  padding: 0 10%;
   font-size: .24rem;
   color: white;
 }
