@@ -31,7 +31,9 @@
 .dn{display:none;}
 .di{display:inline;}
 .db{display:block;}
-.dib{display:inline-block;} /* if the element is block level(eg. div, li), using 'inline_any' instead */
+.dib{display:inline-block;}
+.df{display:flex;}
+/* if the element is block level(eg. div, li), using 'inline_any' instead */
 /* height */
 .h14{height:14px;}
 .h16{height:16px;}
@@ -246,6 +248,7 @@
 /* position */
 .rel{position:relative;}
 .abs{position:absolute;}
+.fix{position:fixed;}
 /*z-index*/
 .zx1{z-index:1;}
 .zx2{z-index:2;}
@@ -260,14 +263,21 @@
 .vv{visibility:visible;}
 /* zoom */
 .z{*zoom:1;}
+/*位置*/
+.ld{ justify-content:space-between; }
+.ic{ align-items:center; }
+.fnw{ flex-wrap:nowrap; }
+.on{outline:none;}
+.czjz{ transform:translateY(-50%);}
+.spjz{ transform:translateX(-50%);}
 
 
 /* ------------------- multiply CSS ------------------ */
 /* 块状元素水平居中 */
 .auto{margin-left:auto; margin-right:auto;}
 /* 清除浮 动*/
-.fix{*zoom:1;}
-.fix:after{display:table; content:''; clear:both;}
+.zm{*zoom:1;}
+.zm:after{display:table; content:''; clear:both;}
 /* 基于display:table-cell的自适应布局 */
 .cell{display:table-cell; *display:inline-block; width:2000px; *width:auto;}
 /* 双栏自适应cell部分连续英文字符换行 */
@@ -282,7 +292,7 @@
 /* 大小不定元素垂直居中 */
 .dib_vm{display:inline-block; width:0; height:100%; vertical-align:middle;}
 /* 加载中背景图片 - 如果您使用该CSS小库，务必修改此图片地址 */
-.loading{background:url(http://www.zhangxinxu.com/study/image/loading.gif) no-repeat center;}
+.loading{background:url(images/spr.png) no-repeat center;}
 /* 无框文本框文本域 */
 .bd_none{border:0; outline:none;}
 /* 绝对定位隐藏 */
