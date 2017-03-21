@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>normalize各个元素在不同浏览器中的表现形式</title>
+    <link rel="StyleSheet" href="../normalize.css">
+</head>
+<style>
+    body {
+        background-color: lightblue;
+    }
+
+    p {
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        color: white;
+        background-color: black;
+    }
+
+    table, tr, td {
+        border: 2px solid;
+    }
+
+    button {
+        width: 100px;
+        margin: 50px;
+    }
+</style>
+<body>
+<!--body页边距自带margin-->
+<img src="../images/reset-bad.PNG">
+<p>aaaaaa</p>
+<!--p标签自带margin，在Chrome、Firefox下都是16px-->
+<p><em>bbbbb</em></p>
+<!--em自带倾斜样式-->
+<div>
+    <ul>
+        <!--自带padding、margin-->
+        <li>1111</li>
+        <li>2222</li>
+        <li>3333</li>
+        <li>4444</li>
+        <li>5555</li>
+    </ul>
+</div>
+<table>
+    <tr>
+        <td>1111</td>
+        <td>22222</td>
+    </tr>
+    <tr>
+        <td>1111</td>
+        <td>22222</td>
+    </tr>
+    <tr>
+        <td>1111</td>
+        <td>22222</td>
+    </tr>
+</table>
+<button>
+    <!--浏览器默认样式不一致-->
+    hi
+</button>
+<form>
+    <!--浏览器的默认样式不一致在表单元素里显示更加明显-->
+    Text:<input type="text"> <br><br>
+    Textarea: <textarea rows="10" cols="30">我是一个文本框。</textarea><br><br>
+    Password: <input type="password"><br><br>
+    Radio: <input type="radio" name="sex">man
+    <input type="radio" name="sex">women <br><br>
+    Checkbox:<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+    <input type="checkbox" name="vehicle" value="Car">I have a car <br><br>
+    Username: <input type="text" name="user">
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
