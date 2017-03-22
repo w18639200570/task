@@ -24,3 +24,7 @@ list-style-type:none;
 }
 
 img {border:0;}
+/* 重置链接a标签 */
+a {color:#666;text-decoration:none}
+/* 重置链接a标签的鼠标滑动效果 */
+a:active, a:hover {text-decoration:none}

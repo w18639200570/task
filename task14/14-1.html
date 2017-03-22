@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-100%, initial-scale=1"/>
-    <link rel="stylesheet" href="../zxxrs.css" type="text/css">
-    <link rel="stylesheet" href="14-1.css" type="text/css">
+    <link rel="stylesheet" href="../zxxrs.css">
+    <link rel="stylesheet" href="14-1.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="800.css">    <link rel="stylesheet" media="screen and (max-width:500px)" href="400.css">
     <title>Title</title>
 </head>
 <body>
-<h1>
-    客服
-</h1>
+<!--客服-->
+<h1>客服</h1>
 <div class="menu">
+    <!--大分辨率下内容-->
     <p>客服热线：010-594-78634</p>
     <ul>
         <li>
@@ -24,6 +25,76 @@
             <a href="#"><img src="../images/sina.png"></a>
         </li>
     </ul>
+    <!--小分辨率下内容-->
+    <div>
+        <a href="#">登录</a>
+        <strong>|</strong>
+        <a href="#">注册</a>
+    </div>
 </div>
+<!--NAV-->
+<h1>NAV</h1>
+<div class="nav">
+    <!--大分辨率下logo-->
+    <img class="logo" src="../images/homeleft.png">
+    <!--小分辨率下logo-->
+    <img class="xiuzhen" src="../images/home-logo.png">
+    <!--大分辨率下导航组-->
+    <ul id="mytab">
+        <li>
+            <a href="#" data-toggle="tab">首&nbsp;页</a>
+        </li>
+        <li>
+            <a href="#" data-toggle="tab">职&nbsp;业</a>
+        </li>
+        <li>
+            <a href="#" data-toggle="tab">推&nbsp;荐</a>
+        </li>
+        <li>
+            <a href="#" data-toggle="tab">关&nbsp;于</a>
+        </li>
+    </ul>
+    <!--小分辨率下导航按钮-->
+    <button id="btn1" type="button" data-toggle="mynav" data-target="#mynav" aria-expanded="true">
+        <img src="../images/menu.png">
+    </button>
+</div>
+<!--弹出框内容-->
+<ul id="mynav">
+    <li>
+        <a href="#" data-toggle="tab">首&nbsp;页</a>
+    </li>
+    <li>
+        <a href="#" data-toggle="tab">职&nbsp;业</a>
+    </li>
+    <li>
+        <a href="#" data-toggle="tab">推&nbsp;荐</a>
+    </li>
+    <li>
+        <a href="#" data-toggle="tab">关&nbsp;于</a>
+    </li>
+</ul>
+
+<!--轮播图内容-->
+<h1>轮播图</h1>
+
+<!--按钮切换效果js-->
+
+<script>
+    window.onload=function()
+    {
+        var oBtn=document.getElementById("btn1");
+        var oDemo=document.getElementById("mynav"); oBtn.onclick=function()
+    {
+        if(oDemo.style.display=="block")
+        {
+            oDemo.style.display="none";
+        }
+        else
+        {
+            oDemo.style.display="block";
+        }
+    } }
+</script>
 </body>
 </html>
