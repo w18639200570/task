@@ -1,0 +1,103 @@
+.c {
+  color: #29b078;
+}
+.bgc {
+  background: #29b078;
+}
+/*客服*/
+.menu {
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  height: 39px;
+}
+.menu p {
+  color: #29b078;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  margin-left: 5px;
+  font-size: 0;
+}
+.menu ul li a {
+  display: inline-block;
+}
+.menu div {
+  display: none;
+}
+.menu div a {
+  color: #000;
+}
+.menu div strong {
+  color: #29b078;
+}
+/*nav*/
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  height: 100px;
+  background: #29b078;
+  /*大分辨率导航组*/
+  /*小分辨率按钮*/
+}
+.nav .xiuzhen {
+  display: none;
+}
+.nav #mytab {
+  display: flex;
+}
+.nav #mytab li {
+  padding: 37px 31.5px;
+  font-size: 16px;
+  border-bottom: 4px solid rgba(255, 255, 255, 0);
+}
+.nav #mytab li:hover {
+  border-bottom: 4px solid white;
+}
+.nav #mytab li a {
+  color: white;
+}
+.nav button {
+  margin-top: 5px;
+  display: none;
+  height: 47px;
+  background: none;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+.nav button:hover {
+  border: 1px solid #ccc;
+  background: #1a754f;
+}
+/*小分辨率按钮弹出内容*/
+#mynav {
+  display: none;
+  width: 100%;
+  background: #29b078;
+}
+#mynav li {
+  padding: 15px 0;
+  font-size: 16px;
+  text-align: center;
+}
+#mynav li:hover {
+  border-bottom: 1px solid white;
+}
+#mynav li a {
+  color: white;
+}
+#myFocus {
+  width: 100%;
+  height: 36vw;
+}
+#myFocus img {
+  max-width: 100%;
+  width: 100%;
+}

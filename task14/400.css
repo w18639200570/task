@@ -1,0 +1,22 @@
+/*
+响应式*/
+.menu {
+  padding: 0 2%;
+  justify-content: flex-end;
+}
+.menu p,
+.menu ul {
+  display: none;
+}
+.menu div {
+  display: block;
+}
+.nav {
+  padding: 0 2%;
+}
+.nav #mytab {
+  display: none;
+}
+#btn1 {
+  display: block;
+}
