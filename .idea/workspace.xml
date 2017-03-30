@@ -2,114 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee34f1a8-bc46-4ded-93af-fbfc43e3f956" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/img/1a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/img/2a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/img/3a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/img/4a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/img/6a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_51xflash/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_51xflash/play.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_51xflash/tit-ar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_classicHB/btn-blue.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_classicHB/btn-gray.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_classicHC/btn-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_classicHC/btn-red.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_games_tb/ar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_kdui/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_kdui/dots.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_kdui/slider-arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_kiki/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_kiki/ar-left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_kiki/ar-right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_kiki/tit-ar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_pithy_tb/btn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_pithy_tb/turn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_qiyi/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_qiyi/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_sohusports/sh-btn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_taobaomall/btn-bg2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_tbhuabao/btn-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/kendoui/img/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/img/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/img/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/img/btn-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/img/btn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/tqq/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/tqq/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/tqq/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/tqq/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/tqq/img/50.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/tqq/img/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_51xflash.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_51xflash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_YSlider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_YSlider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_classicHB.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_classicHB.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_classicHC.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_classicHC.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_dleung.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_dleung.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_expo2010.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_expo2010.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_fancy.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_fancy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_fscreen_tb.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_fscreen_tb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_games_tb.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_games_tb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_kdui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_kdui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_kiki.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_kiki.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_ladyQ.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_ladyQ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_liquid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_liquid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_liuzg.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_liuzg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_luluJQ.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_luluJQ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_pconline.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_pconline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_peijianmall.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_peijianmall.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_pithy_tb.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_pithy_tb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_qiyi.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_qiyi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_quwan.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_quwan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_rapoo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_rapoo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_shutters.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_shutters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_slide3D.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_slide3D.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_sohusports.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_sohusports.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_taobao2010.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_taobao2010.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_taobaomall.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_taobaomall.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_tbhuabao.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_tbhuabao.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/myfocus-2.0.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/myfocus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/kendoui/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/tab/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/tqq/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/说明.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task-JavaScript/Demo/test.html" afterPath="$PROJECT_DIR$/task-JavaScript/Demo/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="task.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -130,91 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="-1.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-CSS/task8/-1.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14496">
-              <caret line="604" column="16" selection-start-line="604" selection-start-column="16" selection-end-line="604" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="13-3.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-CSS/task13/13-3.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="87" column="15" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zxxg.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-CSS/zxxg.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5640">
-              <caret line="235" column="13" selection-start-line="235" selection-start-column="13" selection-end-line="235" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sky.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-CSS/sky.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="13-3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-CSS/task13/13-3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="13.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-CSS/task13/13.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="-1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-CSS/task8/-1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="746">
-              <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task-JavaScript/Demo/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            <state relative-caret-position="360">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -285,10 +99,10 @@
         <option value="$PROJECT_DIR$/task-CSS/task13/13-3.html" />
         <option value="$PROJECT_DIR$/task-CSS/zxxg.less" />
         <option value="$PROJECT_DIR$/task-CSS/task13/13-3.less" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/task-JavaScript/task1/nine.html" />
         <option value="$PROJECT_DIR$/task-JavaScript/index.html" />
         <option value="$PROJECT_DIR$/task-JavaScript/Demo/test.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -368,88 +182,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task-JavaScript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task-JavaScript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myfocus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myfocus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="audio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -608,14 +340,7 @@
       <workItem from="1490407387024" duration="224000" />
       <workItem from="1490797358135" duration="773000" />
       <workItem from="1490858579693" duration="3874000" />
-      <workItem from="1490862476496" duration="1424000" />
-    </task>
-    <task id="LOCAL-00047" summary="update task12&#10;">
-      <created>1489564582387</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1489564582388</updated>
+      <workItem from="1490862476496" duration="1543000" />
     </task>
     <task id="LOCAL-00048" summary="update task12&#10;">
       <created>1489564740764</created>
@@ -953,11 +678,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490863853344</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="big update&#10;">
+      <created>1490863921654</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1490863921655</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="402620000" />
+    <option name="totallyTimeSpent" value="402739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1283,14 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task-JavaScript/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -1309,8 +1033,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task-JavaScript/Demo/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="240">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>
