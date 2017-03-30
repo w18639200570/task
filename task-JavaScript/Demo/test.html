@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript图片库</title>
+    <script src="showPic.js">
+
+        /*		event = "JavaScript statement(s)";
+         onclick = "showPic(this);";
+         onclick = "showPic(this); return false;"*/
+    </script>
+</head>
+<body>
+	<h1>Snapshots</h1>
+	<ul>
+		<li>
+			<a href="../img/1a.jpg" onclick="showPic(this); return false;" title="DragonCat">DragonCat</a>
+		</li>
+		<li>
+			<a href="../img/2a.jpg" onclick="showPic(this); return false;" title="Cat">Cat</a>
+		</li>
+		<li>
+			<a href="../img/3a.jpg" onclick="showPic(this); return false;" title="women">women</a>
+		</li>
+		<li>
+			<a href="../img/4a.jpg" onclick="showPic(this); return false;" title="house">house</a>
+		</li>
+		<li>
+			<a href="http://baidu.com" onclick="return false;">click me</a>
+		</li>
+	</ul>
+	<img id="placeholder" src="../img/5a.jpg" alt="gril">
+	<p id="description">Choose an image.</p>
+	<button id="btn" onclick="popup()">开始</button>
+</body>
+</html>

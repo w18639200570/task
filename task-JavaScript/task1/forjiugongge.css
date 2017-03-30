@@ -1,0 +1,22 @@
+body {
+    max-width:600px;
+    margin:0 auto;
+}
+
+div {
+    background-color: orange;
+    width: 31%;
+    padding-top: 31%;
+    border-radius: 15px;
+    margin: 1%;
+    display: -webkit-box;
+    float: left;
+}
+/*.cel {background-color:orange;}*/
+footer button {
+    margin:4.5%;
+    width:40%;
+    padding:10px 20px;
+    font-size:3rem;
+    background:lightblue;
+}

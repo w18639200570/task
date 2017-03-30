@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee34f1a8-bc46-4ded-93af-fbfc43e3f956" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/audio/Demo/random.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/audio/Demo/randomcolor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/audio/Demo/showPic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/audio/Demo/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/audio/task1/1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/audio/task1/2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/audio/task1/3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/audio/task1/9.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/audio/task1/9ge.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/audio/task1/forjiugongge.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/audio/task1/nine.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/audio/task1/task1.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-JavaScript/Demo/random.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-JavaScript/Demo/randomcolor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-JavaScript/Demo/showPic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-JavaScript/Demo/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-JavaScript/task1/1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-JavaScript/task1/2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-JavaScript/task1/3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-JavaScript/task1/9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-JavaScript/task1/9ge.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-JavaScript/task1/forjiugongge.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-JavaScript/task1/nine.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-JavaScript/task1/task1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="task.iws" />
@@ -449,14 +449,7 @@
       <workItem from="1490407387024" duration="224000" />
       <workItem from="1490797358135" duration="773000" />
       <workItem from="1490858579693" duration="3874000" />
-      <workItem from="1490862476496" duration="1080000" />
-    </task>
-    <task id="LOCAL-00044" summary="update task11">
-      <created>1489470782461</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1489470782461</updated>
+      <workItem from="1490862476496" duration="1117000" />
     </task>
     <task id="LOCAL-00045" summary="update task11">
       <created>1489564397812</created>
@@ -794,17 +787,24 @@
       <option name="project" value="LOCAL" />
       <updated>1490863449931</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="big update&#10;">
+      <created>1490863561299</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1490863561300</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="402276000" />
+    <option name="totallyTimeSpent" value="402313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
