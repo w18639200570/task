@@ -1,0 +1,170 @@
+/*引用私有库*/
+/*通用设置*/
+html {
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 625%;
+}
+p {
+  margin: 0;
+}
+/*头部内容*/
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  max-width: 640px;
+  background-color: #29bde0;
+  justify-content: space-between;
+  z-index: 999;
+}
+header button {
+  margin: 20px;
+  outline: none;
+}
+header .menu {
+  width: 39px;
+  height: 40px;
+  background: url(../../images/sprite.png) no-repeat -52px 0;
+}
+header .clos {
+  width: 34px;
+  height: 36px;
+  background: url(../../images/sprite.png) no-repeat -92px 0;
+}
+header p {
+  font-size: .28rem;
+  color: white;
+  margin-top: 25px;
+}
+/*中上部内容*/
+.main {
+  position: relative;
+  margin-top: 80px;
+  background: #b9e9f5;
+  overflow: hidden;
+}
+.main p {
+  margin: 20px 70px 20px 50px;
+  font-size: .24rem;
+}
+.main button {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background: #fbb435;
+  border-radius: 50%;
+  outline: none;
+}
+.main button span {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-left: 25px solid white;
+  border-bottom: 15px solid transparent;
+}
+/*中下部内容*/
+.content {
+  position: relative;
+  margin-bottom: 190px;
+  background: #29bde0;
+  overflow: hidden;
+}
+.content span {
+  position: absolute;
+  top: 0;
+  left: 65px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-top: 15px solid #b9e9f5;
+  border-right: 10px solid transparent;
+}
+.content h5 {
+  margin: 20px 0 20px 65px;
+  font-size: .23rem;
+  color: white;
+}
+.content .box {
+  float: left;
+  width: 33.3%;
+  overflow: hidden;
+}
+.content .box:hover div {
+  opacity: 1;
+}
+.content .box .info {
+  position: relative;
+  margin: 20px 15%;
+  width: 70%;
+  text-align: center;
+  border: 5px solid white;
+}
+.content .box .info h3 {
+  margin: 0;
+  padding: 25% 0 30%;
+  font-size: .26rem;
+  background: #f5c97b;
+}
+.content .box .info p {
+  padding: 2px 0;
+  background: #83b09a;
+  font-size: .23rem;
+  color: white;
+}
+.content .box .function {
+  text-align: center;
+  opacity: 0;
+}
+.content .box .function button {
+  padding-top: 16%;
+  width: 16%;
+  background-size: 100%;
+  background: url(../../images/spr.png) no-repeat;
+  background-size: 400%;
+}
+.content .box .function .killer {
+  background-position: 100% 0;
+}
+.content .box .function .search {
+  background-position: 68% 0;
+}
+.content .box .function .aim {
+  background-position: 0 0;
+}
+.content .box .function .salvation {
+  background-position: 33% 0;
+}
+/*尾部内容*/
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 640px;
+  height: 190px;
+  background-color: #29bde0;
+}
+footer div {
+  margin: 0 5%;
+  width: 90%;
+  max-width: 640px;
+  border-top: 2px solid white;
+}
+footer div button {
+  margin: 42px 10% 61px;
+  padding: 25px 0;
+  width: 80%;
+  font-size: .3rem;
+  color: white;
+  background: #fbb435;
+}

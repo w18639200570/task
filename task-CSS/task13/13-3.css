@@ -1,0 +1,153 @@
+/*引用私有库*/
+/*通用设置*/
+html {
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 625%;
+}
+p {
+  margin: 0;
+}
+/*头部内容*/
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  max-width: 640px;
+  height: 93px;
+  background-color: #29bde0;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #74d4eb;
+  z-index: 999;
+}
+header button {
+  margin: 20px;
+  outline: none;
+}
+header .menu {
+  width: 10%;
+  padding-top: 8%;
+  background: url(../../images/home2.png) no-repeat;
+  background-size: 100%;
+}
+header .clos {
+  width: 8%;
+  padding-top: 8%;
+  background: url(../../images/explain.png) no-repeat;
+  background-size: 100%;
+}
+header p {
+  font-size: .28rem;
+  color: white;
+  margin: 5%;
+}
+/*中上部内容*/
+.main {
+  display: inline-block;
+  margin-top: 92px;
+  padding: 0 10% 15px;
+  width: 100%;
+  max-width: 640px;
+  background: #29bde0;
+}
+.main img {
+  display: block;
+  margin: 22px auto;
+  max-width: 100%;
+}
+.main > p {
+  padding-bottom: 63px;
+  font-size: .27rem;
+  color: #ffc865;
+}
+.main div {
+  font-size: .24rem;
+  color: white;
+}
+.main div span {
+  display: inline-block;
+  padding-right: .3rem;
+}
+.main div p {
+  padding: 0 0 10px;
+  line-height: 41px;
+}
+/*中下部内容*/
+.content {
+  padding: 0 10% 20px;
+  background: white;
+  border-top: 1px solid #ccc;
+}
+.content div {
+  display: flex;
+  justify-content: space-between;
+}
+.content div h4 {
+  font-size: .26rem;
+  line-height: 43px;
+}
+.content div h6 {
+  font-size: .22rem;
+  line-height: 43px;
+  color: #ccc;
+}
+.content p {
+  font-size: .15rem;
+  line-height: 19px;
+  color: #999;
+}
+.contents {
+  padding: 0 10% 20px;
+  background: white;
+  border-top: 1px solid #ccc;
+  margin-bottom: 130px;
+}
+.contents div {
+  display: flex;
+  justify-content: space-between;
+}
+.contents div h4 {
+  font-size: .26rem;
+  line-height: 43px;
+}
+.contents div h6 {
+  font-size: .22rem;
+  line-height: 43px;
+  color: #ccc;
+}
+.contents p {
+  font-size: .15rem;
+  line-height: 19px;
+  color: #999;
+}
+/*尾部内容*/
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 640px;
+  height: 130px;
+  background-color: rgba(41, 189, 224, 0.5);
+}
+footer div {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+footer div button {
+  margin-top: 24px;
+  padding: 25px;
+  width: 90%;
+  font-size: .3rem;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+}
+footer div .agin {
+  background: #f66f6f;
+}
+footer div .update {
+  background: #fbb435;
+}

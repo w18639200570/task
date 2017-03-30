@@ -1,7 +1,646 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee34f1a8-bc46-4ded-93af-fbfc43e3f956" name="Default" comment="" />
+    <list default="true" id="ee34f1a8-bc46-4ded-93af-fbfc43e3f956" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/img/1a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/img/2a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/img/3a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/img/4a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/img/6a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_51xflash/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_51xflash/play.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_51xflash/tit-ar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_classicHB/btn-blue.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_classicHB/btn-gray.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_classicHC/btn-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_classicHC/btn-red.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_games_tb/ar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_kdui/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_kdui/dots.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_kdui/slider-arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_kiki/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_kiki/ar-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_kiki/ar-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_kiki/tit-ar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_pithy_tb/btn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_pithy_tb/turn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_qiyi/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_qiyi/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_sohusports/sh-btn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_taobaomall/btn-bg2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/img/mF_tbhuabao/btn-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/kendoui/img/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/img/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/img/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/img/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/img/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/img/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/img/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/img/btn-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/img/btn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/tqq/img/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/tqq/img/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/tqq/img/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/tqq/img/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/tqq/img/50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/tqq/img/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-JavaScript" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_51xflash.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_51xflash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_YSlider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_YSlider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_classicHB.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_classicHB.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_classicHC.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_classicHC.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_dleung.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_dleung.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_expo2010.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_expo2010.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_fancy.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_fancy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_fscreen_tb.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_fscreen_tb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_games_tb.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_games_tb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_kdui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_kdui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_kiki.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_kiki.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_ladyQ.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_ladyQ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_liquid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_liquid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_liuzg.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_liuzg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_luluJQ.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_luluJQ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_pconline.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_pconline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_peijianmall.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_peijianmall.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_pithy_tb.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_pithy_tb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_qiyi.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_qiyi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_quwan.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_quwan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_rapoo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_rapoo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_shutters.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_shutters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_slide3D.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_slide3D.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_sohusports.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_sohusports.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_taobao2010.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_taobao2010.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_taobaomall.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_taobaomall.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_tbhuabao.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/mf-pattern/mF_tbhuabao.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/js/myfocus-2.0.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/myfocus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/kendoui/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/qqyue/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/tab/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/自定义风格/tqq/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfocus/说明.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/sky.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/sky.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task1/forjiugongge.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task1/九宫格.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task10/10-1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task10/10-2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task10/10-2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task10/123.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task10/radio.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task10/task10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task11/m4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task11/m4.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task11/newtask4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task11/wporject.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task11/wporject.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task12/ta5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task12/ta6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task12/task5.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task12/task5.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task12/task6.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task12/task6.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task13/13-1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task13/13-2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task13/13-2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task13/13-2.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task13/13-3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task13/13-3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task13/13-3.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task13/13.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task13/13.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task13/400.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task13/400.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task14/14-1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task14/14-1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task14/14-1.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task14/400.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task14/400.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task14/800.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task14/800.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task3/formojing.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task3/mojing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task4/task4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task5/task5-0.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task5/task5-1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task5/task5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task6/for6.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task6/fortask6.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task6/small6.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task6/task6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task7/7-1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task7/task7-1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task7/task7-2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task7/task7-2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task7/task7-3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task7/task7-3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task8/-1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task8/-1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task8/8-1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task8/8-1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task8/8-2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task8/8-2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/task8/8-3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/zxx.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/zxxg.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/zxxg.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-CSS/zxxrs.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/img/1a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/img/2a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/img/3a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/img/4a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/img/6a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.0.2.full.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.0.2.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.0.4.full.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.0.4.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.0.5.full.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.0.5.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.0.full.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.0.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.1.0.full.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.1.0.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.1.1.full.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.1.1.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.2.0.full.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.2.0.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.2.1.full.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.2.1.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.2.2.full.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.2.2.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.2.3.full.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.2.3.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.2.4.full.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-1.2.4.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-2.0.0.full.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-2.0.0.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-2.0.1.full.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-2.0.1.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/.svn/text-base/myfocus-2.0.2 beta.full.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_51xflash.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_51xflash.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_YSlider.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_YSlider.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_classicHB.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_classicHB.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_classicHC.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_classicHC.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_dleung.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_dleung.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_expo2010.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_expo2010.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_fancy.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_fancy.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_fscreen_tb.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_fscreen_tb.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_games_tb.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_games_tb.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_kdui.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_kdui.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_kiki.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_kiki.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_ladyQ.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_ladyQ.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_liquid.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_liquid.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_liuzg.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_liuzg.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_luluJQ.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_luluJQ.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_pconline.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_pconline.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_peijianmall.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_peijianmall.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_pithy_tb.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_pithy_tb.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_qiyi.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_qiyi.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_quwan.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_quwan.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_rapoo.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_rapoo.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_shutters.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_shutters.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_slide3D.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_slide3D.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_sohusports.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_sohusports.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_taobao2010.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_taobao2010.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_taobaomall.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_taobaomall.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_tbhuabao.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/.svn/text-base/mF_tbhuabao.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_51xflash/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_51xflash/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_51xflash/.svn/prop-base/Thumbs.db.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_51xflash/.svn/prop-base/play.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_51xflash/.svn/prop-base/tit-ar.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_51xflash/.svn/text-base/Thumbs.db.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_51xflash/.svn/text-base/play.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_51xflash/.svn/text-base/tit-ar.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_51xflash/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_51xflash/play.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_51xflash/tit-ar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_classicHB/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_classicHB/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_classicHB/.svn/prop-base/btn-blue.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_classicHB/.svn/prop-base/btn-gray.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_classicHB/.svn/text-base/btn-blue.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_classicHB/.svn/text-base/btn-gray.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_classicHB/btn-blue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_classicHB/btn-gray.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_classicHC/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_classicHC/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_classicHC/.svn/prop-base/btn-bg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_classicHC/.svn/prop-base/btn-red.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_classicHC/.svn/text-base/btn-bg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_classicHC/.svn/text-base/btn-red.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_classicHC/btn-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_classicHC/btn-red.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_games_tb/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_games_tb/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_games_tb/.svn/prop-base/ar.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_games_tb/.svn/text-base/ar.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_games_tb/ar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kdui/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kdui/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kdui/.svn/prop-base/Thumbs.db.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kdui/.svn/prop-base/dots.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kdui/.svn/prop-base/slider-arrows.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kdui/.svn/text-base/Thumbs.db.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kdui/.svn/text-base/dots.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kdui/.svn/text-base/slider-arrows.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kdui/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kdui/dots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kdui/slider-arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kiki/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kiki/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kiki/.svn/prop-base/Thumbs.db.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kiki/.svn/prop-base/ar-left.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kiki/.svn/prop-base/ar-right.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kiki/.svn/prop-base/tit-ar.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kiki/.svn/text-base/Thumbs.db.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kiki/.svn/text-base/ar-left.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kiki/.svn/text-base/ar-right.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kiki/.svn/text-base/tit-ar.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kiki/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kiki/ar-left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kiki/ar-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_kiki/tit-ar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_pithy_tb/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_pithy_tb/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_pithy_tb/.svn/prop-base/btn.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_pithy_tb/.svn/prop-base/turn.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_pithy_tb/.svn/text-base/btn.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_pithy_tb/.svn/text-base/turn.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_pithy_tb/btn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_pithy_tb/turn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_qiyi/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_qiyi/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_qiyi/.svn/prop-base/bg.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_qiyi/.svn/prop-base/loading.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_qiyi/.svn/text-base/bg.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_qiyi/.svn/text-base/loading.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_qiyi/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_qiyi/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_sohusports/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_sohusports/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_sohusports/.svn/prop-base/sh-btn.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_sohusports/.svn/text-base/sh-btn.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_sohusports/sh-btn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_taobaomall/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_taobaomall/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_taobaomall/.svn/prop-base/btn-bg2.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_taobaomall/.svn/text-base/btn-bg2.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_taobaomall/btn-bg2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_tbhuabao/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_tbhuabao/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_tbhuabao/.svn/prop-base/btn-bg.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_tbhuabao/.svn/text-base/btn-bg.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/img/mF_tbhuabao/btn-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_51xflash.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_51xflash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_YSlider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_YSlider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_classicHB.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_classicHB.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_classicHC.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_classicHC.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_dleung.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_dleung.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_expo2010.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_expo2010.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_fancy.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_fancy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_fscreen_tb.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_fscreen_tb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_games_tb.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_games_tb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_kdui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_kdui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_kiki.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_kiki.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_ladyQ.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_ladyQ.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_liquid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_liquid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_liuzg.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_liuzg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_luluJQ.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_luluJQ.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_pconline.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_pconline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_peijianmall.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_peijianmall.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_pithy_tb.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_pithy_tb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_qiyi.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_qiyi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_quwan.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_quwan.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_rapoo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_rapoo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_shutters.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_shutters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_slide3D.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_slide3D.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_sohusports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_sohusports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_taobao2010.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_taobao2010.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_taobaomall.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_taobaomall.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_tbhuabao.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/mf-pattern/mF_tbhuabao.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/js/myfocus-2.0.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/myfocus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/kendoui/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/kendoui/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/kendoui/.svn/text-base/demo.html.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/kendoui/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/kendoui/img/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/kendoui/img/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/kendoui/img/.svn/prop-base/1.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/kendoui/img/.svn/text-base/1.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/kendoui/img/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/.svn/text-base/demo.html.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/prop-base/1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/prop-base/2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/prop-base/3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/prop-base/4.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/prop-base/5.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/prop-base/Thumbs.db.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/prop-base/btn-bg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/prop-base/btn.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/prop-base/loading.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/text-base/1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/text-base/2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/text-base/3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/text-base/4.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/text-base/5.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/text-base/Thumbs.db.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/text-base/btn-bg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/text-base/btn.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/.svn/text-base/loading.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/btn-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/btn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/qqyue/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tab/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tab/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tab/.svn/text-base/demo.html.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tab/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/.svn/text-base/demo.html.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/.svn/prop-base/1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/.svn/prop-base/2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/.svn/prop-base/3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/.svn/prop-base/4.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/.svn/prop-base/50.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/.svn/prop-base/Thumbs.db.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/.svn/text-base/1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/.svn/text-base/2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/.svn/text-base/3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/.svn/text-base/4.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/.svn/text-base/50.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/.svn/text-base/Thumbs.db.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/自定义风格/tqq/img/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/说明.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sky.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sky.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/10-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/2dimensionalbarcode.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/Cut.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/Ruler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/Shape2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/Shape253.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/Write.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/alibaba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/archive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/banner-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/banner-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/banner-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/box.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/cooperation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/daoshanjiao.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/datou.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/dog.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/explain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/hand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/hape.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/home-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/home2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/homeleft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/huanxin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/jiantou.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/jinshan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/jnshu1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/jnslogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/lan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/locked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/lv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/nexta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/orange1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/peppo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/portrait1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/portrait2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/portrait3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/position.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/qiniu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/qq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/radio.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/reset-bad.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/rightback.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/rocket.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/ronglian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/sanjiao.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/sina.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/spr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/tencent.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/timg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/tudou.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/tudouu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/victory.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/wechat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/women.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/work.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/woshou.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/xing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/images/xiuzhen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/img/1a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/img/2a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/img/3a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/img/4a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/img/5a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-JavaScript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task1/forjiugongge.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task1/九宫格.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task10/10-1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task10/10-2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task10/10-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task10/123.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task10/radio.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task10/task10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task11/m4.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task11/m4.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task11/newtask4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task11/wporject.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task11/wporject.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task12/ta5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task12/ta6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task12/task5.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task12/task5.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task12/task6.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task12/task6.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task13/13-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task13/13-2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task13/13-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task13/13-2.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task13/13-3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task13/13-3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task13/13-3.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task13/13.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task13/13.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task13/400.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task13/400.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task14/14-1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task14/14-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task14/14-1.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task14/400.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task14/400.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task14/800.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task14/800.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task3/formojing.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task3/mojing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task4/task4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task5/task5-0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task5/task5-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task5/task5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task6/for6.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task6/fortask6.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task6/small6.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task6/task6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task7/7-1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task7/task7-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task7/task7-2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task7/task7-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task7/task7-3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task7/task7-3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task8/-1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task8/-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task8/8-1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task8/8-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task8/8-2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task8/8-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task8/8-3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zxx.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zxxg.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zxxg.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zxxrs.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task-JavaScript/.idea/workspace.xml" afterPath="$PROJECT_DIR$/task-JavaScript/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task-JavaScript/task1/2.js" afterPath="$PROJECT_DIR$/task-JavaScript/task1/2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task-JavaScript/task1/nine.html" afterPath="$PROJECT_DIR$/task-JavaScript/task1/nine.html" />
+    </list>
     <ignored path="task.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,165 +659,108 @@
     <favorites_list name="task" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.29725447">
-      <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.41591862">
-          <split-first>
-            <splitter split-orientation="horizontal" split-proportion="0.49048316">
-              <split-first>
-                <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-                  <file leaf-file-name="zxxg.less" pinned="false" current-in-tab="true">
-                    <entry file="file://$PROJECT_DIR$/zxxg.less">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="815">
-                          <caret line="342" column="14" selection-start-line="342" selection-start-column="14" selection-end-line="342" selection-end-column="14" />
-                          <folding />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                  <file leaf-file-name="zxxrs.css" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/zxxrs.css">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="600">
-                          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-                          <folding />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                  <file leaf-file-name="normalize.css" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/normalize.css">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="2760">
-                          <caret line="115" column="9" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
-                          <folding />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                  <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/reset.css">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="456">
-                          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="40" />
-                          <folding />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                </leaf>
-              </split-first>
-              <split-second>
-                <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-                  <file leaf-file-name="14-1.less" pinned="false" current-in-tab="true">
-                    <entry file="file://$PROJECT_DIR$/task14/14-1.less">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="815">
-                          <caret line="98" column="15" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
-                          <folding />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                  <file leaf-file-name="400.less" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/task14/400.less">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="168">
-                          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-                          <folding />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                  <file leaf-file-name="800.less" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/task14/800.less">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="120">
-                          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-                          <folding />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                </leaf>
-              </split-second>
-            </splitter>
-          </split-first>
-          <split-second>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="14-1.html" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/task14/14-1.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="672">
-                      <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-                      <folding>
-                        <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/index.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="358">
-                      <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="-1.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/task8/-1.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1488">
-                  <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="13-2.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/task13/13-2.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="504">
-                  <caret line="174" column="13" selection-start-line="174" selection-start-column="13" selection-end-line="174" selection-end-column="13" />
-                  <folding>
-                    <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="testjs.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/demo/testjs.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="-1.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-CSS/task8/-1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14496">
+              <caret line="604" column="16" selection-start-line="604" selection-start-column="16" selection-end-line="604" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="13-3.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task-CSS/task13/13-3.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zxxg.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-CSS/zxxg.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5640">
+              <caret line="235" column="13" selection-start-line="235" selection-start-column="13" selection-end-line="235" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sky.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-CSS/sky.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="13-3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-CSS/task13/13-3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="13.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-CSS/task13/13.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="-1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-CSS/task8/-1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1464">
+              <caret line="61" column="64" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nine.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-JavaScript/task1/nine.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-JavaScript/task1/2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="696">
+              <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -196,23 +778,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wporject.less" />
-        <option value="$PROJECT_DIR$/task11/wporject.css" />
-        <option value="$PROJECT_DIR$/task11/m4.css" />
-        <option value="$PROJECT_DIR$/task11/wporject.less" />
-        <option value="$PROJECT_DIR$/task11/m4.less" />
-        <option value="$PROJECT_DIR$/task5/task5.html" />
-        <option value="$PROJECT_DIR$/task12/task5.css" />
-        <option value="$PROJECT_DIR$/task6/fortask6.css" />
-        <option value="$PROJECT_DIR$/task6/for6.css" />
-        <option value="$PROJECT_DIR$/task6/task6.html" />
-        <option value="$PROJECT_DIR$/demo/select.html" />
-        <option value="$PROJECT_DIR$/task12/task6.css" />
-        <option value="$PROJECT_DIR$/task12/task6.less" />
-        <option value="$PROJECT_DIR$/task12/ta6.html" />
-        <option value="$PROJECT_DIR$/task12/ta5.html" />
-        <option value="$PROJECT_DIR$/task12/task5.less" />
-        <option value="$PROJECT_DIR$/task7/task7-1.html" />
         <option value="$PROJECT_DIR$/task7/task7-2.html" />
         <option value="$PROJECT_DIR$/demo/lunbo.html" />
         <option value="$PROJECT_DIR$/sky.less" />
@@ -247,6 +812,23 @@
         <option value="$PROJECT_DIR$/ku/js/mf-pattern/mF_tbhuabao.css" />
         <option value="$PROJECT_DIR$/ku/demo.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/task-JavaScript/task1/nine.html" />
+        <option value="$PROJECT_DIR$/task-JavaScript/task1/2.js" />
+        <option value="$PROJECT_DIR$/task-CSS/task14/14-1.html" />
+        <option value="$PROJECT_DIR$/task-CSS/task13/13-1.html" />
+        <option value="$PROJECT_DIR$/task-CSS/task13/13-2.html" />
+        <option value="$PROJECT_DIR$/task-CSS/task13/13-2.less" />
+        <option value="$PROJECT_DIR$/task-CSS/task12/ta6.html" />
+        <option value="$PROJECT_DIR$/task-CSS/task12/ta5.html" />
+        <option value="$PROJECT_DIR$/task-CSS/task11/newtask4.html" />
+        <option value="$PROJECT_DIR$/task-CSS/task10/radio.css" />
+        <option value="$PROJECT_DIR$/task-CSS/task10/10-1.css" />
+        <option value="$PROJECT_DIR$/task-CSS/task10/task10.html" />
+        <option value="$PROJECT_DIR$/task-CSS/task10/10-2.html" />
+        <option value="$PROJECT_DIR$/task-CSS/task8/-1.html" />
+        <option value="$PROJECT_DIR$/task-CSS/task13/13-3.html" />
+        <option value="$PROJECT_DIR$/task-CSS/zxxg.less" />
+        <option value="$PROJECT_DIR$/task-CSS/task13/13-3.less" />
       </list>
     </option>
   </component>
@@ -258,7 +840,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1932" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -286,7 +868,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -297,7 +879,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -310,12 +892,49 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task-CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="E:/task-JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="260" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="279" />
@@ -458,6 +1077,9 @@
       <workItem from="1490321761999" duration="10251000" />
       <workItem from="1490352628473" duration="3308000" />
       <workItem from="1490407387024" duration="224000" />
+      <workItem from="1490797358135" duration="773000" />
+      <workItem from="1490858579693" duration="3874000" />
+      <workItem from="1490862476496" duration="63000" />
     </task>
     <task id="LOCAL-00038" summary="update task10">
       <created>1489223804230</created>
@@ -806,16 +1428,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="396549000" />
+    <option name="totallyTimeSpent" value="401259000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19218585" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -874,223 +1496,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/demo2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/select.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task12/task6.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3120">
-          <caret line="130" column="1" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task6/for6.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3336">
-          <caret line="139" column="1" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task12/task5.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="118" column="3" selection-start-line="118" selection-start-column="3" selection-end-line="118" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task12/task6.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task12/ta6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="111" column="75" selection-start-line="111" selection-start-column="75" selection-end-line="111" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task6/task6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task13/13.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task7/task7-2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task1/九宫格.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task12/ta5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task13/13-2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1667">
-          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task7/task7-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task13/400.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task13/13-3.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task13/13-2.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task13/13.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/mobile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task7/7-1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task11/newtask4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/lunbo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="146" column="42" selection-start-line="146" selection-start-column="42" selection-end-line="146" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/reset.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1272">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/reset1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/reset2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/reset3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task7/task7-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sky.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zxx.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="325" column="23" selection-start-line="325" selection-start-column="23" selection-end-line="325" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task13/13-3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task7/task7-3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sky.less" />
+    <entry file="file://$PROJECT_DIR$/zxx.css" />
+    <entry file="file://$PROJECT_DIR$/task13/13-3.html" />
+    <entry file="file://$PROJECT_DIR$/task7/task7-3.html" />
     <entry file="file://$PROJECT_DIR$/demo/lunbo1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -1098,76 +1507,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task13/13-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task8/8-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="9" column="84" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zxxrs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2760">
-          <caret line="115" column="9" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task14/400.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task14/800.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task8/-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1488">
-          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/testjs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/task13/13-1.html" />
+    <entry file="file://$PROJECT_DIR$/task8/8-1.html" />
+    <entry file="file://$PROJECT_DIR$/zxxrs.css" />
+    <entry file="file://$PROJECT_DIR$/normalize.css" />
+    <entry file="file://$PROJECT_DIR$/reset.css" />
+    <entry file="file://$PROJECT_DIR$/task8/-1.html" />
     <entry file="file://$PROJECT_DIR$/demo/huabao.html" />
     <entry file="file://$PROJECT_DIR$/demo/huabao.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -1176,77 +1521,236 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ku/js/mf-pattern/mF_tbhuabao.css">
+    <entry file="file://$PROJECT_DIR$/ku/js/mf-pattern/mF_tbhuabao.css" />
+    <entry file="file://$PROJECT_DIR$/ku/js/myfocus-2.0.1.min.js" />
+    <entry file="file://$PROJECT_DIR$/ku/demo.html" />
+    <entry file="file://$PROJECT_DIR$/task14/14-1.less" />
+    <entry file="file://$PROJECT_DIR$/task13/13-2.html" />
+    <entry file="file://$PROJECT_DIR$/demo/testjs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        <state relative-caret-position="288">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ku/js/myfocus-2.0.1.min.js">
+    <entry file="file://$PROJECT_DIR$/task14/400.less" />
+    <entry file="file://$PROJECT_DIR$/task14/800.less" />
+    <entry file="file://$PROJECT_DIR$/task14/14-1.html" />
+    <entry file="file://$PROJECT_DIR$/zxxg.less" />
+    <entry file="file://$PROJECT_DIR$/task-JavaScript/task1/forjiugongge.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ku/demo.html">
+    <entry file="file://$PROJECT_DIR$/task-JavaScript/task1/nine.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zxxg.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="342" column="14" selection-start-line="342" selection-start-column="14" selection-end-line="342" selection-end-column="14" />
+        <state relative-caret-position="312">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task14/14-1.less">
+    <entry file="file://$PROJECT_DIR$/task-JavaScript/task1/2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="98" column="15" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
+        <state relative-caret-position="696">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task14/14-1.html">
+    <entry file="file://$PROJECT_DIR$/task-CSS/task14/14-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task13/13-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task13/13-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task13/400.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task12/ta6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="843">
+          <caret line="99" column="10" selection-start-line="99" selection-start-column="10" selection-end-line="99" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task12/ta5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task11/m4.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task11/wporject.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task13/13-2.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="133" column="29" selection-start-line="133" selection-start-column="29" selection-end-line="133" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task11/newtask4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task10/radio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task10/10-2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task10/10-1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="168" column="26" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
+          <caret line="193" column="26" selection-start-line="193" selection-start-column="26" selection-end-line="193" selection-end-column="26" />
+          <caret line="206" column="26" selection-start-line="206" selection-start-column="26" selection-end-line="206" selection-end-column="26" />
+          <caret line="324" column="26" selection-start-line="324" selection-start-column="26" selection-end-line="324" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task10/123.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task10/task10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+          <caret line="208" column="36" selection-start-line="208" selection-start-column="36" selection-end-line="208" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task10/10-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="456">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task13/13-2.html">
+    <entry file="file://$PROJECT_DIR$/task-CSS/task8/-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1464">
+          <caret line="61" column="64" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task8/-1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14496">
+          <caret line="604" column="16" selection-start-line="604" selection-start-column="16" selection-end-line="604" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/zxxrs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/zxxg.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5640">
+          <caret line="235" column="13" selection-start-line="235" selection-start-column="13" selection-end-line="235" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task13/13-3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="174" column="13" selection-start-line="174" selection-start-column="13" selection-end-line="174" selection-end-column="13" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task13/13.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/sky.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-CSS/task13/13-3.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
