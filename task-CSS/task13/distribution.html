@@ -60,12 +60,37 @@
         <input placeholder="幽灵词组" type="text">
     </div>
     <div class="player">
-        <p>玩家人数<input id="num" type="tel">人</p>
+        <p>玩家人数<input id="num" type="tel" value="">人</p>
         <button id="add"></button>
-        <input id="range" type="range" min="4" max="18" step="1" value="8">
+        <input id="range" type="range" min="4" max="18" step="1" value="">
         <button id="reduce"></button>
     </div>
+    <div class="footer">
+        <button id="next" onclick="p()">去发牌</button>
+    </div>
 </div>
-<script type="text/javascript" src="../../../RangeSlider/src/RangeSlider1.js"></script>
+<script type="text/javascript" src="../../JQ/jquery-3.2.0.min.js"></script>
+<script>
+//    试写失败
+//    var number = document.getElementById("range").value;
+//    var text = document.getElementById("num");
+//    number = text.write;
+//    alert(text.value);
+//    function p (){
+//            text.value = number;
+//        text.value.write(number);
+//    }
+//    console.log(number);
+//    定时器方法
+    setInterval(function(){
+        $("input#num").val($("#range").val())
+    });
+//  .change方法，没有定时器方法好
+//    $(function(){
+//        $("#range").change(function(){
+//            $("input#num").val($(this).val())
+//        })
+//    })
+</script>
 </body>
 </html>

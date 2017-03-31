@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>Document</title>
+    <script type="text/javascript" src="../../JQ/jquery-3.2.0.min.js"></script>
+
+    <style type="text/css">
+        input[type="range"] {
+            width: 80%;
+            background-color: red;
+            border-radius: 15px;
+            -webkit-appearance: none;
+            height: 1px;
+            position: relative;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            background-color: green;
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+            border: none;
+            position: relative;
+            z-index: 10;
+        }
+    </style>
+    <script type="text/javascript">
+        $(function() {
+            $(".input_1").change(function() {
+                $("p.p1").text($(this).val());
+            })
+
+            setInterval(function() {
+                $("p.p2").text($(".input_2").val());
+            }, 0.01)
+        })
+    </script>
+</head>
+
+<body>
+<p>添加change事件</p>
+<input type="range" class="input_1" step="0.01" min="0" max="5" value="0">
+<p class="p1">0</p>
+<p>添加定时器</p>
+<input type="range" class="input_2" step="0.01" min="0" max="5" value="0">
+<p class="p2">0</p>
+</body>
+
+</html>

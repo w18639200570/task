@@ -1,0 +1,164 @@
+/*通用设置*/
+html {
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 625%;
+}
+header {
+  position: fixed;
+  *zoom: 1;
+  top: 0;
+  display: flex;
+  width: 100%;
+  max-width: 640px;
+  height: 93px;
+  background-color: #29bde0;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #74d4eb;
+  z-index: 999;
+}
+header button {
+  margin: 20px;
+  outline: none;
+}
+header .menu {
+  width: 7%;
+  padding-top: 8%;
+  background: url(../../images/back.png) no-repeat;
+  background-size: 70%;
+}
+header .clos {
+  width: 8%;
+  padding-top: 8%;
+  background: url(../../images/help.png) no-repeat;
+  background-size: 100%;
+}
+header p {
+  font-size: 0.3rem;
+  color: white;
+  margin: 5%;
+}
+.placeholder {
+  height: 93px;
+}
+.main {
+  display: inline-block;
+  padding: 20px 18px 23px;
+  background: #f0f0f0;
+}
+.people {
+  display: flex;
+}
+.people > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 .3rem;
+  font-size: 0.3rem;
+  color: black;
+  line-height: 0.35rem;
+  background-color: #fff;
+  border-right: 1px solid #ccc;
+}
+.people > div {
+  display: inline-block;
+  flex-grow: 2;
+  background: #fbfbfb;
+}
+.people > div button {
+  display: inline-block;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 28px;
+  line-height: 43px;
+  color: #29bde0;
+}
+.people > div button img {
+  display: inline-block;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+.people ul {
+  border-bottom: 1px solid #ccc;
+}
+li {
+  margin: 20px 8%;
+  display: inline-block;
+  font-size: .2rem;
+  font-size: 0.2rem;
+  min-width: 150px;
+}
+li span {
+  display: inline-block;
+  margin-right: 15%;
+  padding: 5px;
+  vertical-align: middle;
+}
+li .blue {
+  background-color: #29bde0;
+}
+li .orange {
+  background: orange;
+}
+.word {
+  margin: 9px 0;
+  background: white;
+}
+.word input {
+  margin: 3%;
+  font-size: .2rem;
+  font-size: 0.2rem;
+  padding: 3% 0;
+  border: none;
+  width: 90%;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+}
+.player {
+  padding: 20px 30px 40px;
+  font-size: .2rem;
+  font-size: 0.2rem;
+  background: white;
+}
+.player #num {
+  margin: 0 20px;
+  width: .4rem;
+  font-size: .2rem;
+  font-size: 0.2rem;
+  color: orange;
+  background-color: #ebebeb;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+.player p {
+  margin-bottom: 50px;
+}
+.player button {
+  margin: 0 2%;
+  padding: 3.5%;
+  border: 1px solid #ddd;
+}
+#range {
+  -webkit-appearance: none;
+  width: 70%;
+  height: 5px;
+  border-radius: 10px;
+  background: orange;
+  outline: none;
+}
+#range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 30px;
+  width: 50px;
+  background: white;
+  background: url(../../images/range.png) no-repeat 50%;
+  border-radius: 5px;
+  /*外观设置为圆形*/
+  border: solid 3px orange;
+  /*设置边框*/
+}
+.footer button {
+  font-size: 0.3rem;
+}
