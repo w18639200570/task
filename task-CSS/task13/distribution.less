@@ -1,0 +1,157 @@
+@import (reference)"../sky";
+@import (reference)"../zxxg";
+
+/*通用设置*/
+html {
+  .maxw;
+  .jz;
+  font-size:625%
+}
+header {
+  .fix;
+  top:0;
+  .flex;
+  .bai;
+  .maxw;
+  height:93px;
+  background-color:@lb;
+  .liangduan;
+  .itemsc;
+  border-bottom:1px solid #74d4eb;
+  z-index:999;
+  button {
+    .m20;
+    .on;
+  }
+  .menu {
+    width:7%;
+    padding-top:8%;
+    background:url(../../images/back.png) no-repeat;
+    background-size:70%;
+  }
+  .clos {
+    width:8%;
+    padding-top:8%;
+    background:url(../../images/help.png) no-repeat;
+    background-size:100%;
+  }
+  p {
+    .fz3;
+    color:@w;
+    margin:5%;
+  }
+}
+.placeholder{height:93px;}
+.main {
+  .dib;
+  padding:20px 18px 23px;
+  background:#f0f0f0;
+}
+.people{
+  .df;
+  >p{
+    .df;
+    .ic;
+    .fhjz;
+    padding:0 .3rem;
+    .fz3;
+    color:black;
+    line-height:0.35rem;
+    background-color: #fff;
+    .brc;
+  }
+  >div {
+    .dib;
+    flex-grow:2;
+    background:#fbfbfb;
+    button{
+      .dib;
+      padding:10px 0;
+      .pct100;
+      .f28;
+      .lh43;
+      color:@lb;
+      img {
+        .dib;
+        .ml15;
+        vertical-align:middle;
+      }
+    }
+  }
+  ul{
+    .bbc;
+  }
+}
+li {
+  margin:20px 8%;
+  .dib;
+  .fz2;
+  min-width:150px;
+  span {
+    .dib;
+    margin-right:15%;
+    .p5;
+    vertical-align:middle;
+  }
+  .blue {
+    background-color:@lb;
+  }
+  .orange {
+    background:orange;
+  }
+}
+.word {
+  margin:9px 0;
+  background:white;
+  input{
+    margin:3%;
+    .fz2;
+    padding:3% 0;
+    .bn;
+    width:90%;
+    border-bottom:2px solid #ccc;
+    .on;
+  }
+}
+
+.player {
+  padding:20px 30px 40px;
+  .fz2;
+  background:@w;
+  #num{
+    margin:0 20px;
+    width:.4rem;
+    .fz2;
+    color:orange;
+    .bgeb;
+    .tc;
+    .bn;
+    .on;
+  }
+  p{
+    margin-bottom:50px;
+  }
+  button {
+    margin:0 2%;
+    padding:3%;
+    .bdd;
+  }
+}
+#range {
+  -webkit-appearance: none;
+  width: 70%;
+  height:5px;
+  border-radius: 10px;
+  background:orange;
+  .on;
+}
+#range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 30px;
+  width: 50px;
+  //margin-top: -5px; /*使滑块超出轨道部分的偏移量相等*/
+  background:white;
+  background: url(../../images/range.png) no-repeat 50%;
+  border-radius: 5px; /*外观设置为圆形*/
+  border: solid 3px orange; /*设置边框*/
+}

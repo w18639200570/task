@@ -576,6 +576,30 @@ div.dib {
 .f28 {
   font-size: 28px;
 }
+.fz1 {
+  font-size: 0.1rem;
+}
+.fz13 {
+  font-size: 0.13rem;
+}
+.fz15 {
+  font-size: 0.15rem;
+}
+.fz18 {
+  font-size: 0.18rem;
+}
+.fz2 {
+  font-size: 0.2rem;
+}
+.fz23 {
+  font-size: 0.23rem;
+}
+.fz25 {
+  font-size: 0.25rem;
+}
+.fz3 {
+  font-size: 0.3rem;
+}
 /* font-family */
 .fa {
   font-family: Arial;
@@ -872,6 +896,9 @@ a.tdl:hover {
 }
 .ld {
   justify-content: space-between;
+}
+.fhjz {
+  justify-content: center;
 }
 .ic {
   align-items: center;
