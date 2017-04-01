@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-100%, initial-scale=1">
+    <title>Title</title>
+    <link rel="StyleSheet" href="../reset.css">
+    <link rel="StyleSheet" href="player.css">
+    <link rel="stylesheet" media="screen and (max-width:400px)" href="400.css">
+</head>
+<body>
+<header>
+    <button><img src="../../images/back.png"></button>
+</header>
+<div class="placeholder"></div>
+<button class="player">玩家配比</button>
+<ul class="job">
+    <li class="killer"><img src="../../images/portrait.png">杀手<input disabled type="text" id="killer">人</li>
+    <li class="people"><img src="../../images/portrait1.png">平民<input disabled type="text" id="people">人</li>
+</ul>
+<p>
+    请输入玩家数量
+    <input type="text" id="num" value="8">
+    <span>玩家数量为4-18</span>
+</p>
+<button class="go">去发牌</button>
+<script type="text/javascript" src="../../JQ/jquery-3.2.0.min.js"></script>
+<script>
+//    设置变量
+    var inputNum = document.getElementById("num");
+    var killerNum = document.getElementById("killer");
+    var peopleNum = document.getElementById("people");
+//    设置失去焦点后执行setNum函数
+    inputNum.onblur = function setNum(){
+//        小于4后弹出警告并将值改为4
+        if(inputNum.value < 4){
+            alert("请输入正确的数量");
+            console.log(num);
+            inputNum.value = 4;
+        }
+//        大于18后弹出警告并将值改为18
+
+        else if(inputNum.value > 18){
+            alert("请输入正确的数量");
+            inputNum.value = 18;
+        }
+//        确定数量后分配职业
+        setJob();
+//        测试jq
+//        console.log($("#num").val())
+    };
+//设置职业
+    function setJob(){
+        if(inputNum.value <= 5){
+            killerNum.value = 1;
+            peopleNum.value = (inputNum.value - 1);
+        }
+        else if(inputNum.value >= 6 && inputNum.value <= 8){
+            killerNum.value = 2;
+            peopleNum.value = (inputNum.value - 2);
+        }
+        else if(inputNum.value >= 9 && inputNum.value <= 11){
+            killerNum.value = 3;
+            peopleNum.value = (inputNum.value - 3);
+        }
+        else if(inputNum.value >= 12 && inputNum.value <= 14){
+            killerNum.value = 4;
+            peopleNum.value = (inputNum.value - 4);
+        }
+        else if(inputNum.value >= 15){
+            killerNum.value = 5;
+            peopleNum.value = (inputNum.value - 5);
+        }
+//        做了个上边两个等于下边的小实验
+//        var x = parseInt(killerNum.value) + parseInt(peopleNum.value);
+//        alert (x)
+    }
+</script>
+</body>
+</html>
