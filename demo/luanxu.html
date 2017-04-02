@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>数组随机乱序</title>
+</head>
+<body>
+排序前：<span id = "qian"></span><br />
+排序后：<span id = "hou"></span>
+<button onclick="fnShuffle(arr)">sadsad</button>
+<script type="text/javascript">
+    var arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+    document.getElementById('qian').innerHTML = arr;
+    arr = fnShuffle(arr);
+    document.getElementById('hou').innerHTML = arr;
+    var len = 8;
+    len = arr.length;
+    function fnShuffle (arr) {
+        var tmp, ran, len = arr.length;
+        for (var i = 0; i < len; i++) {
+            ran = parseInt(Math.random() * len);
+            tmp = arr[i];
+            arr[i] = arr[ran];
+            arr[ran] = tmp;
+        }
+        return arr;
+    }
+</script>
+</body>
+</html>

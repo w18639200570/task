@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>九宫格</title>
+    <style>
+        body {
+            max-width:600px;
+            margin:0 auto;
+        }
+        div {
+        background-color: orange;
+        width: 31%;
+        padding-top: 31%;
+        border-radius: 15px;
+        margin: 1%;
+        display: -webkit-box;
+        float: left;
+    }
+        button {
+            margin:4.5%;
+            width:40%;
+            padding:10px 20px;
+            font-size:2rem;
+            background:lightblue;
+        }
+        input {
+            font-size:2rem;
+        }
+    </style>
+</head>
+<body>
+<div style="background-color:orange"></div>
+<div title="我是大娃" value="test"></div>
+<div></div>
+<label>我会变 <input id="input" type="text" value="5"> </label>
+<button onclick="go()">点我弹窗</button>
+<button onclick="color()">我是谁</button>
+<button onclick="set()">点我点我</button>
+<button onclick="set1()">点我点我</button>
+<button onclick="set2()">设置颜色属性</button>
+<button onclick="set3()">修改值</button>
+<button onclick="set4()">设置属性</button>
+<button onclick="set5()">test</button>
+<script>
+    var num = document.getElementsByTagName("div");
+    var inp = document.getElementById("input");
+    function go(){
+        alert(num.length)
+    }
+    function color(){
+        alert(num[1].getAttribute("title"));
+    }
+    function set(){
+        num[1].setAttribute("title","我现在是二娃");
+        num[1].setAttribute("value","red")
+    }
+    function set1(){
+        num[2].setAttribute("title","我是三娃");
+        num[2].setAttribute("value","red")
+    }
+    function set2(){
+        num[2].setAttribute("style","background:pink");
+    }
+    function set3(){
+//        alert(inp.value);
+        if (inp.value < 10){
+            inp.value++;
+        }
+    }
+    function set4(){
+        inp.setAttribute("value","1");
+    }
+    function set5(){
+        alert(inp.value);
+        alert(inp.getAttribute("value"));
+    }
+</script>
+</body>
+</html>
