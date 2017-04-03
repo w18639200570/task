@@ -6,7 +6,7 @@
     <title>九宫格</title>
     <style>
         body {
-            max-width:600px;
+            width:600px;
             margin:0 auto;
         }
         div {
@@ -27,6 +27,7 @@
         }
         input {
             font-size:2rem;
+            width:10rem;
         }
     </style>
 </head>
@@ -35,46 +36,71 @@
 <div title="我是大娃" value="test"></div>
 <div></div>
 <label>我会变 <input id="input" type="text" value="5"> </label>
-<button onclick="go()">点我弹窗</button>
-<button onclick="color()">我是谁</button>
-<button onclick="set()">点我点我</button>
-<button onclick="set1()">点我点我</button>
-<button onclick="set2()">设置颜色属性</button>
-<button onclick="set3()">修改值</button>
-<button onclick="set4()">设置属性</button>
-<button onclick="set5()">test</button>
+<a href="www.jnshu.com">修真院</a>
+<footer>
+<button>点我弹窗</button>
+<button>我是谁</button>
+<button>点我点我</button>
+<button>点我点我</button>
+<button>设置颜色属性</button>
+<button>修改值</button>
+<button>设置属性</button>
+<button>test</button>
+<button>a.href</button>
+<button>Attrubute</button>
+<button>width</button>
+<button>width</button>
+    </footer>
 <script>
     var num = document.getElementsByTagName("div");
     var inp = document.getElementById("input");
-    function go(){
+    var a = document.getElementsByTagName("a");
+    var body = document.getElementsByTagName("footer");
+    var bt = document.getElementsByTagName("button");
+    bt[0].onclick = function go(){
         alert(num.length)
-    }
-    function color(){
+    };
+    bt[1].onclick = function color(){
         alert(num[1].getAttribute("title"));
-    }
-    function set(){
+    };
+    bt[2].onclick = function set(){
         num[1].setAttribute("title","我现在是二娃");
         num[1].setAttribute("value","red")
-    }
-    function set1(){
+    };
+    bt[3].onclick = function set1(){
         num[2].setAttribute("title","我是三娃");
         num[2].setAttribute("value","red")
-    }
-    function set2(){
+    };
+    bt[4].onclick = function set2(){
         num[2].setAttribute("style","background:pink");
-    }
-    function set3(){
+    };
+    bt[5].onclick = function set3(){
 //        alert(inp.value);
         if (inp.value < 10){
             inp.value++;
         }
-    }
-    function set4(){
+    };
+    bt[6].onclick = function set4(){
         inp.setAttribute("value","1");
-    }
-    function set5(){
+    };
+    bt[7].onclick = function set5(){
         alert(inp.value);
         alert(inp.getAttribute("value"));
+    };
+    bt[8].onclick = function set6(){
+        alert(a[0].href);
+        console.log(document);
+        console.log(document.documentElement);
+        console.log(document.body)
+    };
+    bt[9].onclick = function set7(){
+        alert(a[0].getAttribute("href"));
+    };
+    bt[10].onclick = function set8(){
+        body[0].setAttribute("style","width:800px");
+    };
+    bt[11].onclick = function set9(){
+        body[0].style.width = "900px";
     }
 </script>
 </body>

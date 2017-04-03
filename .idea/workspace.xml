@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/demo/domdemo.html" line="58" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ee34f1a8-bc46-4ded-93af-fbfc43e3f956" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/domdemo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/luanxu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task-CSS/task13/player.html" afterPath="$PROJECT_DIR$/task-CSS/task13/player.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/domdemo.html" afterPath="$PROJECT_DIR$/demo/domdemo.html" />
     </list>
     <ignored path="task.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,8 +94,8 @@
           <file leaf-file-name="player.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/task-CSS/task13/player.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="628">
-                  <caret line="74" column="45" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
+                <state relative-caret-position="52">
+                  <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -103,7 +104,7 @@
           <file leaf-file-name="2.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/task-JavaScript/task1/2.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-592">
+                <state relative-caret-position="888">
                   <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
                   <folding />
                 </state>
@@ -113,7 +114,7 @@
           <file leaf-file-name="distribution.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/task-CSS/task13/distribution.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="843">
+                <state relative-caret-position="2448">
                   <caret line="102" column="1" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
                   <folding />
                 </state>
@@ -207,7 +208,7 @@
           <file leaf-file-name="player.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/task-CSS/task13/player.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="124">
+                <state relative-caret-position="1104">
                   <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
                   <folding />
                 </state>
@@ -219,10 +220,7 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="168">
                   <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-                  <folding>
-                    <marker date="1491103461934" expanded="true" signature="491:742" placeholder="{...}" />
-                    <marker date="1491103461934" expanded="true" signature="571:716" placeholder="{...}" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -230,8 +228,8 @@
           <file leaf-file-name="domdemo.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/demo/domdemo.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="747">
-                  <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
+                <state relative-caret-position="579">
+                  <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -373,6 +371,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -439,14 +439,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/PPT-master" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="260" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="279" />
@@ -595,14 +593,8 @@
       <workItem from="1490862476496" duration="14430000" />
       <workItem from="1490925848321" duration="20402000" />
       <workItem from="1491010522436" duration="18608000" />
-      <workItem from="1491097704526" duration="13373000" />
-    </task>
-    <task id="LOCAL-00055" summary="update task12&#10;">
-      <created>1489839743709</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1489839743709</updated>
+      <workItem from="1491097704526" duration="16649000" />
+      <workItem from="1491182120551" duration="6674000" />
     </task>
     <task id="LOCAL-00056" summary="update task12&#10;">
       <created>1489839812009</created>
@@ -940,17 +932,24 @@
       <option name="project" value="LOCAL" />
       <updated>1491058407108</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="big update&#10;">
+      <created>1491140111129</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1491140111130</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="468009000" />
+    <option name="totallyTimeSpent" value="477959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18914647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18914647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1247,8 +1246,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task-CSS/task13/13-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        <state relative-caret-position="240">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1297,7 +1296,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task-CSS/task13/player.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
+        <state relative-caret-position="1104">
           <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
           <folding />
         </state>
@@ -1307,10 +1306,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <marker date="1491103461934" expanded="true" signature="491:742" placeholder="{...}" />
-            <marker date="1491103461934" expanded="true" signature="571:716" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1318,7 +1314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1326,7 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1340,7 +1334,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task-JavaScript/task1/2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-592">
+        <state relative-caret-position="888">
           <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
           <folding />
         </state>
@@ -1364,40 +1358,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task-CSS/task13/distribution.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
+        <state relative-caret-position="2448">
           <caret line="102" column="1" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://G:/my-css-learning/DEMO for css box.css">
+    <entry file="file://G:/my-css-learning/DEMO for css box.css" />
+    <entry file="file://G:/my-css-learning/DEMO for css box.html" />
+    <entry file="file://$PROJECT_DIR$/task-CSS/task13/player.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/my-css-learning/DEMO for css box.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="52">
+          <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/domdemo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-CSS/task13/player.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="74" column="45" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
+        <state relative-caret-position="579">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
           <folding />
         </state>
       </provider>
