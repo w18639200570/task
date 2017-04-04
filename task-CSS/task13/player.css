@@ -1,0 +1,73 @@
+/*通用设置*/
+html {
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 625%;
+}
+header {
+  position: fixed;
+  *zoom: 1;
+  top: 0;
+  display: flex;
+  width: 100%;
+  max-width: 640px;
+  height: 93px;
+  background-color: #29bde0;
+  justify-content: space-between;
+  z-index: 999;
+}
+header button {
+  margin: 20px;
+}
+header button img {
+  width: 80%;
+}
+.placeholder {
+  height: 93px;
+}
+.player {
+  padding: 20px 0;
+  width: 100%;
+  font-size: 0.3rem;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #ccc;
+}
+li {
+  display: inline-block;
+  padding: 10% 5%;
+  width: 34.5%;
+  font-size: .2rem;
+  font-size: 0.2rem;
+  vertical-align: middle;
+}
+li img {
+  padding-right: 20px;
+  width: 50px;
+  vertical-align: middle;
+}
+p {
+  padding: 20% 10%;
+  font-size: 0.25rem;
+  border-top: 1px solid #ccc;
+}
+p span {
+  font-size: 0.18rem;
+  color: #ffc438;
+}
+#go {
+  margin: 0 5%;
+  padding: 5%;
+  width: 90%;
+  background: #ffc438;
+  font-size: 0.3rem;
+  color: white;
+}
+input {
+  margin: 0 5%;
+  width: .4rem;
+  font-size: 0.25rem;
+  color: #ffc438;
+  border: none;
+  text-align: center;
+}
