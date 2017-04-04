@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-100%, initial-scale=1">
+    <meta name="viewport" content="width=device-100%, initial-scale=1" />
     <title>Title</title>
     <link rel="StyleSheet" href="../reset.css">
     <link rel="StyleSheet" href="player.css">
@@ -15,21 +15,23 @@
 <div class="placeholder"></div>
 <button class="player">玩家配比</button>
 <ul class="job">
-    <li class="killer"><img src="../../images/portrait.png">杀手<input disabled type="text" id="killer">人</li>
-    <li class="people"><img src="../../images/portrait1.png">平民<input disabled type="text" id="people">人</li>
+    <li class="killer"><img src="../../images/portrait.png">杀手<input value="2" disabled type="text" id="killer">人</li>
+    <li class="people"><img src="../../images/portrait1.png">平民<input value="6" disabled type="text" id="people">人</li>
 </ul>
 <p>
     请输入玩家数量
     <input type="text" id="num" value="8">
     <span>玩家数量为4-18</span>
 </p>
-<button class="go">去发牌</button>
+<button id="go">去发牌</button>
 <script type="text/javascript" src="../../JQ/jquery-3.2.0.min.js"></script>
 <script>
 //    设置变量
     var inputNum = document.getElementById("num");
     var killerNum = document.getElementById("killer");
     var peopleNum = document.getElementById("people");
+    var next = document.getElementById("go");
+//    window.onload(setNum());
 //    设置失去焦点后执行setNum函数
     inputNum.onblur = function setNum(){
 //        小于4后弹出警告并将值改为4
@@ -74,9 +76,64 @@
 //        做了个上边两个等于下边的小实验
 //        var x = parseInt(killerNum.value) + parseInt(peopleNum.value);
 //        alert (x)
-        alert(typeof(inputNum.value));
-        len = parseInt(inputNum.value);
-        alert(len);
+//        证明字符串转变为数字
+//        alert(typeof(inputNum.value));
+//        x = parseInt(inputNum.value);
+//        alert(x);
+    }
+//    var arr = [];
+//    num = (parseInt(killerNum.value)) + (parseInt(peopleNum.value));
+//    num = killerNum.value + peopleNum.value;
+//    num = arr.length;
+//很想找一个如果新增了数组的数量，他们的值都是一样的功能
+
+//    killerNum.length = parseInt(killerNum.value);
+//    for (var i = 0;i < killerNum.value;i++){
+//        killerNum[i] = killer;
+//    }
+//    peopleNum.length = parseInt(peopleNum.value);
+//    for (var p = 0;p < peopleNum.value;p++){
+//        peopleNum[p] = people;
+//}
+
+    next.onclick = function fnShuffle(){
+//        笨的数组定义法
+//        var kil = ["killer","killer","killer","killer","killer"];
+//        var peo = ["people","people","people","people","people","people","people","people","people","people","people","people","people"];
+//        相对好些的定义数组值的方法。
+        var kil = [];
+        var peo = [];
+        var k = parseInt(killerNum.value);
+        var p = parseInt(peopleNum.value);
+        for (var a = 0;a < k;a++){
+            kil[a] = "killer";
+        }
+        for (var b = 0;b < p;b++){
+            peo[b] = "people";
+        }
+//        alert(k);
+//        得出乱序数组的的长度
+        kil.length = k;
+        peo.length = p;
+        y = k+p;
+//       组合数组
+        var arr = kil.concat(peo);
+//        alert(peo);
+//        定义数组长度
+        var y = arr.length;
+//        数组乱序
+        for (var i = 0; i < y; i++){
+            ran = parseInt(Math.random() * y);
+            tmp = arr[i];
+            arr[i] = arr[ran];
+            arr[ran] = tmp;
+        }
+        alert(arr);
+        return arr;
+        //    num = killerNum.value + peopleNum.value;
+//        alert(num);
+//        alert(killerNum.value);
+//        alert(arr.length);
     }
 </script>
 </body>
