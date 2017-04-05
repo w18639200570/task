@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-100%, initial-scale=1" />
+    <title>Title</title>
+    <link rel="StyleSheet" href="../reset.css">
+    <link rel="StyleSheet" href="info.css">
+    <link rel="stylesheet" media="screen and (max-width:400px)" href="400.css">
+</head>
+<body>
+<header>
+    <button class="menu"></button>
+    <p>查看身份</p>
+    <button class="clos"></button>
+</header>
+<div class="placeholder"></div>
+<main>
+    <div>
+        <span>1</span>
+        <img id="king" src="../../images/king.png">
+        <img id="killer" src="../../images/kill.png">
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+    </div>
+    <button id="see">查看1号身份</button>
+</main>
+<script>
+    var end = JSON.parse(sessionStorage.getItem("job"));
+    var pic = document.getElementsByTagName("img")[0];
+    var num = document.getElementsByTagName("span")[0];
+    var btn = document.getElementById("see");
+    var p1 = document.getElementById("p1");
+    var p2 = document.getElementById("p2");
+    var p3 = document.getElementById("p3");
+    var numa = parseInt(num.innerHTML)+1;
+    var numr = parseInt(num.innerHTML)-1;
+    var n=-1;
+//    alert(pic.getAttribute("src"))
+    see.onclick = function setBtn(){
+        alert(end.length);
+        if(n<end.length){
+            n++;
+        }
+        alert(n);
+        alert(end[n]);
+        if (end[n]=="killer"){
+            p1.innerHTML="角色：幽灵";
+            p2.innerHTML="词组：西伯利亚";
+        }
+        else if (end[n]=="people"){
+            p1.innerHTML="角色：水民";
+            p2.innerHTML="词组：刷我滴卡";
+        }
+//        alert(end+end.length);
+//        思路好像是错的
+        if (btn.innerHTML = "查看"+num.innerHTML+"号身份"){
+            btn.innerHTML = "隐藏并传给"+numa+"号";
+            if (1+1<1){}
+        }
+    };
+    function add1(){
+        alert(num.innerHTML);
+        num.innerHTML = parseInt(num.innerHTML)+1;
+    }
+</script>
+</body>
+</html>

@@ -128,13 +128,19 @@
             arr[i] = arr[ran];
             arr[ran] = tmp;
         }
-        alert(arr);
+        sessionStorage.setItem("job",JSON.stringify(arr));
+        alert(sessionStorage.getItem("job"));
+        blinkPage();
         return arr;
         //    num = killerNum.value + peopleNum.value;
 //        alert(num);
 //        alert(killerNum.value);
 //        alert(arr.length);
-    }
+    };
+function blinkPage(){
+//    top.location="distribution.html";
+    window.open("info.html");
+}
 </script>
 </body>
 </html>
