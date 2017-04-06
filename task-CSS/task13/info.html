@@ -19,10 +19,10 @@
     <div>
         <span>1</span>
         <img id="king" src="../../images/king.png">
-        <img id="killer" src="../../images/kill.png">
+        <img id="wow" src="../../images/kill.png">
         <p id="p1"></p>
         <p id="p2"></p>
-        <p id="p3"></p>
+        <p id="p3"><strong>想办法猜到别人的词，同时还要注意不要暴露自己哦！</strong></p>
     </div>
     <button id="see">查看1号身份</button>
 </main>
@@ -34,32 +34,63 @@
     var p1 = document.getElementById("p1");
     var p2 = document.getElementById("p2");
     var p3 = document.getElementById("p3");
+    var king = document.getElementById("king");
+    var wow = document.getElementById("wow");
     var numa = parseInt(num.innerHTML)+1;
     var numr = parseInt(num.innerHTML)-1;
-    var n=-1;
+    var identity = [];
+//    var n=-1;
+    var na=0;
+    var naa=1;
+    var naaa=2;
 //    alert(pic.getAttribute("src"))
     see.onclick = function setBtn(){
-        alert(end.length);
-        if(n<end.length){
-            n++;
+        if (end[na]==undefined){
+            top.location="player.html"
         }
-        alert(n);
-        alert(end[n]);
-        if (end[n]=="killer"){
+
+        if (btn.innerHTML=="查看"+ naa +"号身份"){
+
+            btn.innerHTML="隐藏并传给"+naaa+"号";
+            king.style.display="none";
+            p1.style.display="block";
+            p2.style.display="block";
+            p3.style.display="block";
+            wow.style.display="block";
+            setJob();
+            identity.push((num.innerHTML)+(end[na]));
+//            n++;
+            na++;
+            naa++;
+            naaa++;
+            console.log(identity);
+        }
+        else {
+            btn.innerHTML="查看"+ naa +"号身份";
+            king.style.display="block";
+            p1.style.display="none";
+            p2.style.display="none";
+            p3.style.display="none";
+            wow.style.display="none";
+            num.innerHTML=naa;
+        }
+    };
+    function setJob(){
+        if (end[na]=="killer"){
             p1.innerHTML="角色：幽灵";
             p2.innerHTML="词组：西伯利亚";
         }
-        else if (end[n]=="people"){
+        else if (end[na]=="people"){
             p1.innerHTML="角色：水民";
             p2.innerHTML="词组：刷我滴卡";
         }
 //        alert(end+end.length);
 //        思路好像是错的
-        if (btn.innerHTML = "查看"+num.innerHTML+"号身份"){
-            btn.innerHTML = "隐藏并传给"+numa+"号";
-            if (1+1<1){}
-        }
-    };
+//        if (btn.innerHTML = "查看"+num.innerHTML+"号身份"){
+//            btn.innerHTML = "隐藏并传给"+numa+"号";
+//            if (1+1<1){}
+//        }
+    }
     function add1(){
         alert(num.innerHTML);
         num.innerHTML = parseInt(num.innerHTML)+1;

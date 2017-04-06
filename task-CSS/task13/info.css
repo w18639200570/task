@@ -68,13 +68,6 @@ main div span {
   border: 2px solid #ffedc5;
   border-radius: 50%;
 }
-main div #king {
-  display: none;
-  margin: 30% auto 5% auto;
-}
-main div img {
-  margin: 5% auto;
-}
 main button {
   margin-top: 10%;
   width: 100%;
@@ -83,13 +76,33 @@ main button {
   color: white;
   background: orange;
 }
+#king {
+  margin: 30% auto 5% auto;
+}
+#wow {
+  display: none;
+  margin: 5% auto;
+}
 #p1 {
+  display: none;
   font-size: 0.3rem;
   color: #29bde0;
   text-align: center;
 }
 #p2 {
+  display: none;
   font-size: 0.3rem;
   color: orange;
   text-align: center;
+}
+#p3 {
+  display: none;
+  position: absolute;
+  bottom: 70px;
+  padding: 10%;
+  font-size: .2rem;
+  font-size: 0.2rem;
+  color: orange;
+  text-align: left;
+  border-top: 2px solid white;
 }
