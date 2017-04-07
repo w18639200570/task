@@ -39,38 +39,37 @@
     var numa = parseInt(num.innerHTML)+1;
     var numr = parseInt(num.innerHTML)-1;
     var identity = [];
-//    var n=-1;
+    //    var n=-1;
     var na=0;
     var naa=1;
     var naaa=2;
-//    alert(pic.getAttribute("src"))
+    //    alert(pic.getAttribute("src"))
     see.onclick = function setBtn(){
-//        if (end[na]==undefined){
-//            top.location="player.html"
-//        }
+        //        if (end[na]==undefined){
+        //            top.location="player.html"
+        //        }
         if (btn.innerHTML=="法官查看"){
             see.onclick = blink();
         }
-        else if (naa==end.length){
-//            alert("法官");
+        else if (na==end.length){
+            //            alert("法官");
             btn.innerHTML="法官查看";
-            king.style.display="none";
-            p1.style.display="block";
-            p2.style.display="block";
-            p3.style.display="block";
-            wow.style.display="block";
-            setJob();
+            king.style.display="block";
+            p1.style.display="none";
+            p2.style.display="none";
+            p3.style.display="none";
+            wow.style.display="none";
             num.innerHTML=naa;
-//            see.onclick = "blink()";
+            //            see.onclick = "blink()";
             return;
             //            n++;
-//            na++;
-//            naa++;
-//            naaa++;
+            //            na++;
+            //            naa++;
+            //            naaa++;
         }
 
         else if (btn.innerHTML=="查看"+ naa +"号身份"){
-//            alert(btn.innerHTML)
+            //            alert(btn.innerHTML)
             btn.innerHTML="隐藏并传给"+naaa+"号";
             king.style.display="none";
             p1.style.display="block";
@@ -78,15 +77,14 @@
             p3.style.display="block";
             wow.style.display="block";
             setJob();
-//            identity.push((num.innerHTML)+(end[na]));
-//            n++;
-            console.log(identity);
-        }
-        else {
-
+            identity.push((num.innerHTML)+(end[na]));
+            //            n++;
             na++;
             naa++;
             naaa++;
+            console.log(identity);
+        }
+        else {
             btn.innerHTML="查看"+ naa +"号身份";
             king.style.display="block";
             p1.style.display="none";
@@ -105,17 +103,17 @@
             p1.innerHTML="角色：水民";
             p2.innerHTML="词组：刷我滴卡";
         }
-//        alert(end+end.length);
-//        思路好像是错的
-//        if (btn.innerHTML = "查看"+num.innerHTML+"号身份"){
-//            btn.innerHTML = "隐藏并传给"+numa+"号";
-//            if (1+1<1){}
-//        }
+        //        alert(end+end.length);
+        //        思路好像是错的
+        //        if (btn.innerHTML = "查看"+num.innerHTML+"号身份"){
+        //            btn.innerHTML = "隐藏并传给"+numa+"号";
+        //            if (1+1<1){}
+        //        }
     }
-//    function add1(){
-//        alert(num.innerHTML);
-//        num.innerHTML = parseInt(num.innerHTML)+1;
-//    }
+    //    function add1(){
+    //        alert(num.innerHTML);
+    //        num.innerHTML = parseInt(num.innerHTML)+1;
+    //    }
     function blink(){
         top.location="13-2.html"
     }

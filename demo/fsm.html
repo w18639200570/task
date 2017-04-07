@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fsm</title>
+    <style>
+        button{width:100px;}
+    </style>
+</head>
+<body>
+<button id="switchButton">fsm</button><br>
+<button onclick="switches()" id="switchButton2">fsm</button><br>
+<button onclick="switches()" id="switchButton3">fsm</button>
+<script src="../JQ/jquery-3.2.0.min.js"></script>
+<script>
+    var swithstate = {
+        state:"off",
+        trans:function(){
+            switch(this.state){
+                case"off":
+                    this.state="on";
+                    $("#switchButton").css({"margin-left":"80px","background":"#080"});break;
+                case "on":
+                    this.state="off";
+                    $("#switchButton").css({"margin-left":"0","background":"#aaa"});break;
+                default:
+                    this.state="off";
+                    $("#switchButton").css({"margin-left":"0","bakcground":"#aaa"});break;
+            }
+        },
+//        事件
+        event:function(){this.trans();console.log(switchstate.state)}
+    }
+
+
+    function switches(){
+        var o={
+            state:"off",
+            trans:function(){
+                switch(this.state){
+                    case "off":
+                        this.state="on";break;
+                    case "on":
+                        this.state="off";break;
+                    default:
+                        this.state="off";break;
+                }
+            },
+//            事件
+            event:function(){this.trans();console.log(this.state)},
+        }
+        return o;
+    }
+    var button2=new switches();
+    console.log(button2);
+    var button3=new switches();
+    console.log(button3);
+    $("#switchButton2").on("click",function(){
+        button2.trans();
+        if(button2.state=="on"){$("#switchButton2").css({"margin-left":"80px","background":"#008"})}
+        else {$("#switchButton2").css({"margin-left":"0","background":"#aaa"})}
+    });
+    $("#switchButton3").on("click",function(){
+        button3.trans();
+        if(button3.state=="on"){$("#switchButton3").css({"margin-left":"80px","background":"#808"})}
+        else {$("#switchButton3").css({"margin-left":"0","background":"#aaa"})}
+    })
+</script>
+</body>
+</html>
