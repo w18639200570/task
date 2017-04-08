@@ -3,19 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        .light{
+            display:inline-block;
+            width:50px;
+            height:50px;
+        }
+        .light-red{
+            background:red;
+        }
+        .light-yellow{
+            background:yellow;
+        }
+        .light-green{
+            background:green;
+        }
+    </style>
+    <script src="//cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+
 </head>
 <body>
-<button></button>
+
+
+<div class="light-wrapper" id="light_wrapper">
+    <div class="light light-red" id="light_red"></div>
+    <div class="light light-yellow" id="light_yellow"></div>
+    <div class="light light-green" id="light_green"></div>
+</div>
+
 <script>
-    var fsm = StateMachine.create({
-        initial: 'green',
-        events: [
-            { name: 'warn',  from: 'green',  to: 'yellow' },
-            { name: 'panic', from: 'yellow', to: 'red'    },
-            { name: 'calm',  from: 'red',    to: 'yellow' },
-            { name: 'clear', from: 'yellow', to: 'green'  }
-        ]});
-    fsm.wrap()
+    var trafficLight = {
+        state:"red",
+        lastState:"yellow",
+        trans:function(){
+            switch (this.state){
+                case"red":
+                    this.lastState = this.state;
+                    this.state = "yellow";
+                    break;
+                case"green":
+                    this.lastState = this.state;
+                    this.state = "yellow";
+                    break;
+                case"yellow":
+                    if (this.lastState == "red"){
+                        this.state = "green"
+                    }
+                    else {
+                        this.state = "red"
+                    }
+                    break;
+                default:
+                    this.state = "red";
+                    this.lastState = "yellow";
+                    break;
+            }
+        },
+        event:function(){
+            this.trans()
+        }
+    };
+    $("#light_wrapper").on("click",function(){
+        trafficLight.event();
+        switch (trafficLight.state){
+            case"red":
+                $("#light_red").css({"background":"red"});
+                $("#light_yellow").css({"background":"#eee"});
+                $("#light_green").css({"background":"#eee"});
+                break;
+            case"yellow":
+                $("#light_red").css({"background":"#eee"});
+                $("#light_yellow").css({"background":"yellow"});
+                $("#light_green").css({"background":"#eee"});
+                break;
+            case"green":
+                $("#light_red").css({"background":"#eee"});
+                $("#light_yellow").css({"background":"#eee"});
+                $("#light_green").css({"background":"green"});
+                break;
+            default:
+                break;
+        }
+    })
 </script>
 </body>
 </html>

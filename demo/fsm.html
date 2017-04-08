@@ -8,14 +8,22 @@
     </style>
 </head>
 <body>
-<button id="switchButton">fsm</button><br>
+
+<div class="switch" id="switch">
+    <button class="switchButton" id="switchButton">fsm</button>
+</div>
+
+<div id="switch2">
 <button onclick="switches()" id="switchButton2">fsm</button><br>
+    </div>
+<div id="switch3">
 <button onclick="switches()" id="switchButton3">fsm</button>
+    </div>
 <script src="../JQ/jquery-3.2.0.min.js"></script>
 <script>
-    var swithstate = {
-        state:"off",
-        trans:function(){
+    var switchstate = {
+        state:"off",//当前状态
+        trans:function(){//状态和转变规则，包含动作
             switch(this.state){
                 case"off":
                     this.state="on";
@@ -29,12 +37,16 @@
             }
         },
 //        事件
-        event:function(){this.trans();console.log(switchstate.state)}
-    }
-
+        event:function(){
+            this.trans();
+            console.log(switchstate.state)}
+    };
+    $("#switchButton").on("click",function(){
+        switchstate.event()
+    });//给按钮添加点击事件，绑定状态机
 
     function switches(){
-        var o={
+        var o = {
             state:"off",
             trans:function(){
                 switch(this.state){

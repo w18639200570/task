@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" xmlns: xmlns:>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div,span,p{
+            width:140px;
+            height:140px;
+            margin:5px;
+            background:#aaa;
+            border:#000 1px solid;
+            float:left;
+            font-size:17px;
+        }
+        div.mini{
+            width:55px;
+            height:55px;
+            background-color:#aaa;
+            font-size:12px;
+        }
+        div.hide {
+            display:none;
+        }
+    </style>
+    <script src="//cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+</head>
+<body>
+<div class="box">
+    <!--<ul class="emnu">-->
+        <!--<li class="level1">-->
+            <!--<a href="#none">衬衫</a>-->
+            <!--<ul class="level2">-->
+                <!--<li><a href="#none">长袖衬衫</a></li>-->
+                <!--<li><a href="#none">短袖衬衫</a></li>-->
+                <!--<li><a href="#none">t袖衬衫</a></li>-->
+                <!--<li><a href="#none">x袖衬衫</a></li>-->
+            <!--</ul>-->
+        <!--</li>-->
+        <!--<li class="level1">-->
+            <!--<a href="#none">卫衣</a>-->
+            <!--<ul class="level2">-->
+                <!--<li><a href="#none">开衬衫</a></li>-->
+                <!--<li><a href="#none">关衬衫</a></li>-->
+                <!--<li><a href="#none">大衬衫</a></li>-->
+                <!--<li><a href="#none">小衬衫</a></li>-->
+            <!--</ul>-->
+        <!--</li>-->
+        <!--<li class="level1">-->
+            <!--<a href="#none">裤子</a>-->
+            <!--<ul class="level2">-->
+                <!--<li><a href="#none">短裤</a></li>-->
+                <!--<li><a href="#none">休闲裤</a></li>-->
+                <!--<li><a href="#none">牛仔裤</a></li>-->
+                <!--<li><a href="#none">卡其裤</a></li>-->
+            <!--</ul>-->
+        <!--</li>-->
+    <!--</ul>-->
+</div>
+<!--<input type="checkbox" id="cr"/><label for="cr">我已经阅读了上面制度。</label>-->
+<!--<p style="color:red;font-size:30px;">CSSdemo</p>-->
+<div class="one" id="one">
+    id为one，class为one的div
+    <div class="mini">class为mini</div>
+</div>
+<div class="one" id="two" title="test">
+    id为two，class为one，title为test的div
+    <div class="mini" title="other">class为mini，title为other</div>
+    <div class="mini" title="test">class为mini，title为test</div>
+</div>
+<div class="one">
+    <div class="mini">class为mini</div>
+    <div class="mini">class为mini</div>
+    <div class="mini">class为mini</div>
+    <div class="mini"></div>
+</div>
+<div class="one">
+    <div class="mini">class为mini</div>
+    <div class="mini">class为mini</div>
+    <div class="mini">class为mini</div>
+    <div class="mini" title="tesst">class为mini，title为tesst</div>
+</div>
+<div class="one"></div>
+<div style="display:none;" class="none">
+    style的display为"none"的div
+</div>
+<div class="one"></div>
+
+<div class="hide">class为hide的div</div>
+<div>
+    包含input的type为hidden的div<input type="hidden" size="8"/>
+</div>
+<span id="mover">正在执行动画的span元素。</span>
+<div class="one"></div>
+<script>
+//    1
+//    $(".level1 > a").click(function(){
+//        $(this).addClass("current")
+//                .next().show()
+//                .parent().siblings().children("a").removeClass("current")
+//                .next().hide();
+//        return false;
+//    });
+//    $(document).ready(function(){
+//        var $cr = $("#cr");
+//        var cr = $cr[0];
+//        $cr.click(function(){
+//            if(cr.checked){
+//                alert("感谢您的支持")
+//            }
+//        })
+//    })
+//    $(document).ready(function(){
+//        var $cr = $("#cr");
+//        $cr.click(function(){
+//            if($cr.is(":checked")){
+//                alert("ganxie")
+//            }
+//        })
+//    })
+//    $(".one").siblings("div").css("background","lightblue");
+//    $(".one + div").css("background","lightblue")
+    $("div:hidden").show(30);
+</script>
+</body>
+</html>
