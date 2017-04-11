@@ -48,6 +48,9 @@ header p {
   background: white;
   overflow: auto;
 }
+.main button {
+  font-size: 0.3rem;
+}
 footer {
   position: fixed;
   *zoom: 1;

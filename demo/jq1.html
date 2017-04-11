@@ -11,7 +11,7 @@
     <script src="//cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
 </head>
 <body>
-<p class="myclass" title="选择你喜欢才的水果"><b>选择你喜欢吃的水果</b></p>
+<p class="myclass" title="选择你喜欢才的水果">选择你喜欢吃的水果</p>
 <ul>
     <li title="苹果">苹果</li>
     <li title="橘子">橘子</li>
@@ -22,11 +22,11 @@
     var $li_1 = $("<li>a</li>");
     var $li_2 = $("<li>g</li>");
     $("ul").append($li_1).append($li_2);
-//    $("ul li").click(function(){
-//        $(this).clone().appendTo("ul");
-//    })
+    //    $("ul li").click(function(){
+    //        $(this).clone().appendTo("ul");
+    //    })
     function test(){
-        alert($("p").text())
+        $("p").toggleClass("aother")
     }
 </script>
 </body>
