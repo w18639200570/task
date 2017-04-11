@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>javascript-state-machine</title>
+    <script src="../../../JQ/jquery-3.2.0.min.js"></script>
+    <style>
+        button{
+            padding:5%;
+            font-size:4rem;
+            background:lightblue;
+            border-radius:10px;
+        }
+    </style>
+</head>
+<body>
+<button id="btn">eat</button>
+<button id="btn2">rest</button>
+<script src="../lib/javascript-state-machine-master/state-machine.js"></script>
+<script>
+    var fsm = StateMachine.create({
+        initial: 'hungry',
+        events: [
+            {name: 'eat', from: 'hungry', to: 'satisfied'},
+            {name: 'eat', from: 'satisfied', to: 'full'},
+            {name: 'eat', from: 'full', to: 'sick'},
+            {name: 'rest', from: ['hungry', 'satisfied', 'full', 'sick'], to: 'hungry'},
+        ],
+        callbacks: {
+            onbeforeeat: function(event, from, to) {
+                console.log('马上吃东西了');
+            },
+            onleavehungry: function(event, from, to) {
+                console.log('终于没那么饿了');
+            },
+            onentersatisfied: function(event, from, to) {
+                console.log('真开心');
+            },
+            onaftereat: function(event, from, to) {
+                console.log('我吃地差不多了');
+            }
+        }
+    });
+    console.log('fsm初始化完毕！');
+
+    fsm.onentersatisfied = null;
+    fsm.onleavestate = function(event, from, to) {
+        console.log('状态变了！，变之前：' + from + '，变之后：' + to);
+    };
+//    var btn =  document.getElementById("btn");
+//    btn.onclick(fsm.eat());
+    $("#btn").on("click",function(){fsm.eat()});
+    $("#btn2").on("click",function(){fsm.rest()})
+</script>
+</body>
+</html>

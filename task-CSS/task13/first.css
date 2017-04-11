@@ -45,36 +45,8 @@ header p {
 .main {
   position: relative;
   height: 716px;
-  background: #29bde0;
+  background: white;
   overflow: auto;
-}
-.main .box {
-  float: left;
-  font-family: 'Lucida Console';
-  width: 33.3%;
-  overflow: hidden;
-}
-.main .box:hover div {
-  opacity: 1;
-}
-.main .box .info {
-  position: relative;
-  margin: 20px 15%;
-  width: 70%;
-  text-align: center;
-  border: 5px solid white;
-}
-.main .box .info h3 {
-  margin: 0;
-  padding: 25% 0 30%;
-  font-size: .26rem;
-  background: #f5c97b;
-}
-.main .box .info p {
-  padding: 2px 0;
-  background: #83b09a;
-  font-size: .23rem;
-  color: white;
 }
 footer {
   position: fixed;

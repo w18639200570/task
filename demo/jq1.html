@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .aother{
+            display:none;
+        }
+    </style>
+    <script src="//cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+</head>
+<body>
+<p class="myclass" title="选择你喜欢才的水果"><b>选择你喜欢吃的水果</b></p>
+<ul>
+    <li title="苹果">苹果</li>
+    <li title="橘子">橘子</li>
+    <li title="菠萝">菠萝</li>
+</ul>
+<button onclick="test()">qiehuan</button>
+<script>
+    var $li_1 = $("<li>a</li>");
+    var $li_2 = $("<li>g</li>");
+    $("ul").append($li_1).append($li_2);
+//    $("ul li").click(function(){
+//        $(this).clone().appendTo("ul");
+//    })
+    function test(){
+        alert($("p").text())
+    }
+</script>
+</body>
+</html>

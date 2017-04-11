@@ -6,17 +6,25 @@
     <style>
         .light{
             display:inline-block;
-            width:50px;
-            height:50px;
+            width:31%;
+            padding-top:31%;
+            border-radius:50%;
         }
         .light-red{
             background:red;
         }
         .light-yellow{
-            background:yellow;
+            background:#eee;
         }
         .light-green{
-            background:green;
+            background:#eee;
+        }
+        button{
+            padding:30px;
+            font-size:4rem;
+            background:lightblue;
+            border-radius:10px;
+            outline:none;
         }
     </style>
     <script src="//cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
@@ -28,7 +36,11 @@
 <div class="light-wrapper" id="light_wrapper">
     <div class="light light-red" id="light_red"></div>
     <div class="light light-yellow" id="light_yellow"></div>
-    <div class="light light-green" id="light_green"></div>
+    <div class="light light-green" id="light_green"></div><br>
+    <button id="btn">test</button>
+    <!--<button id="btn1" onclick="trafficLight.yellow()">test1</button>-->
+    <!--<button id="btn2" onclick="trafficLight.green()">test2</button>-->
+    <button id="btn3">test3</button>
 </div>
 
 <script>
@@ -47,10 +59,10 @@
                     break;
                 case"yellow":
                     if (this.lastState == "red"){
-                        this.state = "green"
+                        this.state = "green";
                     }
                     else {
-                        this.state = "red"
+                        this.state = "red";
                     }
                     break;
                 default:
@@ -63,7 +75,15 @@
             this.trans()
         }
     };
-    $("#light_wrapper").on("click",function(){
+//    $("btn3").on("click",function(){
+//        trafficLight.event();
+//        switch (trafficLifht.state){
+//            case"red":
+//                $("#light_red").css({"width":"20px"});
+//                break;
+//        }
+//    });
+    $("#btn").on("click",function(){
         trafficLight.event();
         switch (trafficLight.state){
             case"red":

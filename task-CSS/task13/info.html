@@ -49,6 +49,9 @@
 //            top.location="player.html"
 //        }
         if (btn.innerHTML=="法官查看"){
+//            sessionStorage.setItem("job",JSON.stringify(identity));
+            sessionStorage.setItem("job",JSON.stringify(end));
+            alert(sessionStorage.getItem("job"));
             see.onclick = blink();
         }
         else if (naa==end.length){
@@ -59,6 +62,8 @@
             p2.style.display="block";
             p3.style.display="block";
             wow.style.display="block";
+//            identity.push((num.innerHTML)+(end[na]));
+//            console.log(identity);
             setJob();
             num.innerHTML=naa;
 //            see.onclick = "blink()";
@@ -117,7 +122,7 @@
 //        num.innerHTML = parseInt(num.innerHTML)+1;
 //    }
     function blink(){
-        top.location="13-2.html"
+        top.location="judge.html"
     }
 </script>
 </body>

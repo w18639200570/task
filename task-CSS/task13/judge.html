@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-100%, initial-scale=1" />
+    <meta name="viewport" content="width=device-100%, initial-scale=1"/>
     <title>Title</title>
     <link rel="StyleSheet" href="../reset.css">
     <link rel="StyleSheet" href="judge.css">
@@ -17,30 +17,26 @@
 </header>
 <div class="placeholder"></div>
 <div class="main">
-    <div class="box">
-        <div class="info">
-            <h3>水民</h3>
-            <p>2号</p>
-        </div>
-    </div>
-    <div class="box">
-        <div class="info">
-            <h3>水民</h3>
-            <p>2号</p>
-        </div>
-    </div>
-    <div class="box">
-        <div class="info">
-            <h3>水民</h3>
-            <p>2号</p>
-        </div>
-    </div>
-    <div class="box">
-        <div class="info">
-            <h3>水民</h3>
-            <p>2号</p>
-        </div>
-    </div>
+
 </div>
+<footer>
+    <button id="go">开始游戏</button>
+</footer>
+<script>
+    var job = JSON.parse(sessionStorage.getItem("job"));
+    var n = 0;
+    for (i = 0;i<job.length;i++){
+        if(job[i]=="people"){
+            n++;
+            $(".main").append("<div class='box'><div class='info'><h3>水民</h3><p></p></div></div>");
+            $("p:last").text(n+"号")
+        }
+        else if(job[i]!="people"){
+            n++;
+            $(".main").append("<div class='box'><div class='info'><h3>幽灵</h3><p></p></div></div>");
+            $("p:last").text(n+"号")
+        }
+    }
+</script>
 </body>
 </html>

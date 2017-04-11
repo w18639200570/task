@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <title>fsm</title>
     <style>
-        button{width:100px;}
+        div{
+            width:273px;
+            height:156px;
+            border-radius:10px;
+            border:1px solid black;
+        }
+        button{
+            padding:30px;
+            font-size:4rem;
+            background:#aaa;
+            border-radius:10px;
+            outline:none;
+        }
     </style>
 </head>
 <body>
@@ -29,8 +41,11 @@
                     this.state="on";
                     $("#switchButton").css({"margin-left":"80px","background":"#080"});break;
                 case "on":
-                    this.state="off";
+                    this.state="bad";
                     $("#switchButton").css({"margin-left":"0","background":"#aaa"});break;
+                case"bad":
+                        this.state="off";
+                    $("#switchButton").css({"background":"white"});break;
                 default:
                     this.state="off";
                     $("#switchButton").css({"margin-left":"0","bakcground":"#aaa"});break;
@@ -69,12 +84,12 @@
     console.log(button3);
     $("#switchButton2").on("click",function(){
         button2.trans();
-        if(button2.state=="on"){$("#switchButton2").css({"margin-left":"80px","background":"#008"})}
+        if(button2.state=="on"){$("#switchButton2").css({"margin-left":"80px","background":"lightblue"})}
         else {$("#switchButton2").css({"margin-left":"0","background":"#aaa"})}
     });
     $("#switchButton3").on("click",function(){
         button3.trans();
-        if(button3.state=="on"){$("#switchButton3").css({"margin-left":"80px","background":"#808"})}
+        if(button3.state=="on"){$("#switchButton3").css({"margin-left":"80px","background":"pink"})}
         else {$("#switchButton3").css({"margin-left":"0","background":"#aaa"})}
     })
 </script>
