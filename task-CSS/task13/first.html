@@ -31,16 +31,16 @@
 </div>
 </main>
 <footer>
-    <button id="go" onclick="blink()">天黑请闭眼</button>
+    <!--<button id="go" onclick="blink()">天黑请闭眼</button>-->
 </footer>
 <script>
     var job = JSON.parse(sessionStorage.getItem("job"));
     $("#first").click(function(){
         $("#one").toggle(500)
     });
-    function blink(){
+    $("#kill").on("click",function blink(){
         top.location="kill.html"
-    }
+    });
     sessionStorage.setItem("job",JSON.stringify(job));
 </script>
 </body>

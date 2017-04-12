@@ -20,7 +20,7 @@
 
 </div>
 <footer>
-    <button id="kill" onclick="blink()">杀死</button>
+    <button id="kill" onclick="tes()">杀死</button>
 </footer>
 <script>
     var job = JSON.parse(sessionStorage.getItem("job"));
@@ -38,70 +38,58 @@
             $("p:last").text(n+"号")
         }
     }
-    $(".info").on("click",function(){
-        $(".info").attr("style","border-color:#fff");
-        $(".info").attr("title","");
-        this.setAttribute("style","border-color:red");
-        this.setAttribute("title","test");
-//        alert(this.getAttribute("style"))
-    });
-    function blink(){
-        $(".info[title='t']").css("background","blue");
-        sessionStorage.setItem("job",JSON.stringify(job));
-//        top.location="first.html"
+    function switches(){
+        var e = {
+            state:"live",
+            trans:function(){
+                switch(this.state){
+                    case"live":
+                        this.state="death";
+                        break;
+                    default:
+                        this.state="live";
+                        break;
+                }
+            },
+            event:function(){this.trans()}
+        };
+        return e;
     }
-//    想做状态机，罢了，什么都不会
-//    function switches(){
-//        var e = {
-//            state:"live",
-//            trans:function(){
-//                switch(this.state){
-//                    case"live":
-//                        this.state="death";
-//                        break;
-//                    default:
-//                        this.state="live";
-//                        break;
-//                }
-//            },
-//            event:function(){this.trans()}
-//        };
-//        return e;
-//    }
-//    for (i=0;i<job.length;i++){
-//        info[i] = new switches();
+    for (i=0;i<job.length;i++){
+        info[i] = new switches();
         //        alert(info[i]);
         //        function tes(){
         //            info[i].trans();
         //            if(info[i].state="live"){info[i].style.border="5px solid black";}
         //            else{info[i].style.border="5px solid blue";}
         //        }
-//    }
+    }
     //    $("#kill").on("click",function tes(){
     //        info[0].trans();
     //        if(info[0].state=="live"){$(":focus").css({"border":"5px solid green"})}
     //        else{info[0].css({"border":"5px solid orange"})}
 
-//    $(".info").on("click",function(){
-//        //        this是dom节点，不是jq对象
-//        var num = parseInt($(this).index());
-//        console.log(num);
-//        console.log(job[num]);
-//        alert($("h3").text());
-//
-//        if (info[num].h3 !== "幽灵"){
-//            $(".info").attr("style","border-color:#fff");
-//            this.setAttribute("style","border-color:red");
-//        }
-//        else if ($(".info h3").text = "幽灵"){
-//            alert("自己人，别动手")
-//        }
-//    });
+    $(".info").on("click",function(){
+        //        this是dom节点，不是jq对象
+        var num = parseInt($(this).index());
+        console.log(num);
+        console.log(job[num]);
+
+        if (info[num].h3 != "幽灵"){
+            $(".info").attr("style","border-color:#fff");
+            this.setAttribute("style","border-color:red");
+        }
+        else if (info[num]>h3.text() == "幽灵"){
+            alert("自己人，别动手")
+        }
+    });
 
 
 
-
-
+    function blink(){
+        top.location="first.html"
+    }
+    sessionStorage.setItem("job",JSON.stringify(job));
 </script>
 </body>
 </html>

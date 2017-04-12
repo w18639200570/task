@@ -110,6 +110,9 @@ header p {
   text-align: center;
   border: 5px solid white;
 }
+.content .box .info:focus {
+  border: 5px solid red;
+}
 .content .box .info h3 {
   margin: 0;
   padding: 25% 0 30%;
