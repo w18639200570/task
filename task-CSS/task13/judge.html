@@ -20,7 +20,7 @@
 
 </div>
 <footer>
-    <button id="go">开始游戏</button>
+    <button id="go" onclick="blink()">开始游戏</button>
 </footer>
 <script>
     var job = JSON.parse(sessionStorage.getItem("job"));
@@ -37,6 +37,10 @@
             $("p:last").text(n+"号")
         }
     }
+    function blink(){
+        top.location="first.html"
+    }
+    sessionStorage.setItem("job",JSON.stringify(job));
 </script>
 </body>
 </html>

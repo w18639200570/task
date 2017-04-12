@@ -4,6 +4,9 @@ html {
   margin: 0 auto;
   font-size: 625%;
 }
+body {
+  max-width: 640px;
+}
 header {
   position: fixed;
   *zoom: 1;
@@ -42,14 +45,17 @@ header p {
 .placeholder {
   height: 93px;
 }
-.main {
-  position: relative;
-  height: 716px;
-  background: white;
+main {
+  background: #f0f0f0;
   overflow: auto;
 }
-.main button {
-  font-size: 0.3rem;
+.main {
+  position: relative;
+  margin: 3% 1% 1% 1%;
+  height: 688px;
+  background: white;
+  overflow: auto;
+  border: 1px solid #ccc;
 }
 footer {
   position: fixed;
@@ -66,4 +72,83 @@ footer {
   background: #ffc438;
   font-size: 0.3rem;
   color: white;
+}
+#first {
+  padding: 20px;
+  width: 100%;
+  font-size: .2rem;
+  font-size: 0.2rem;
+  color: #29bde0;
+  background: url(../../images/down.png) no-repeat;
+  background-position: 95%;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+#one {
+  width: 100%;
+}
+#one .left {
+  position: absolute;
+  top: 66px;
+  left: 50px;
+  height: 90%;
+  border-left: 1px solid #ccc;
+}
+#one button {
+  display: block;
+  position: relative;
+  margin: 20px auto 0 20%;
+  padding: 20px 0;
+  width: 70%;
+  font-size: .2rem;
+  font-size: 0.2rem;
+  color: white;
+  background: #24a7c6;
+  outline: none;
+}
+#one button span {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 20px solid #24a7c6;
+  border-bottom: 13px solid transparent;
+}
+#one #kill {
+  margin-bottom: 60px;
+}
+#one #kill b {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -100px;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+#one #kill b img {
+  margin-top: 7px;
+}
+#one #ghost b {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -100px;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+#one #ghost b img {
+  margin-top: 7px;
 }

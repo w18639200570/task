@@ -7,6 +7,10 @@ html {
   .jz;
   font-size:625%
 }
+body{
+  .maxw;
+
+}
 header{
   .fix;
   top:0;
@@ -42,15 +46,18 @@ header{
   }
 }
 .placeholder{height:93px;}
+main{
+  background:#f0f0f0;
+  overflow:auto;
+}
 .main{
   .rel;
+  margin:3% 1% 1% 1%;
   //margin-bottom:165px;
-  height:716px;
+  height:688px;
   background:@w;
   overflow:auto;
-  button{
-    .fz3;
-  }
+  .bdc;
 }
 footer{
   .fix;
@@ -69,3 +76,82 @@ footer{
 }
 //.hide{display:none;}
 //#one{display:none;}
+#first{
+  padding:20px;
+  .pct100;
+  .fz2;
+  color:@lb;
+  background:url(../../images/down.png) no-repeat;
+  background-position:95%;
+  background-color:@w;
+  .bbc;
+  .on;
+}
+#one {
+  .pct100;
+  .left{
+    .abs;
+    top:66px;
+    left:50px;
+    height:90%;
+    .blc;
+  }
+  button {
+    .db;
+    .rel;
+    margin:20px auto 0 20%;
+    padding:20px 0;
+    .pct70;
+    .fz2;
+    color:@w;
+    background:#24a7c6;
+    .on;
+    span{
+      .db;
+      .abs;
+      top:50%;
+      left:-20px;
+      .czjz;
+      width: 0;
+      height: 0;
+      border-top: 13px solid transparent;
+      border-right: 20px solid #24a7c6;
+      border-bottom: 13px solid transparent;
+    }
+  }
+  #kill {
+    margin-bottom:60px;
+    b{
+      .db;
+      .abs;
+      top:50%;
+      left:-100px;
+      .czjz;
+      width:50px;
+      height:50px;
+      background:@w;
+      border-radius:50%;
+      .bdc;
+      img{
+        margin-top:7px;
+      }
+    }
+  }
+  #ghost{
+    b{
+      .db;
+      .abs;
+      top:50%;
+      left:-100px;
+      .czjz;
+      width:50px;
+      height:50px;
+      background:@w;
+      border-radius:50%;
+      .bdc;
+      img{
+        margin-top:7px;
+      }
+    }
+  }
+}

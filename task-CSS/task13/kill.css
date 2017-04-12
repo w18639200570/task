@@ -1,0 +1,94 @@
+/*通用设置*/
+html {
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 625%;
+}
+header {
+  position: fixed;
+  *zoom: 1;
+  top: 0;
+  display: flex;
+  width: 100%;
+  max-width: 640px;
+  height: 93px;
+  background-color: #29bde0;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #74d4eb;
+  z-index: 999;
+}
+header button {
+  margin: 20px;
+  outline: none;
+}
+header .menu {
+  width: 7%;
+  padding-top: 8%;
+  background: url(../../images/back.png) no-repeat;
+  background-size: 70%;
+}
+header .clos {
+  width: 8%;
+  padding-top: 8%;
+  background: url(../../images/close.png) no-repeat;
+  background-size: 100%;
+}
+header p {
+  font-size: 0.3rem;
+  color: white;
+  margin: 5%;
+}
+.placeholder {
+  height: 93px;
+}
+.main {
+  position: relative;
+  height: 716px;
+  background: #29bde0;
+  overflow: auto;
+}
+.main .box {
+  float: left;
+  font-family: 'Lucida Console';
+  width: 33.3%;
+  overflow: hidden;
+}
+.main .box:hover div {
+  opacity: 1;
+}
+.main .box .info {
+  position: relative;
+  margin: 20px 15%;
+  width: 70%;
+  text-align: center;
+  border: 5px solid white;
+}
+.main .box .info h3 {
+  margin: 0;
+  padding: 25% 0 30%;
+  font-size: .26rem;
+  background: #f5c97b;
+}
+.main .box .info p {
+  padding: 2px 0;
+  background: #83b09a;
+  font-size: .23rem;
+  color: white;
+}
+footer {
+  position: fixed;
+  *zoom: 1;
+  bottom: 0;
+  width: 100%;
+  max-width: 640px;
+  background: #29bde0;
+}
+#kill {
+  margin: 5%;
+  padding: 5%;
+  width: 90%;
+  background: #ffc438;
+  font-size: 0.3rem;
+  color: white;
+}
