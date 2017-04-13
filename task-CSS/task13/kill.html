@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-100%, initial-scale=1"/>
     <title>Title</title>
     <link rel="StyleSheet" href="../reset.css">
-    <link rel="StyleSheet" href="kill1.css">
+    <link rel="StyleSheet" href="kill.css">
     <link rel="stylesheet" media="screen and (max-width:400px)" href="400.css">
     <script src="//cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
 </head>
@@ -24,29 +24,90 @@
 </footer>
 <script>
     var job = JSON.parse(sessionStorage.getItem("job"));
-    var info = document.getElementsByClassName("info");
     var n = 0;
+    var play = '';//存放玩家身份信息
+    var live = [];//存放单个玩家的生存状态
+    var liveAll = '';//存放所有玩家的生存状态
     for (i = 0;i<job.length;i++){
         if(job[i]=="people"){
             n++;
             $(".main").append("<div class='box'><div tabindex='0' class='info'><h3>水民</h3><p></p></div></div>");
-            $("p:last").text(n+"号")
+            $("p:last").text(n+"号");
+            live[i] = {};//数组中每个元素都是一个对象，包括身份、号码、状态
+            live[i].num = i+1;
+            live[i].identity = job[i];
+            live[i].status = "alive";
+            live[i].day = 1;
+            console.log(live);
         }
         else if(job[i]!="people"){
             n++;
             $(".main").append("<div class='box'><div tabindex='0' class='info'><h3>幽灵</h3><p></p></div></div>");
-            $("p:last").text(n+"号")
+            $("p:last").text(n+"号");
+            live[i] = {};//数组中每个元素都是一个对象，包括身份、号码、状态
+            live[i].num = i+1;
+            live[i].identity = job[i];
+            live[i].status = "alive";
+            live[i].day = 1;
+            console.log(live);
         }
     }
-    $(".info").on("click",function(){
-        $(".info").attr("style","border-color:#fff");
-        $(".info").attr("title","");
-        this.setAttribute("style","border-color:red");
-        this.setAttribute("title","test");
-//        alert(this.getAttribute("style"))
-    });
+    var allName = document.getElementsByTagName("h3");
+    console.log(allName.length);
+    var x;
+    var killPeople;
+    //死亡玩家号码
+    for (var y = 0;y < live.length; y++){
+        //先找到已经死亡的玩家
+        if (live[y].status == "killed" || live[y].status == "voted") {
+            allName[y].style.background = "#999";
+        }
+    }
+    for (x = 0; x < allName.length; x++){
+        allName[x].index = x;
+        allName[x].onclick = function(){
+
+            //如果玩家卡牌被点击，则记录并改变这个玩家状态
+            if(job[this.index] == 'killer'){
+                alert('自己人，别动手');
+            }
+            else {
+                if (killPeople != undefined){
+                    //先检查有没有被选中的人，如果有则将其颜色还原
+                    allName[killPeople].style.borderColor = 'green';
+                    live[killpeople].status = "alive";
+                }
+
+
+                allName[this.index].style.borderground = "red";
+                killPeople = this.index;
+                alert(killPeople);
+                live[this.index].status = "killed";
+                console.log(live);
+                liveAll = JSON.stringify(live);
+                sessionStorage.live = liveAll;
+                console.log(liveAll);
+            }
+        }
+    }
+//    $(".info").on("click",function(){
+//        if($(this)*=$(":contains(幽灵)")){
+//            return
+//        }
+//        $(".info:contains(幽灵)").on("click",function(){
+//            console.log("自己人，别动手");
+//            this.setAttribute("style","border-color:#fff");
+//            return
+//        });
+//        alert(this.innerHTML);
+//        if (this.innerHTML!="水民"){
+//            alert("自己人，别动手")
+//        }
+//        $(".info").attr("style","border-color:#fff");
+//        this.setAttribute("style","border-color:red")
+//    });
     function blink(){
-        $(".info[title='t']").css("background","blue");
+        $(".info[style*='red']").css("background-color","yellow");
         sessionStorage.setItem("job",JSON.stringify(job));
 //        top.location="first.html"
     }

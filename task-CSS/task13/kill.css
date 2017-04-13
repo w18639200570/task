@@ -61,6 +61,7 @@ header p {
   position: relative;
   margin: 20px 15%;
   width: 70%;
+  background: #f5c97b;
   text-align: center;
   border: 5px solid white;
 }
@@ -68,7 +69,6 @@ header p {
   margin: 0;
   padding: 25% 0 30%;
   font-size: .26rem;
-  background: #f5c97b;
 }
 .main .box .info p {
   padding: 2px 0;
