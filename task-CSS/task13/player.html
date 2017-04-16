@@ -107,10 +107,10 @@
         var k = parseInt(killerNum.value);
         var p = parseInt(peopleNum.value);
         for (var a = 0;a < k;a++){
-            kil[a] = "killer";
+            kil[a] = "杀手";
         }
         for (var b = 0;b < p;b++){
-            peo[b] = "people";
+            peo[b] = "水民";
         }
 //        alert(k);
 //        得出乱序数组的的长度
@@ -130,7 +130,11 @@
             arr[ran] = tmp;
         }
 //        json转换数据类型传输过去
+        var ki = parseInt(killerNum.value);
+        var pe = parseInt(peopleNum.value);
         sessionStorage.setItem("job",JSON.stringify(arr));
+        sessionStorage.setItem("knum",JSON.stringify(ki));
+        sessionStorage.setItem("pnum",JSON.stringify(pe));
         alert(sessionStorage.getItem("job"));
         blinkPage();
         return arr;

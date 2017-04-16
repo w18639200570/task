@@ -24,23 +24,28 @@
 </footer>
 <script>
     var job = JSON.parse(sessionStorage.getItem("job"));
+    var knum = JSON.parse(sessionStorage.getItem("knum"));
+    var pnum = JSON.parse(sessionStorage.getItem("pnum"));
     var n = 0;
     for (i = 0;i<job.length;i++){
-        if(job[i]=="people"){
+//        if(job[i]=="水民"){
             n++;
-            $(".main").append("<div class='box'><div class='info'><h3>水民</h3><p></p></div></div>");
-            $("p:last").text(n+"号")
-        }
-        else if(job[i]!="people"){
-            n++;
-            $(".main").append("<div class='box'><div class='info'><h3>幽灵</h3><p></p></div></div>");
-            $("p:last").text(n+"号")
-        }
+            $(".main").append("<div class='box'><div class='info'><h3></h3><p></p></div></div>");
+            $("p:last").text(n+"号");
+            $("h3:last").text(job[i]);
+//        }
+//        else if(job[i]!="杀手"){
+//            n++;
+//            $(".main").append("<div class='box'><div class='info'><h3>幽灵</h3><p></p></div></div>");
+//            $("p:last").text(n+"号")
+//        }
     }
     function blink(){
         top.location="first.html"
     }
     sessionStorage.setItem("job",JSON.stringify(job));
+    sessionStorage.setItem("knum",JSON.stringify(knum));
+    sessionStorage.setItem("pnum",JSON.stringify(pnum));
 </script>
 </body>
 </html>

@@ -25,7 +25,7 @@
         <div class="left"></div>
         <button id="kill">杀手杀人<b><img src="../../images/moon.png"></b><span></span></button>
         <button id="ghost">亡灵发表遗言<b><img src="../../images/sun.png"></b><span></span></button>
-        <button>玩家依次发言<span></span></button>
+        <button id="play">玩家依次发言<span></span></button>
         <button id="vote">全民投票<span></span></button>
     </div>
 </div>
@@ -35,13 +35,52 @@
 </footer>
 <script>
     var job = JSON.parse(sessionStorage.getItem("job"));
+    var knum = JSON.parse(sessionStorage.getItem("knum"));
+    var pnum = JSON.parse(sessionStorage.getItem("pnum"));
+//    var player = JSON.parse(sessionStorage.getItem("player"));
+    var killNum = [];
+    var voteNum = [];
+    console.log(player);
     $("#first").click(function(){
         $("#one").toggle(500)
     });
-    $("#kill").on("click",function blink(){
-        top.location="kill.html"
-    });
+    if (player != undefined){
+        for(i = 0; i < player.length; i++){
+            if(player[i].status == "killed"){
+                killNum.push(player[i].num);
+                if (killNum = 1){
+                    $("#ghost").on("click", function(){
+                        alert("亡灵发表遗言");
+                    });
+                    $("#play").on("click", function(){
+                        alert("玩家依次发言");
+                    });
+                    $("#vote").on("click", function(){
+                        top.location="vote.html"
+                    })
+                }
+            }
+        }
+    }
+    if (player != undefined){
+        for(i = 0; i < player.length; i++){
+            if(player[i].status == "voted"){
+                voteNum.push(player[i].num)
+            }
+        }
+    }
+    if (killNum > 1){
+        $("#kill").on("click",'');
+    }
+    else if (killNum == 0){
+        $("#kill").on("click",function blink(){
+            top.location="kill.html"
+        });
+    }
+    console.log(killNum);
     sessionStorage.setItem("job",JSON.stringify(job));
+    sessionStorage.setItem("knum",JSON.stringify(knum));
+    sessionStorage.setItem("pnum",JSON.stringify(pnum));
 </script>
 </body>
 </html>

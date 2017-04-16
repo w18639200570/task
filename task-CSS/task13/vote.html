@@ -12,7 +12,7 @@
 <body>
 <header>
     <button class="menu"></button>
-    <p>杀手杀人</p>
+    <p>投票杀人</p>
     <button class="clos"></button>
 </header>
 <div class="placeholder"></div>
@@ -20,12 +20,10 @@
 
 </div>
 <footer>
-    <button id="kill">杀死</button>
+    <button id="kill">投死</button>
 </footer>
 <script>
     var job = JSON.parse(sessionStorage.getItem("job"));
-    var knum = JSON.parse(sessionStorage.getItem("knum"));
-    var pnum = JSON.parse(sessionStorage.getItem("pnum"));
     var n = 0;
     var play = '';//存放玩家身份信息
     var live = [];//存放单个玩家的生存状态
@@ -71,26 +69,24 @@
         allName[x].onclick = function(){
 
             //如果玩家卡牌被点击，则记录并改变这个玩家状态
-            if(job[this.index] == '杀手'){
-                alert('自己人，别动手');
+            //            if(job[this.index] == 'killer'){
+            //                alert('自己人，别动手');
+            //            }
+            //            else {
+            if(killPeople != undefined){
+                //先检查有没有被选中的人，如果有则将其颜色还原
+                allName[killPeople].style.borderColor = '#fff';
+                live[killPeople].status = "alive";
             }
-            else {
-                if(killPeople != undefined){
-                    //先检查有没有被选中的人，如果有则将其颜色还原
-                    allName[killPeople].style.borderColor = '#fff';
-                    live[killPeople].status = "alive";
-                }
-                allName[this.index].style.borderColor = "red";
-                killPeople = this.index;
-                live[this.index].status = "killed";
-                console.log(live);
-                //                liveAll = JSON.stringify(live);
-                //                sessionStorage.live = liveAll;
-                sessionStorage.setItem("player", JSON.stringify(live));
-                console.log(liveAll);
-                //                console.log(player);
-
-            }
+            allName[this.index].style.borderColor = "red";
+            killPeople = this.index;
+            live[this.index].status = "voted";
+            console.log(live);
+            //                liveAll = JSON.stringify(live);
+            //                sessionStorage.live = liveAll;
+            sessionStorage.setItem("player", JSON.stringify(live));
+            console.log(liveAll);
+            //                console.log(player);
         }
     }
     $("#kill").click(function(){

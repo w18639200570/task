@@ -7,8 +7,8 @@
 
 </head>
 <body>
-<input type="text" id="add" value="请输入邮箱地址"><br>
-<input type="text" id="password" value="请输入邮箱密码"><br>
+<input type="text" class="add" id="add" value="请输入邮箱地址"><br>
+<input type="text" class="password" id="password" value="请输入邮箱密码"><br>
 <input type="button" value="登录">
 <script>
     $("#add").focus(function(){
@@ -16,8 +16,7 @@
         if(text_value=="请输入邮箱地址"){
             $(this).val("");
         }
-    });
-    $("#add").blur(function(){
+    }).blur(function(){
         var text_value = $(this).val();
         if(text_value==""){
             $(this).val("请输入邮箱地址");
@@ -28,14 +27,13 @@
         if(text_value==this.defaultValue){
             $(this).val("");
         }
-    });
-    $("#password").blur(function(){
+    }).blur(function(){
         var text_value = $(this).val();
         if(text_value==""){
             $(this).val(this.defaultValue);
         }
     });
-    alert($("input").siblings())
+//    alert($("input").siblings())
 </script>
 </body>
 </html>

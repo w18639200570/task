@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function func1() {
+        console.log(this === window); // true
+    }
+    func1();
+
+    const func2 = function () {
+        console.log(this === window); // true
+    };
+    func2();
+
+    function func3() {
+        "use strict";
+        console.log(this); // undefined
+    }
+    func3();
+
+    const obj = {
+        func: function() {
+            console.log(this === obj); // true
+            console.log(this);
+        }
+    };
+    obj.func();
+</script>
+</body>
+</html>
