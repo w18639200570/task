@@ -1,0 +1,55 @@
+html {
+  font-size: 625%;
+}
+body {
+  display: flex;
+  height: 100vh;
+  background: url(../../images/sky.png) no-repeat;
+  background-size: 100vw 100vh;
+}
+.login {
+  display: inline-block;
+  padding: 5%;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 3px;
+  text-align: center;
+}
+p {
+  margin-bottom: 30px;
+  font-size: .26rem;
+  color: #03a9f4;
+}
+label {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 20px;
+  background: white;
+}
+label input {
+  width: 400px;
+  font-size: 0.15rem;
+  border: none;
+  outline: none;
+}
+svg {
+  margin-right: 15px;
+  padding-right: 15px;
+  width: 20px;
+  height: 20px;
+  border-right: 1px solid #ccc;
+}
+svg use {
+  margin-top: 5px;
+}
+button {
+  margin-top: 50px;
+  padding: 20px;
+  width: 90%;
+  font-size: .2rem;
+  font-size: 0.2rem;
+  color: white;
+  background: #03a9f4;
+  border-radius: 5px;
+}
