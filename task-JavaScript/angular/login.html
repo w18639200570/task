@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-100%, initial-scale=1"/>
+    <link rel="StyleSheet" href="../../task-CSS/reset.css">
+    <link rel="StyleSheet" href="lgo.css">
+    <title>欢迎来到喝我水</title>
+    <script src="//cdn.bootcss.com/angular.js/1.6.4/angular.js"></script>
+    <script src="//cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/angular.js/1.6.4/angular-messages.js"></script>
+
+    <!--<script src="//cdn.bootcss.com/angular.js/1.3.18/angular.js"></script>-->
+</head>
+<body ng-App="myApp" ng-controller="loginCtrl">
+<div class="login">
+    <h3 class="title">喝我水站后台登录</h3>
+    <form name="go" novalidate>
+        <label>
+            <svg class="icon" aria-hidden="true"><use xlink:href="#icon-yonghu"></use></svg>
+            <input type="text"
+                    ng-model="userName"
+                    name="userName"
+                    ng-minlength="5"
+                    pattern="^[A-Za-z\d\S]+$"
+                    placeholder="用户名"
+                    required/>
+        </label>
+        <div ng-messages="go.userName.$error" ng-if="go.userName.$touched">
+                <p ng-message="required">请输入账号</p>
+                <p ng-message="minlength">账号最少为5位</p>
+                <p ng-message="pattern">账号为字母或数字</p>
+        </div>
+        <label>
+            <svg class="icon" aria-hidden="true"><use xlink:href="#icon-suo"></use></svg>
+            <input ng-model="password"
+                    type="password"
+                    name="password"
+                    maxlength="12"
+                    ng-minlength="5"
+                    placeholder="密码"
+                    required>
+        </label>
+        <div ng-messages="go.password.$error" ng-if="go.password.$touched">
+            <p ng-show="go.password.$error.required">请输入密码</p>
+            <p ng-show="go.password.$error.minlength">密码最少为5位</p>
+            <p ng-show="go.password.$error.pattern">账号为字母或数字</p>
+        </div>
+    </form>
+
+    <span></span>
+    <button ng-model="login" ng-click="login()" id="login">登录</button>
+
+</div>
+<script src="//at.alicdn.com/t/font_b8jpyzie9gujtt9.js"></script>
+<script>
+
+    //定义angular
+    var app = angular.module('myApp', ['ngMessages']);
+    //post请求
+    app.controller('loginCtrl', function($scope, $http){
+        $scope.login = function(){
+            $http({
+                method : 'post',
+                url : '/carrots-admin-ajax/a/login',
+                headers : {'Content-Type' : 'application/x-www-form-urlencoded'},
+                data : $.param({name : $scope.userName, pwd : $scope.password})
+            }).then(function successCallback(rel){
+                $("span").html(rel.data.message);
+                if(rel.data.message == 'success'){
+//                    top.location = 'index.html'
+                }
+            }, function error(response){
+                alert('error')
+            })
+        }
+    });
+    //    回车事件
+    $(".login").keydown(function(){
+        if(event.keyCode == 13){
+            $("#login").click()
+        }
+    });
+//    var regp = /^\d{6,16}$/;
+//    var regu = /^([A-Za-z0-9\S]){5,16}$/;
+    //验证账号
+//    app.directive('names', function(){
+//        return {
+//            require : 'ngModel',
+//            link : function(scope, elm, attrs, ctrl){
+//                ctrl.$validators.names = function(modelValue, viewValue){
+//                    if(ctrl.$isEmpty(modelValue)){
+//                        // consider empty models to be valid
+//                        return true;
+//                    }
+//
+//                    if(regu.test(viewValue)){
+//                        // it is valid
+//                        return true;
+//                    }
+//
+//                    // it is invalid
+//                    return false;
+//                };
+//            }
+//        };
+//    });
+
+    //验证密码
+//    $("input:last").blur(function(){
+//        var pass = $("input:last").val();
+//        if(regu.test(pass) == true){
+//            $("p:eq(2)").html("输入正确")
+//        } else {
+//            $("p:eq(2)").html("请输入正确的密码")
+//        }
+//    });
+
+</script>
+</body>
+</html>

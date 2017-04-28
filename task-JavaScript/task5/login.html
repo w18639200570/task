@@ -11,56 +11,73 @@
 </head>
 <body>
 <div class="login">
-    <p>喝我水站后台登录</p>
+    <p class="title">喝我水站后台登录</p>
     <label>
         <svg class="icon" aria-hidden="true">
             <use xlink:href="#icon-yonghu"></use>
         </svg>
-        <input type="text" placeholder="用户名"> </label><br> <label>
-    <svg class="icon" aria-hidden="true">
-        <use xlink:href="#icon-suo"></use>
-    </svg>
-    <input type="password" placeholder="密码"> </label>
+        <input type="text" placeholder="用户名"> </label>
+    <p class="tip">账号</p>
+    <label>
+
+        <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-suo"></use>
+        </svg>
+        <input type="password" placeholder="密码"> </label>
+    <p class="tip">密码</p>
     <button id="login">登录</button>
     <span></span>
 </div>
 <script src="//at.alicdn.com/t/font_b8jpyzie9gujtt9.js"></script>
 <script>
-    //    var xhr;
-    //    if (window.XMLHttpRequest){
-    //        xhr = new XMLHttpRequest();
-    //    }else{
-    //        xhr = new ActiveXObject('Microsoft.XMLHTTP');
-    //    }
     var btn = document.getElementById("login");
     var sp = document.getElementsByTagName("span")[0];
-    var na = document.getElementsByTagName("input")[0].value.toString();
-    var pw = document.getElementsByTagName("input")[1].value.toString();
-    var data = encodeFormData();
-    encodeFormData = {name:na,pwd:pw};
+    var na;
+    var pw;
+
+//    $("input:first").on("blur", function(){
+//        na = $("input:first").val();
+//        console.log(na)
+//    });
+//    $("input:last").on("blur", function(){
+//        pw = $("input:last").val();
+//        console.log(pw)
+//    });
+//    var info = {
+//        name : 'admin',
+//        pwd : '123456'
+//    };
+
     btn.onclick = function(){
-//        创建xhr对象
+        //        创建xhr对象
         var xhr = new XMLHttpRequest();
-//        异步接受响应
-        xhr.onreadystatechage = function(){
+        //        异步接受响应
+
+        var username = $("input:first").val();
+        var password = $("input:last").val();
+
+        xhr.open("POST", "/carrots-admin-ajax/a/login",true);
+        xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded;charset=UTF-8');
+        xhr.send('name='+username+'&pwd='+password);
+        xhr.onreadystatechange = function(){
             if(xhr.readyState == 4){
                 if(xhr.status == 200){
-                    sp.innerHTML += xhr.responseText;
+                    sp.innerHTML = JSON.parse(xhr.responseText).message;
+                    console.log(xhr.responseText);
+                    console.log(JSON.parse(xhr.responseText))
                 }
             }
         };
-        xhr.open("POST","http://dev.admin.carrots.ptteng.com/a/login");
-        xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');
-        xhr.send(data);
         if((xhr.status >= 200 && xhr.status < 300) || xhr.status == 304){
             alert(xhr.responseText);
         } else {
-            alert('请求失败:' + xhr.status);
+//            alert('请求失败:' + xhr.status);
         }
     };
-    $("#login").on("click", function(){
-        console.log($("input:first").val());
-        console.log($("input:last").val())
+    $(".login").keydown(function(){
+        if(event.keyCode==13){
+            $("#login").click()
+        }
     })
 </script>
 </body>

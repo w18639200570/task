@@ -60,6 +60,7 @@ span {
   display: block;
   color: red;
 }
-.tip {
+p {
+  padding: 10px 0;
   color: red;
 }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+//    for(var i=0;i<2;i++){
+//
+//        setTimeout(function(){
+//
+//            console.log(i);
+//        },0);
+//    }
+    for(var b=0;b<5;b++){
+        console.log(--b);
+        (function(b){
+
+            setTimeout(function(){
+
+                console.log(b);
+            },0)
+        })(b);
+    }
+
+</script>
+</body>
+</html>

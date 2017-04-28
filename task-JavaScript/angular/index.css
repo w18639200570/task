@@ -1,0 +1,52 @@
+html {
+  font-size: 625%;
+}
+body {
+  overflow: hidden;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+header > span {
+  flex-shrink: 0;
+  width: 200px;
+  height: 7vh;
+  line-height: 7vh;
+  font-size: 0.15rem;
+  text-align: center;
+  color: white;
+  background: #349293;
+}
+header > div {
+  padding-right: 20px;
+}
+body > .ng-scope {
+  display: flex;
+}
+.left {
+  display: inline-block;
+  flex-shrink: 0;
+  width: 200px;
+  height: 300vh;
+  background: #349293;
+  text-align: center;
+}
+.left a {
+  display: block;
+  width: 200px;
+  height: 5vh;
+  font-size: 0.15rem;
+  color: white;
+  line-height: 5vh;
+}
+.left a:hover {
+  background: #ccc;
+}
+.right {
+  padding: 15px;
+  height: 89vh;
+  overflow: auto;
+}
