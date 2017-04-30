@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="plunker">
+
+<head>
+    <meta charset="utf-8" />
+    <title>AngularJS Plunker</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <link rel="stylesheet" href="style.css" />
+    <script data-require="angular.js@1.4.x" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.6/angular.min.js" data-semver="1.4.6"></script>
+    <script src="app.js"></script>
+</head>
+
+<body ng-controller="MainCtrl">
+<div ng-repeat="ele in data">
+    <p>{{ele.meta.author}}</p>
+    <p>{{ele.meta.title}}</p>
+    <br>
+</div>
+</body>
+<script>
+    var app = angular.module('plunker', []);
+
+    app.controller('MainCtrl', function($scope) {
+        $scope.name = 'World';
+        $scope.data = [
+            {
+                "meta": {
+                    "author": "test",
+                    "date_create": "2015-10-14T00:00:00",
+                    "date_modify": "2015-10-14T00:00:00",
+                    "filename": "微信页面整合",
+                    "git_username": "kk",
+                    "subdir": "article",
+                    "subtitle": null,
+                    "tags": [
+                        "api",
+                        "微信",
+                        "开发文档"
+                    ],
+                    "title": "微信页面整合"
+                }
+            },
+            {
+                "meta": {
+                    "author": "Waylan LimbergJohn Doe",
+                    "date_create": "2015-10-14T00:00:00",
+                    "date_modify": "2015-10-14T00:00:00",
+                    "filename": "python2编码问题.md",
+                    "git_username": "guyskk",
+                    "subdir": "article",
+                    "subtitle": null,
+                    "tags": [],
+                    "title": "python2编码问题"
+                }
+            }
+        ];
+    });
+</script>
+</html>

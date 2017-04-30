@@ -5,16 +5,44 @@
     <title>Title</title>
 </head>
 <body>
+<ul>
+    <li>123</li>
+    <li>456</li>
+    <li>789</li>
+</ul>
 <script>
-    var go = a();
-    var x;
-    function a(){
-        var num = 1;
-        console.log(--num);
-        x = function (){
-            console.log(++num);
-        }
+//    var go = a();
+//    var x;
+//    function a(){
+//        var num = 1;
+//        console.log(--num);
+//        function b(){
+//            console.log(++num);
+//        }
+//    }
+
+window.onload = function(){
+    var aLi = document.getElementsByTagName('li');
+    for (var i=0;i<aLi.length;i++){
+        (function(i){
+            aLi[i].onclick = function(){
+                console.log(i);
+            };
+        })(i);
     }
+};
+
+//function foo(){
+//    var local = 1;
+//    var location = 2;
+//    function bar(){
+//        var x = local + location;
+//        console.log(x);
+//        return x
+//    }
+//    bar++
+//    return bar;
+//}
 </script>
 </body>
 </html>

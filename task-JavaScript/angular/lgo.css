@@ -58,6 +58,7 @@ button {
 }
 span {
   display: block;
+  margin-top: 4px;
   color: red;
 }
 p {

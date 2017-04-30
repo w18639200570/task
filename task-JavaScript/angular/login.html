@@ -68,7 +68,7 @@
             }).then(function successCallback(rel){
                 $("span").html(rel.data.message);
                 if(rel.data.message == 'success'){
-//                    top.location = 'index.html'
+                    top.location = 'index.html'
                 }
             }, function error(response){
                 alert('error')
