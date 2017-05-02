@@ -50,3 +50,7 @@ body > .ng-scope {
   height: 89vh;
   overflow: auto;
 }
+img {
+  width: 20px;
+  height: 20px;
+}

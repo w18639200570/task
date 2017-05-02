@@ -1,0 +1,24 @@
+<table>
+    <tr>
+        <td>编号</td>
+        <td>图片</td>
+        <td>标题</td>
+        <td>类型</td>
+        <td>创建者</td>
+        <td>创建时间</td>
+        <td>修改时间</td>
+        <td>状态</td>
+        <td>操作</td>
+    </tr>
+    <tr ng-repeat="x in List">
+        <td>{{x.order}}</td>
+        <td><img src="{{x.img}}"></td>
+        <td></td>
+        <td>{{x.type}}</td>
+        <td>{{x.author}}</td>
+        <td>{{x.createAt | date:"yyyy-MM-dd HH:mm:ss"}}</td>
+        <td>{{x.updateAt | date:"yyyy-MM-dd HH:mm:ss"}}</td>
+        <td>{{x.status}}</td>
+        <td>{{10.78 | number:1}}</td>
+    </tr>
+</table>
