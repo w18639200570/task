@@ -1,0 +1,105 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>AngularJS 路由实例 </title>
+    <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+
+    <script src="http://cdn.bootcss.com/angular-ui-router/1.0.0-beta.3/angular-ui-router.js"></script>
+
+</head>
+<body ng-app="routerApp" >
+<div ng-controller="MainCtrl">
+    <ul>
+        <li><a href="#/" rel="external nofollow" rel="external nofollow" rel="external nofollow" >首页1</a></li>
+        <li><a href="#/second/" rel="external nofollow" >second</a></li>
+        <li><a href="#/third" rel="external nofollow" >third</a></li>
+    </ul>
+    <a href="#/fourth/42" rel="external nofollow" >href传参数</a>
+    <a ui-sref="fifth({'name':123,'id':256})">ui-sref传参数</a>
+    <button ng-click="ngclick_go()" class="btn btn-primary " >state.go传参数</button>
+    <button ng-click="ngclick_location()" class="btn btn-primary " >location传参数</button>
+    <div ui-view></div>
+    <div ui-view="second0"></div>
+    <div ui-view="second1"></div>
+    <div ui-view="second2"></div>
+</div>
+<script type="text/javascript">
+    /* var app = angular.module('routerApp', ['ui.router']); */
+    var app=angular.module('routerApp',['ui.router']);
+    app.controller('MainCtrl', function($scope, $state,$location) {
+        $scope.ngclick_go = function() {
+            $state.go('sixth',{name: 42}); // 跳转后的URL： #/camnpr/appManager
+        };
+        $scope.ngclick_location = function() {
+            $location.path('/sixth/detail/42'); // 功能也是跳转的
+        };
+
+
+
+    });
+    app.config(function($stateProvider, $urlRouterProvider) {
+        $urlRouterProvider.otherwise('/second');  //与原生的$routerProvider写法不一样的就是$urlRouterProvider先写默认路径
+        $stateProvider   //再用$stateProvider.state('',{}).state('',{})...代替$routerProvider.when()方法
+                .state('second', {
+                    url: '/second',
+                    views: {'second0': {
+                        templateUrl: 'second0.html' ,  //看到templateUrl:后面包含了很多的模板
+                        controller: 'MainCtrl'
+                    },
+                        'second1': {
+                            templateUrl: 'second1.html',
+                            controller: 'MainCtrl'
+
+                        },
+                        'second2': {
+                            templateUrl: 'second2.html',
+                            controller: 'MainCtrl'
+                        }
+                    }
+                })
+                .state('third', {
+                    url: '/third',
+                    templateUrl: 'third.html' ,   //看到templateUrl:后面包含了很多的模板
+                    controller: 'MainCtrl'
+                })
+
+                .state('fourth', {
+                    url: '/fourth/:name',
+                    templateUrl: 'forth.html' ,    //看到templateUrl:后面包含了很多的模板
+                    controller: function ($stateParams,$scope) {
+                        $scope.name=$stateParams.name;
+                        alert($stateParams.name)
+                    }
+
+                })
+                .state('fifth', {
+                    url: '/fifth/:name/:id',
+                    templateUrl: 'fifth.html' ,    //看到templateUrl:后面包含了很多的模板
+                    controller: function ($stateParams,$scope) {
+                        alert($stateParams.name+"  "+$stateParams.id)
+                    }
+
+                })
+                .state('sixth', {
+                    url: '/sixth/detail/:name',
+                    templateUrl: 'sixth.html' ,    //看到templateUrl:后面包含了很多的模板
+                    controller: function ($stateParams,$scope) {
+                        alert($stateParams.name)
+                    }
+
+                })
+        /* .state('fourth', {
+         url: '/fourth/:name',
+         templateUrl: 'third1.html' ,    //看到templateUrl:后面包含了很多的模板
+         controller: function ($stateParams,$scope) {
+         $scope.name=$stateParams.name;
+         }
+
+         }) */
+
+    });
+
+</script>
+
+</body>
+</html>

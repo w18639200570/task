@@ -1,7 +1,7 @@
 5/**
  * Created by likui on 2016/6/26.
  */
-angular.module('admin').directive('pagination', [
+myApp.directive('pagination', [
   '$state',
   function ($state) {
     return {

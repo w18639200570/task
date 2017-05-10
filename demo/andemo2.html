@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/angular.js/1.6.4/angular.js"></script>
+
+</head>
+<body ng-app="App">
+<gq-tab-container>
+    <gq-tab-content title="标签1">
+        <h4>标题1</h4>
+        <p>这是第一个标签下的内容</p>
+    </gq-tab-content>
+    <gq-tab-content title="标签2">
+        <h4>标题2</h4>
+        <p>这是第二个标签下的内容</p>
+    </gq-tab-content>
+</gq-tab-container>
+
+<!--这里为了将文件整理在一起，使用了ng-template的方式-->
+<script type="text/ng-template" id="gqTabList">
+
+    <ul>
+        <li ng-repeat="pane in panes" ng-class="{active:pane.selected}">
+            <a href="" ng-click="select(pane)">{{pane.title}}</a>
+        </li>
+    </ul>
+    <div ng-transclude></div>
+
+</script>
+
+<script type="text/ng-template" id="gqTabContent">
+
+    <div ng-show="selected" ng-transclude>
+    </div>
+
+</script>
+<script>
+    var App = angular.module("App", []);
+
+    App.directive("gqTabContainer", function () {
+        return {
+            restrict: 'E',
+            transclude: true,
+            scope: {},
+            //注意这里为tabContainer增加了一个controller，并引入了$scope
+            controller: ['$scope', function ($scope) {
+                var panes = $scope.panes = [];
+
+                //tab列表中项目被选中（点击）的处理函数
+                $scope.select = function (pane) {
+                    angular.forEach(panes, function (pane) {
+                        pane.selected = false;
+                    });
+                    pane.selected = true;
+                };
+
+                //初始化页面时，供其他Directive调用的注册函数
+                this.addPane = function (pane) {
+                    if (panes.length === 0) {
+                        $scope.select(pane);
+                    }
+                    panes.push(pane);
+                };
+            }],
+            //注意templateUrl的命名
+            templateUrl: "gqTabList"
+        };
+    });
+
+    App.directive('gqTabContent', function () {
+        return {
+            //获取gqTabContainer这个Directive
+            require: '^gqTabContainer',
+            restrict: 'E',
+            transclude: true,
+            scope: {
+                title: '@'
+            },
+            //第四个参数是获取到的Directive
+            link: function (scope, element, attrs, tabContainer) {
+                //调用了上方gqTabContainer的addPane()方法
+                //注意参数命名，不需要和上方Directive一致
+                tabContainer.addPane(scope);
+            },
+            //注意templateUrl的命名
+            templateUrl: "gqTabContent"
+        };
+    });
+</script>
+</body>
+</html>

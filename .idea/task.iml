@@ -15,5 +15,11 @@
     <orderEntry type="library" name="angular-route" level="application" />
     <orderEntry type="library" name="angular-ui-router" level="application" />
     <orderEntry type="library" name="angular-messages" level="application" />
+    <orderEntry type="library" name="angular-cookies" level="application" />
+    <orderEntry type="library" name="angular-strap" level="application" />
+    <orderEntry type="library" name="angular-strap.tpl" level="application" />
+    <orderEntry type="library" name="ocLazyLoad" level="application" />
+    <orderEntry type="library" name="loading-bar" level="application" />
+    <orderEntry type="library" name="angular-file-upload" level="application" />
   </component>
 </module>

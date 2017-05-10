@@ -13,12 +13,14 @@
     <tr ng-repeat="x in List">
         <td>{{x.order}}</td>
         <td><img src="{{x.img}}"></td>
-        <td></td>
+        <td>{{x.title}}</td>
         <td>{{x.type}}</td>
         <td>{{x.author}}</td>
         <td>{{x.createAt | date:"yyyy-MM-dd HH:mm:ss"}}</td>
         <td>{{x.updateAt | date:"yyyy-MM-dd HH:mm:ss"}}</td>
         <td>{{x.status}}</td>
-        <td>{{10.78 | number:1}}</td>
+        <td ng-if="x.status == '上线'"><button ng-click="up($index)">下线</button><button ng-click="edit($index)">编辑</button><button ng-click="delete($index)">删除</button></td>
+        <td ng-if="x.status == '草稿'"><button ng-click="down($index)">上线</button><button ng-click="edit($index)">编辑</button><button ng-click="delete($index)">删除</button></td>
     </tr>
 </table>
+<pagination ng-if="total" total="{{total}}"></pagination>

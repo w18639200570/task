@@ -50,10 +50,85 @@ body>.ng-scope {
 }
 .right {
   padding:15px;
+  //width:100%;
   height:89vh;
   overflow:auto;
 }
 img {
-  width:20px;
-  height:20px;
+  width:60px;
+  height:60px;
+}
+//列表翻页
+ul {
+  .mt5;
+  .mr-1;
+  .flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+ul li {
+  .ml10;
+  .dib;
+  input {
+    .tc;
+  }
+  >a{
+    //margin:0 5px;
+    padding:5px;
+    background:#eee;
+    .bdc;
+    cursor:pointer;
+  }
+}
+//表格
+table {
+  font-family: verdana,arial,sans-serif;
+  font-size:11px;
+  color:#333333;
+  border-width: 1px;
+  border-color: #ccc;
+  border-collapse: collapse;
+  .tc;
+  th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #ccc;
+  }
+  td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #ccc;
+  }
+  tr:nth-child(2n+1) {
+    background:#f4f4f4;
+  }
+}
+//上传文件
+.file {
+  position: relative;
+  display: inline-block;
+  background: #D0EEFF;
+  border: 1px solid #99D3F5;
+  border-radius: 4px;
+  padding: 4px 12px;
+  overflow: hidden;
+  color: #1E88C7;
+  text-decoration: none;
+  text-indent: 0;
+  line-height: 20px;
+}
+.file input {
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+}
+.file:hover {
+  background: #AADFFD;
+  border-color: #78C3F3;
+  color: #004974;
+  text-decoration: none;
 }

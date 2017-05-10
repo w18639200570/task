@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/angular.js/1.3.18/angular.js"></script>
+</head>
+<body ng-app = "mainApp">
+
+<div ng-controller = "CalcController">
+    <p>输入一个数字: <input type = "number" ng-model = "number" /></p>
+
+    {{number}}
+</div>
+<div ng-controller="Ctrl">
+    <p>输入一个数字: <input type = "number" ng-model = "num" /></p>
+    {{num}}
+</div>
+<script>
+    var mainApp = angular.module("mainApp", []);
+
+    mainApp.value("input", 5);
+    mainApp.controller('CalcController', function($scope,  input) {
+        $scope.number = input;
+    });
+    mainApp.controller('Ctrl',function($scope,input){
+        $scope.num = input;
+    });
+</script>
+</body>
+</html>

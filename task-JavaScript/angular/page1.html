@@ -1,30 +1,26 @@
-<div ng-app="list" ng-controller="listCtrl">
-    <button>搜索</button>
-    <table>
-        <tr>
-            <td>编号</td>
-            <td>图片</td>
-            <td>标题</td>
-            <td>类型</td>
-            <td>创建者</td>
-            <td>创建时间</td>
-            <td>修改时间</td>
-            <td>状态</td>
-            <td>操作</td>
-        </tr>
-        <tr ng-repeat="x in List">
-            <td>{{x.order}}</td>
-            <td><img src="{{x.img}}"></td>
-            <td>{{x.title}}</td>
-            <td>{{x.type}}</td>
-            <td>{{x.author}}</td>
-            <td>{{x.createAt | date:"yyyy-MM-dd HH:mm:ss"}}</td>
-            <td>{{x.updateAt | date:"yyyy-MM-dd HH:mm:ss"}}</td>
-            <td>{{x.status}}</td>
-            <td>{{$scope.btn}}</td>
-        </tr>
-    </table>
+<div ng-controller="listCtrl">
+    <label>
+        发布时间<input ng-model="begin" type="date">———<input ng-model="end" type="date"><br>
+        类型
+        <select ng-model="types">
+            <option value="" ng-selected="$state.types==''||$state.types==undefined" selected>全部</option>
+            <option value="0">首页banner</option>
+            <option value="1">找职位banner</option>
+            <option value="2">找精英banner</option>
+            <option value="3">行业大图</option>
+        </select>
+        状态
+        <select ng-model="searchParams">
+            <option value="" ng-selected="$state.searchParams==''||$state.searchParams==undefined" selected>全部</option>
+            <option value="1">草稿</option>
+            <option value="2">上线</option>
+        </select>
+        <button ng-click="sec()">搜索</button>
+    </label>
+    <div data-ng-include="'pagetable.html'"></div>
+    <!--<div data-ng-include="'js/directives/ptteng-paging/pagination.html'"></div>-->
+    <!--通过指令来引入页面-->
+    <!--<pagination></pagination>-->
+    <!--<hello></hello>-->
+    <!--<ctrl></ctrl>-->
 </div>
-<script>
-
-</script>

@@ -7,12 +7,49 @@
 
 </head>
 <body>
-    <div id="content" ng-app="myApp" ng-controller="myCtrl"></div>
-    <script>
-        var app = angular.module('myApp',[]);
-    </script>
+<div id="content" ng-app="myApp" ng-controller="myCtrl">
+    <select ng-model='selectedPerson' ng-options='obj.name for obj in people'></select>
+    <select ng-model='selectedGenre'>
+        <option ng-repeat='label in people[selectedPerson.id].music'>{{label}}</option>
+    </select>
+    <br> <input type='text' ng-model='searchText'/>
+    <ul>
+        <li ng-repeat='person in people | filter:searchText' ng-show='person.live == true'>#{{person.id}} {{person.name | reverse}}</li>
+    </ul>
+    <ul>
+        <li ng-repeat='person in people | filter:searchText' ng-hide='person.live == false'>#{{person.id}} {{person.name}}
+            <td><input type="button" value="我是按钮" ng-click="click($index)"></td>
+        </li>
+    </ul>
+
+    <input type='text' ng-model='newPerson'/>
+    <button ng-click='addNew()'>Add</button>
+</div>
 <script>
-    app.controller('myCtrl',function($scope){});
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope){
+        $scope.selectedPerson = 0;
+        $scope.selectedGenre = null;
+        $scope.people = [
+            {id : 0, name : 'Leon', music : ['Rock', 'Metal', 'Dubstep', 'Electro'], live : true},
+            {id : 1, name : 'Chris', music : ['Indie', 'Drumstep', 'Dubstep', 'Electro'], live : true},
+            {id : 2, name : 'Harry', music : ['Rock', 'Metal', 'Thrash Metal', 'Heavy Metal'], live : false},
+            {id : 3, name : 'Allyce', music : ['Pop', 'RnB', 'Hip Hop'], live : true}
+        ];
+        $scope.newPerson = null;
+        $scope.addNew = function(){
+            if($scope.newPerson != null && $scope.newPerson != ""){
+                $scope.people.push({id : $scope.people.length, name : $scope.newPerson, live : true, music : []});
+            }
+        };
+        $scope.click = function(index){
+            console.log($scope.people[index].name)
+        }
+    }).filter('reverse', function(){
+        return function(text){
+            return text.split("").reverse().join("");
+        }
+    })
 </script>
 </body>
 </html>
