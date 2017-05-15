@@ -1,7 +1,7 @@
 /**
  * Created by Shinelon on 2017/4/21.
  */
-var myApp = angular.module("myApp", ['ui.router'])
+var myApp = angular.module("myApp", ['ui.router','angularFileUpload'])
     .config(function($stateProvider, $urlRouterProvider){
         $urlRouterProvider.when("", "/PageTab");
         $stateProvider

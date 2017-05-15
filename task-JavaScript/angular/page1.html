@@ -1,23 +1,26 @@
 <div ng-controller="listCtrl">
-    <label>
-        发布时间<input ng-model="begin" type="date">———<input ng-model="end" type="date"><br>
+    <label class="search">
+        发布时间<input class="form-control" ng-model="begin" type="date">———<input class="form-control" ng-model="end" type="date"><br>
         类型
-        <select ng-model="types">
-            <option value="" ng-selected="$state.types==''||$state.types==undefined" selected>全部</option>
+        <select class="form-control" ng-model="types">
+            <option value="" ng-selected="$scope.types==''||$scope.types==undefined" selected>全部</option>
             <option value="0">首页banner</option>
             <option value="1">找职位banner</option>
             <option value="2">找精英banner</option>
             <option value="3">行业大图</option>
         </select>
         状态
-        <select ng-model="searchParams">
-            <option value="" ng-selected="$state.searchParams==''||$state.searchParams==undefined" selected>全部</option>
+        <select class="form-control" ng-model="searchParams">
+            <option value="" ng-selected="$scope.searchParams==''||$scope.searchParams==undefined" selected>全部</option>
             <option value="1">草稿</option>
             <option value="2">上线</option>
         </select>
-        <button ng-click="sec()">搜索</button>
+        <button class="btn btn-danger" ng-click="sea()">清空</button>
+        <button class="btn btn-success" ng-click="sec()">搜索</button>
     </label>
-    <div data-ng-include="'pagetable.html'"></div>
+    <!--<div data-ng-include="'pagetable.html'"></div>-->
+    <ng-include src="'pagetable.html'"  ></ng-include>
+
     <!--<div data-ng-include="'js/directives/ptteng-paging/pagination.html'"></div>-->
     <!--通过指令来引入页面-->
     <!--<pagination></pagination>-->

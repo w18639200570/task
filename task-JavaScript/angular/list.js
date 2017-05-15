@@ -1,20 +1,17 @@
 /**
  * Created by Shinelon on 2017/4/30.
  */
-// angular.module('list',[])
-//     .controller('listCtrl',function($scope,$http,finacing,industry){
-//
-//     })
+
 myApp.controller('listCtrl', function($scope, $http, $state){
 
 
 
-
+// 初始化请求数据
     $state.activePage = parseInt($state.params.page)||1;
     $state.size = $state.params.size ? parseInt($state.params.size) : 10;
 
 
-    console.log($state);
+    console.log($state.params);
     if ($state.params.type == undefined) {
         $state.params.type = ''
     }
@@ -33,6 +30,21 @@ myApp.controller('listCtrl', function($scope, $http, $state){
     if (isNaN($state.params.endAt)) {
         $state.params.endAt = ''
     }
+    $scope.sea = function(){
+        $state.go($state.current, {
+            status:'',
+            type:'',
+            startAt:'',
+            endAt:''
+        }, { reload: true })
+    };
+    $scope.seg = function(){
+        $state.go('PageTab.Page2', {
+        }, { reload: true })
+    };
+
+
+    // 搜索请求
         $scope.sec = function (){
             b = new Date($scope.begin);
             e = new Date($scope.end);
@@ -43,17 +55,24 @@ myApp.controller('listCtrl', function($scope, $http, $state){
                 endAt:e.valueOf()
             }, { reload: true })
         };
-    console.log($state.size);
-    console.log($state.activePage);
+
+    // http请求
     $http({
         method : 'GET',
         url : '/carrots-admin-ajax/a/article/search?page=' + $state.activePage + '&size=' + $state.size + '&status=' + $state.params.status + '&type=' + $state.params.type + '&startAt=' + $state.params.startAt + '&endAt=' + $state.params.endAt,
         headers : {'Content-Type' : 'appliocation/x-www-form-urlencoded'}
     }).success(function(data){
+        // 继承搜索参数
+        s = parseInt($state.params.startAt);
+        q = parseInt($state.params.endAt);
+        $scope.start = new Date(s);
+        $scope.end = new Date(q);
+        $scope.searchParams = $scope.end;
+        $scope.begin = $scope.start;
+        $scope.types = $state.params.type;
+        $scope.searchParams = $state.params.status;
         $scope.List = data.data.articleList;
         $scope.total = data.data.total;
-        // size = data.data.size;
-        // page = data.data.page;
         console.log($scope.List);
         console.log(data);
         // $state.data = $scope.total;
@@ -86,6 +105,12 @@ myApp.controller('listCtrl', function($scope, $http, $state){
     }).error(function(){
         alert('error!')
     });
+
+    // 继承上次搜索结果
+
+
+
+    // 自定义按钮
     $scope.up = function(index){
         console.log($scope.List[index].title)
     };
@@ -98,8 +123,8 @@ myApp.controller('listCtrl', function($scope, $http, $state){
     $scope.delete = function(index){
         console.log($scope.List[index].title)
     }
-    
 });
+
 
 // // myApp.constant('industry', {
 // //     0: "移动互联网",

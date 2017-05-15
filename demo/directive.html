@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/angular.js/1.5.11/angular.js"></script>
+
+</head>
+<body ng-app="app">
+
+<hello></hello>
+
+<script>
+    angular.module('app',[]).directive('hello',function(){
+        return {
+            restrict: 'AE',  //调用方式
+            replace: false,   //调用时是否替换调用标签，还是在嵌入内部
+            templateUrl: 'dirc.html',  //模板路径
+            scope: {},      //是否生成独立作用域
+            controller: function ($scope, $element, $attrs, $transclude) {
+//                共用的方法，参数
+//                如果存在多个指令交互，这个就可以作为主指令，其他指令需要操作到的函数或方法就在这里调用，
+//                也就在link函数的supermanCtrl参数中调用
+            },
+            link:function (scope, ele, attrs,supermanCtrl){
+//                函数参数：
+//                scope：当前作用域对象
+//                ele：当前元素
+//                attrs：当前元素的属性
+//                supermanCtrl：是否存在
+//                指令逻辑，在这里操作dome，
+             }
+        }
+    })
+</script>
+</body>
+</html>

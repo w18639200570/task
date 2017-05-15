@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/angular.js/1.6.4/angular.js"></script>
+
+</head>
+<body ng-app="app">
+<div ng-controller="myController">
+    <div first=""></div>
+    <div class="second"></div>
+    <three name="name"></three><br>
+    <fourth name="{{name}}"></fourth>
+    <input type="text" ng-model="name">
+    {{name}}<br>
+    <div>父scope：
+        <div>Say：{{value}}</div>
+    </div>
+    <div>隔离scope：
+        <five action="click()"></five>
+    </div>
+</div>
+<script>
+//    不设置scope
+
+    var app = angular.module('app',[]);
+    app.controller("myController", function ($scope) {
+//        $scope.name = "hello world";
+        $scope.user = {
+            id:1,
+            name:"hello world"
+        };
+//        $scope.value = "hello world";
+        $scope.click = function () {
+            $scope.value = Math.random();
+        };
+    });
+
+//不使用作用域
+    app.directive("first", function () {
+        return {
+            restrict:'A',
+            template: 'Say:{{name}}'
+        }
+    });
+
+//设置孤立作用域
+
+app.directive("second", function () {
+    return {
+        restrict:'C',
+        scope: {},
+        template: 'Say:{{name}}'
+    }
+});
+
+//使用孤立作用域获取
+
+app.directive('three', function () {
+    return {
+        restrict:'E',
+        scope: {
+            name:'='
+        },
+        template: 'Name: {{name}} <input type="text" ng-model="name">'
+    };
+});
+
+app.directive('fourth', function () {
+    return {
+        restrict:'E',
+        scope: {
+            name:'@'
+        },
+        template: '{{name}}<br>改变隔离scope的name：<input type="buttom" value="" ng-model="name" class="ng-pristine ng-valid">'
+    };
+});
+
+    app.directive("five", function () {
+        return {
+            scope: {
+                action: "&"
+            },
+            template: '<input type="button" value="在directive中执行父scope定义的方法" ng-click="action()"/>'
+        }
+    })
+</script>
+</body>
+</html>

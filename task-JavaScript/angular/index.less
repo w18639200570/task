@@ -48,46 +48,37 @@ body>.ng-scope {
       }
   }
 }
-.right {
+.righ {
   padding:15px;
-  //width:100%;
+  width:100%;
   height:89vh;
   overflow:auto;
 }
-img {
-  width:60px;
-  height:60px;
-}
+
 //列表翻页
-ul {
-  .mt5;
-  .mr-1;
+.pagination {
+  .mt15;
+  margin-right:-1px;
   .flex;
-  justify-content:flex-end;
+  //justify-content:flex-end;
   align-items:center;
-}
-ul li {
-  .ml10;
-  .dib;
-  input {
-    .tc;
-  }
-  >a{
-    //margin:0 5px;
-    padding:5px;
-    background:#eee;
-    .bdc;
-    cursor:pointer;
+  >li{
+    >a{
+      cursor:pointer;
+    }
   }
 }
+
 //表格
-table {
+.tblist {
+  margin:0 10px 10px 10px;
   font-family: verdana,arial,sans-serif;
   font-size:11px;
   color:#333333;
   border-width: 1px;
   border-color: #ccc;
   border-collapse: collapse;
+  .flex;
   .tc;
   th {
     border-width: 1px;
@@ -100,6 +91,10 @@ table {
     padding: 8px;
     border-style: solid;
     border-color: #ccc;
+    img {
+      width:60px;
+      height:60px;
+    }
   }
   tr:nth-child(2n+1) {
     background:#f4f4f4;
@@ -131,4 +126,62 @@ table {
   border-color: #78C3F3;
   color: #004974;
   text-decoration: none;
+}
+.up {
+  padding:0 15%;
+  line-height:.4rem;
+  >span {
+    .mr30;
+  }
+  >input {
+    width:85%;
+    .dib;
+  }
+}
+.industry {
+  .ml30;
+}
+.tip {
+  .vt;
+
+}
+.tablecap {
+  .bdc;
+  >p {
+    .mb10;
+    padding:10px;
+    .flex;
+    .ld;
+    background:#eee;
+    >.btn{
+      padding:0 2px;
+    }
+  }
+}
+.edit {
+  .dib;
+  width:85%;
+  //margin-right:0;
+  >div {
+    height:300px;
+    >div:last-child {
+      height:285px;
+    }
+  }
+}
+.form-control {
+  .dib;
+  width:200px;
+}
+.search {
+  .fz15;
+  line-height:.4rem;
+}
+.container{
+  margin-left:48px;
+  padding:0;
+  .pct100;
+}
+.big {
+  .fz15;
 }
