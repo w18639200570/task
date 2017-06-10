@@ -1,14 +1,14 @@
 <div class="left">
 
 
-    <a role="button" data-toggle="collapse" href="#do" aria-expanded="false" aria-controls="collapseExample">
+    <button role="button" data-toggle="collapse" href="#do" aria-expanded="false" aria-controls="collapseExample">
         水站管理
-    </a>
+    </button>
     <div class="collapse" id="do">
         <div>
-            <span ui-sref=".Page1"><a href="">Page-1</a></span>
-            <span ui-sref=".Page2"><a href="">Page-2</a></span>
-            <span ui-sref=".Page3"><a href="">Page-3</a></span>
+            <span ui-sref=".list"><a href="">列表页</a></span>
+            <span ui-sref=".add"><a href="">新增页</a></span>
+            <span ui-sref=".welcome"><a href="">欢迎页</a></span>
         </div>
     </div>
     <a role="button" data-toggle="collapse" href="#dot" aria-expanded="false" aria-controls="collapseExample">
@@ -16,15 +16,18 @@
     </a>
     <div class="collapse" id="dot">
         <div>
-            <span ui-sref=".Page1"><a href="">Page-1</a></span>
-            <span ui-sref=".Page2"><a href="">Page-2</a></span>
-            <span ui-sref=".Page3"><a href="">Page-3</a></span>
+            <span ui-sref=".list"><a href="">列表页</a></span>
+            <span ui-sref=".add"><a href="">新增页</a></span>
+            <span ui-sref=".welcome"><a href="">欢迎页</a></span>
         </div>
     </div>
 </div>
 
 
 <div class="righ">
-    <div ui-view=""/>
+    <div ui-view="">
+        <h1>Welecome!</h1>
+
+    </div>
 
 </div>

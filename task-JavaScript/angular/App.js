@@ -1,7 +1,7 @@
 /**
  * Created by Shinelon on 2017/4/21.
  */
-var myApp = angular.module("myApp", ['ui.router','angularFileUpload'])
+var myApp = angular.module("myApp", ['ngMessages','ui.router','angularFileUpload'])
     .config(function($stateProvider, $urlRouterProvider){
         $urlRouterProvider.when("", "/PageTab");
         $stateProvider
@@ -9,17 +9,21 @@ var myApp = angular.module("myApp", ['ui.router','angularFileUpload'])
                 url : "/PageTab",
                 templateUrl : "PageTab.html"
             })
-            .state("PageTab.Page1", {
+            .state("PageTab.list", {
                 url : "/list?page&size&status&type&startAt&endAt",
                 templateUrl : "Page1.html"
             })
-            .state("PageTab.Page2", {
-                url : "/Page2",
+            .state("PageTab.add", {
+                url : "/add?status&type&title&url&content&img",
                 templateUrl : "Page2.html"
             })
-            .state("PageTab.Page3", {
-                url : "/Page3",
+            .state("PageTab.editor", {
+                url : "/editor?status&type&title&url&content&img&id&industry",
                 templateUrl : "Page3.html"
+            })
+            .state("PageTab.welcome", {
+                url : "/welcome",
+                templateUrl : "js/a.html"
             })
             // .state('PageTab.Page1',{
             //     url:'/search?page'

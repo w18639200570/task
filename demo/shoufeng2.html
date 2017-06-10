@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+    <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .left {
+            display: inline-block;
+            flex-shrink: 0;
+            width: 300px;
+            height: 300vh;
+            background: #349293;
+            text-align: center;
+        }
+        .left a {
+            display: block;
+            width: 300px;
+            height: 5vh;
+            font-size: 0.15rem;
+            color: white;
+            line-height: 5vh;
+        }
+        .left a:hover {
+            background: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+<div class="left">
+
+    <button role="button" data-toggle="collapse" href="#do" aria-expanded="false" aria-controls="collapseExample">
+        水站管理
+    </button>
+    <div class="collapse" id="do">
+        <div>
+            <span ui-sref=".list"><a href="">列表页</a></span>
+            <span ui-sref=".add"><a href="">新增页</a></span>
+            <span ui-sref=".welcome"><a href="">欢迎页</a></span>
+        </div>
+    </div>
+    <button role="button" data-toggle="collapse" href="#dot" aria-expanded="false" aria-controls="collapseExample">
+        喝我水水站管理
+    </button>
+    <div class="collapse" id="dot">
+        <div>
+            <span ui-sref=".list"><a href="">列表页</a></span>
+            <span ui-sref=".add"><a href="">新增页</a></span>
+            <span ui-sref=".welcome"><a href="">欢迎页</a></span>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script>
+
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/angular.js/1.6.1/angular.js"></script>
+    <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//cdn.bootcss.com/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.js"></script>
+    <script src="//cdn.bootcss.com/angular.js/1.6.1/angular-animate.js"></script>
+
+</head>
+<body ng-app="myApp">
+<div ng-controller="a">
+    <uib-accordion close-others="oneAtATime">
+        <div uib-accordion-group class="panel-default" is-open="status.open">
+            <uib-accordion-heading>
+                I can have markup, too! <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+            </uib-accordion-heading>
+            This is just some content to illustrate fancy headings.
+        </div>
+    </uib-accordion>
+</div>
+<script>
+    var app = angular.module('myApp', ['ui.bootstrap']);
+    app.controller('a', function ($scope) {
+
+    });
+</script>
+</body>
+</html>

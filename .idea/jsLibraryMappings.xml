@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{angular, angular-1.0.1, angular-animate, angular-cookies, angular-file-upload, angular-messages, angular-route, angular-strap, angular-strap.tpl, angular-ui-router, angular2-all-testing.umd.dev, bootstrap, es5-sham, es5-shim, font_b8jpyzie9gujtt9, jquery, loading-bar, ocLazyLoad, state-machine}" />
+    <file url="PROJECT" libraries="{angular, angular-1.0.1, angular-animate, angular-cookies, angular-file-upload, angular-messages, angular-route, angular-strap, angular-strap.tpl, angular-ui-router, angular2-all-testing.umd.dev, bootstrap, es5-sham, es5-shim, font_b8jpyzie9gujtt9, jquery, jquery.lazyload, loading-bar, ocLazyLoad, state-machine, wangEditor}" />
     <includedPredefinedLibrary name="ECMAScript 6" />
   </component>
 </project>

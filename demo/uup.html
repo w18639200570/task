@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/angular.js/1.6.1/angular.js"></script>
+    <script src="//cdn.bootcss.com/angular-file-upload/2.1.4/angular-file-upload.min.js"></script>
+
+</head>
+<body ng-app="a" ng-controller="b">
+<div>
+    <input type="file" nv-file-select uploader="uploader" multiple><br><br>
+    <button ng-click="uploader.uploadAll()">上传</button>
+</div>
+<script>
+    var app = angular.module('a',['angularFileUpload']);
+    app.controller('b',function($scope,FileUploader){
+        var uploader = $scope.uploader = new FileUploader ({
+            url:'/carrots-admin-ajax/a/u/img/task'
+        });
+        uploader.onSuccessItem =function(fileItem,response,status,headers){
+            console.log(fileItem,response,status,headers)
+        }
+    })
+</script>
+</body>
+</html>

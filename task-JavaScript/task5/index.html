@@ -27,6 +27,7 @@
     <p class="tip">&nbsp;</p>
     <span></span>
     <button id="login">登录</button>
+    <button id="go">go</button>
 
 </div>
 <script src="//at.alicdn.com/t/font_b8jpyzie9gujtt9.js"></script>
@@ -68,14 +69,22 @@
 //            console.log($("input:last").val())
 //        });
 
+//写着玩
+$('#go').click(function(){
+   console.log(document.cookie.split(";")[1].split("=")[1]);
+    $.post('/carrots-admin-ajax/a/logout',{},function(){
+        alert('退出成功！')
+    })
+});
+
 //  qq号验证     /[1-9][0-9]{4,14}/
 
-var regU = /^\d{6,16}$/;
-var regp = /^([A-Za-z0-9\S]){5,16}$/;
+var regP = /^\d{6,16}$/;
+var regU = /^([A-Za-z0-9\S]){5,16}$/;
 //验证账号
 $("input:first").blur(function(){
     var user = $("input:first").val();
-    if (regp.test(user) == true ){
+    if (regU.test(user) == true ){
         $("p:eq(1)").html("输入正确")
     }else{
         $("p:eq(1)").html("请输入正确的用户名")
@@ -84,7 +93,7 @@ $("input:first").blur(function(){
 //验证密码
 $("input:last").blur(function(){
     var pass = $("input:last").val();
-    if (regU.test(pass) == true ){
+    if (regP.test(pass) == true ){
         $("p:eq(2)").html("输入正确")
     }else{
         $("p:eq(2)").html("请输入正确的密码")

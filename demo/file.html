@@ -5,12 +5,49 @@
     <title>Title</title>
     <!--<script src="//cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>-->
     <script src="//cdn.bootcss.com/angular.js/1.6.4/angular.js"></script>
+<style>
+    /*a  upload */
+    .a-upload {
+        padding: 4px 10px;
+        height: 20px;
+        line-height: 20px;
+        position: relative;
+        cursor: pointer;
+        color: #888;
+        background: #fafafa;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        overflow: hidden;
+        display: inline-block;
+        *display: inline;
+        *zoom: 1
+    }
 
+    .a-upload  input {
+        position: absolute;
+        font-size: 100px;
+        right: 0;
+        top: 0;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        cursor: pointer
+    }
+
+    .a-upload:hover {
+        color: #444;
+        background: #eee;
+        border-color: #ccc;
+        text-decoration: none
+    }
+</style>
 </head>
 <body ng-app="a" ng-controller="b">
+
 <form ng-submit="submit_form()">
     <div>
-        <div ng-repeat="item in thumb">
+        <a href="javascript:;" class="a-upload">
+            <input type="file" name="" id="">点击这里上传文件
+        </a>        <div ng-repeat="item in thumb">
             <!-- 采用angular循环的方式，对存入thumb的图片进行展示 -->
             <label>
                 <img ng-src="{{item.imgSrc}}"/>
@@ -28,41 +65,41 @@
     <input type="submit" name="" value="提 交" />
 </form>
 <script>
-//    var input  = document.getElementById("file");   // input file
-//    input.onchange = function(){
-//        var file = this.files[0];
-//        if(file){
-//            var reader = new FileReader();
-//            // 图片文件转换为base64
-//            reader.readAsDataURL(file);
-//            reader.onload = function(){
-//                // 显示图片
-//                document.getElementById("file_img").src = this.result;
-//            }
-//        }
+    var input  = document.getElementById("file");   // input file
+    input.onchange = function(){
+        var file = this.files[0];
+        if(file){
+            var reader = new FileReader();
+            // 图片文件转换为base64
+            reader.readAsDataURL(file);
+            reader.onload = function(){
+                // 显示图片
+                document.getElementById("file_img").src = this.result;
+            }
+        }
+    };
+
+//angular.module('a',[])
+//    .controller('b', ['$scope', '$http', function($scope, $http) {
+//    $scope.reader = new FileReader();  //创建一个FileReader接口
+//    $scope.form = {   //用于绑定提交内容，图片或其他数据
+//        image:{}
 //    };
-
-angular.module('a',[])
-    .controller('b', ['$scope', '$http', function($scope, $http) {
-    $scope.reader = new FileReader();  //创建一个FileReader接口
-    $scope.form = {   //用于绑定提交内容，图片或其他数据
-        image:{}
-    };
-    $scope.thumb = {};   //用于存放图片的base64
-    $scope.thumb_default = {  //用于循环默认的‘加号'添加图片的框
-        1111:{}
-    };
-
-    $scope.img_upload = function(files) {    //单次提交图片的函数
-        $scope.guid = (new Date()).valueOf();  //通过时间戳创建一个随机数，作为键名使用
-        $scope.reader.readAsDataURL(files[0]); //FileReader的方法，把图片转成base64
-        $scope.reader.onload = function(ev) {
-            $scope.$apply(function(){
-                $scope.thumb[$scope.guid] = {
-                    imgSrc : ev.target.result //接收base64
-                }
-            });
-        };
+//    $scope.thumb = {};   //用于存放图片的base64
+//    $scope.thumb_default = {  //用于循环默认的‘加号'添加图片的框
+//        1111:{}
+//    };
+//
+//    $scope.img_upload = function(files) {    //单次提交图片的函数
+//        $scope.guid = (new Date()).valueOf();  //通过时间戳创建一个随机数，作为键名使用
+//        $scope.reader.readAsDataURL(files[0]); //FileReader的方法，把图片转成base64
+//        $scope.reader.onload = function(ev) {
+//            $scope.$apply(function(){
+//                $scope.thumb[$scope.guid] = {
+//                    imgSrc : ev.target.result //接收base64
+//                }
+//            });
+//        };
 
 //        var data = new FormData();   //以下为像后台提交图片数据
 //        data.append('image', files[0]);
@@ -102,7 +139,7 @@ angular.module('a',[])
 //        }).success(function(data) {
 //            console.log(data);
 //        })
-    }}]);
+//    }}]);
 </script>
 </body>
 </html>

@@ -2,18 +2,19 @@
     <p><span>列表页</span><button class="btn btn-success" ng-click="seg()">+新增</button></p>
     <table class="tblist">
         <tr>
-            <td>编号</td>
-            <td>图片</td>
-            <td>标题</td>
-            <td>类型</td>
-            <td>创建者</td>
-            <td>创建时间</td>
-            <td>修改时间</td>
-            <td>状态</td>
-            <td>操作</td>
+            <td class="td1">编号</td>
+            <td class="td2">图片</td>
+            <td class="td3">标题</td>
+            <td class="td4">类型</td>
+            <td class="td5">创建者</td>
+            <td class="td6">创建时间</td>
+            <td class="td7">修改时间</td>
+            <td class="td8">状态</td>
+            <td class="td9">操作</td>
         </tr>
         <tr ng-repeat="x in List">
-            <td>{{x.order}}</td>
+            <!--<td>{{x.order}}</td>-->
+            <td>{{x.id}}</td>
             <td><img src="{{x.img}}"></td>
             <td>{{x.title}}</td>
             <td>{{x.type}}</td>
@@ -22,14 +23,14 @@
             <td>{{x.updateAt | date:"yyyy-MM-dd HH:mm:ss"}}</td>
             <td>{{x.status}}</td>
             <td ng-if="x.status == '上线'">
-                <button ng-click="up($index)">下线</button>
-                <button ng-click="edit($index)">编辑</button>
-                <button ng-click="delete($index)">删除</button>
+                <button ng-click="down($index)" class="btn btn-warning">下线</button>
+                <button class="btn btn-primary" ng-click="edit($index)">编辑</button>
+                <button class="btn btn-danger" ng-click="delete($index)">删除</button>
             </td>
             <td ng-if="x.status == '草稿'">
-                <button ng-click="down($index)">上线</button>
-                <button ng-click="edit($index)">编辑</button>
-                <button ng-click="delete($index)">删除</button>
+                <button class="btn btn-success" ng-click="up($index)">上线</button>
+                <button class="btn btn-primary" ng-click="edit($index)">编辑</button>
+                <button class="btn btn-danger" ng-click="delete($index)">删除</button>
             </td>
         </tr>
     </table>

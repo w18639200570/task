@@ -14,7 +14,7 @@ header {
   >span {
     flex-shrink:0;
     //padding:15px 0;
-    width:200px;
+    width:300px;
     height:7vh;
     line-height:7vh;
     .fz15;
@@ -24,6 +24,7 @@ header {
   }
   >div {
     padding-right:20px;
+    .fz15;
   }
 }
 body>.ng-scope {
@@ -32,13 +33,13 @@ body>.ng-scope {
 .left {
   .dib;
   flex-shrink:0;
-  width:200px;
+  width:300px;
   height:300vh;
   background:@c;
   .tc;
   a{
       .db;
-      width:200px;
+      width:300px;
       height:5vh;
     .fz15;
     color:@w;
@@ -75,11 +76,13 @@ body>.ng-scope {
   font-family: verdana,arial,sans-serif;
   font-size:11px;
   color:#333333;
+  .fz15;
   border-width: 1px;
   border-color: #ccc;
   border-collapse: collapse;
   .flex;
   .tc;
+  .ova;
   th {
     border-width: 1px;
     padding: 8px;
@@ -89,7 +92,7 @@ body>.ng-scope {
   td {
     border-width: 1px;
     padding: 8px;
-    border-style: solid;
+    //border-style: solid;
     border-color: #ccc;
     img {
       width:60px;
@@ -113,6 +116,7 @@ body>.ng-scope {
   text-decoration: none;
   text-indent: 0;
   line-height: 20px;
+  .vm;
 }
 .file input {
   position: absolute;
@@ -127,6 +131,7 @@ body>.ng-scope {
   color: #004974;
   text-decoration: none;
 }
+//表单验证
 .up {
   padding:0 15%;
   line-height:.4rem;
@@ -134,9 +139,13 @@ body>.ng-scope {
     .mr30;
   }
   >input {
-    width:85%;
     .dib;
+    width:78%;
+    .mr30;
   }
+}
+.formone {
+  .up;
 }
 .industry {
   .ml30;
@@ -147,20 +156,26 @@ body>.ng-scope {
 }
 .tablecap {
   .bdc;
+  border-radius:7px;
   >p {
     .mb10;
     padding:10px;
     .flex;
     .ld;
-    background:#eee;
+    .fz15;
+    border-bottom:1px solid #ccc;
+
     >.btn{
       padding:0 2px;
     }
   }
+  >ul{
+    .fz15;
+  }
 }
 .edit {
   .dib;
-  width:85%;
+  width:78%;
   //margin-right:0;
   >div {
     height:300px;
@@ -174,14 +189,52 @@ body>.ng-scope {
   width:200px;
 }
 .search {
+  padding:10px 20px;
+  .pct100;
   .fz15;
   line-height:.4rem;
+  //border:1px solid #000;
+  .bdc;
+  border-radius:7px;
+  >input {
+    .ml30;
+    .mr30;
+  }
+  >select {
+    .ml30;
+    .mr30;
+  }
 }
 .container{
-  margin-left:48px;
+  margin-left:65px;
   padding:0;
-  .pct100;
+  width:83%;
 }
 .big {
   .fz15;
+}
+.testing {
+  .dib;
+  color:red;
+}
+//列表宽度
+.td1 { width:5%; }
+.td2 { width:5%; }
+.td3 { width:12%; }
+.td4 { width:10%; }
+.td5 { width:11%; }
+.td6 { width:17%; }
+.td7 { width:17%; }
+.td8 { width:7%; }
+.td9 { width:18%; }
+//欢迎页
+.welcome{
+  margin-left:50px;
+  .pct70;
+  height:85vh;
+  background:url(../../images/welcome.jpg) no-repeat;
+}
+.photo {
+  margin-left:78px;
+  width:400px;
 }

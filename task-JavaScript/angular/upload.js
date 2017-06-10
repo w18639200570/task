@@ -2,63 +2,93 @@
  * Created by Shinelon on 2017/5/12.
  */
 // 插件方法
-myApp.controller('upload', ['$scope','$http','FileUploader', function($scope,$http, FileUploader) {
-    // 上传相关
-    $scope.save = function() {
-        var fd = new FormData();
-        // var file = document.querySelector('input[type=file]').files[0];
-        fd.append('title', $scope.name);
-        fd.append('type', $scope.type);
-        fd.append('status', 1);
-        fd.append('img', $scope.msg);
-        fd.append('content', $scope.text);
-        fd.append('url', $scope.ad);
-        fd.append('industry', $scope.industry);
-        console.log(fd);
-        $http({
-            method:'POST',
-            url:"/carrots-admin-ajax/a/u/article",
-            headers: {'Content-Type':undefined},
+myApp.controller('upload', ['$scope','$http','$state','FileUploader', function($scope,$http,$state, FileUploader) {
 
-            data: fd,
-            transformRequest: angular.identity
-        }).then(function(d) {
-            //请求成功
-            console.log(d);
-            // document.getElementsByClassName('show')[0].setAttribute('src',d.data.data.url)
-        }).catch(function(err) {
-            console.log(err);
-        });
+    // 测试
+    $scope.ac =function(){
+        console.log($scope.msg)
+    };
+    // 上传相关
+
+    $scope.save = function() {
+        if ($scope.msg == undefined){
+            alert('请先上传图片')
+        }else {
+            var fd = new FormData();
+            // var file = document.querySelector('input[type=file]').files[0];
+            fd.append('title', $scope.name);
+            if($scope.type == undefined){
+                $scope.type = 0;
+            }
+            fd.append('type', $scope.type);
+            fd.append('status', 2);
+            fd.append('img', $scope.msg);
+            fd.append('content', $scope.text);
+            fd.append('url', $scope.ad);
+            console.log($scope.industry);
+            if(typeof($scope.industry) == 'number'){
+                fd.append('industry', $scope.industry);
+            }
+            console.log(fd);
+            $http({
+                method:'POST',
+                url:"/carrots-admin-ajax/a/u/article",
+                headers: {'Content-Type':undefined},
+
+                data: fd,
+                transformRequest: angular.identity
+            }).then(function(d) {
+                //请求成功
+                console.log(d);
+                $state.go('PageTab.list', {
+                }, { reload: true });
+                // document.getElementsByClassName('show')[0].setAttribute('src',d.data.data.url)
+            }).catch(function(err) {
+                console.log(err);
+            });
+        }
     };
     $scope.editorContent = '';
     // 提交函数
     $scope.submit = function(){
-        var fd = new FormData();
-        // var file = document.querySelector('input[type=file]').files[0];
-        fd.append('title', $scope.name);
-        fd.append('type', $scope.type);
-        fd.append('status', 2);
-        fd.append('img', $scope.msg);
-        fd.append('content', $scope.text);
-        fd.append('url', $scope.ad);
-        fd.append('industry', $scope.industry);
-        console.log(fd);
-        $http({
-            method:'POST',
-            url:"/carrots-admin-ajax/a/u/article",
-            headers: {'Content-Type':undefined},
+        if ($scope.msg == undefined){
+            alert('请先上传图片')
+        }else{
+            var fd = new FormData();
+            // var file = document.querySelector('input[type=file]').files[0];
+            fd.append('title', $scope.name);
+            if($scope.type == undefined){
+                $scope.type = 0;
+            }
+            fd.append('type', $scope.type);
+            fd.append('status', 1);
+            fd.append('img', $scope.msg);
+            fd.append('content', $scope.text);
+            fd.append('url', $scope.ad);
+            console.log($scope.industry);
+            if(typeof($scope.industry) == 'number'){
+                fd.append('industry', $scope.industry);
+            }
 
-            data: fd,
-            transformRequest: angular.identity
-        }).then(function(d) {
-            //请求成功
-            console.log(d);
-            // document.getElementsByClassName('show')[0].setAttribute('src',d.data.data.url)
-        }).catch(function(err) {
-            console.log(err);
-        });
+            console.log(fd);
+            $http({
+                method:'POST',
+                url:"/carrots-admin-ajax/a/u/article",
+                headers: {'Content-Type':undefined},
+
+                data: fd,
+                transformRequest: angular.identity
+            }).then(function(d) {
+                //请求成功
+                console.log(d);
+                $state.go('PageTab.list', {
+                }, { reload: true });
+                // document.getElementsByClassName('show')[0].setAttribute('src',d.data.data.url)
+            }).catch(function(err) {
+                console.log(err);
+            });
+        }
     };
-
     // 上传图片相关
     var uploader = $scope.uploader = new FileUploader({
         url: '/carrots-admin-ajax/a/u/img/task'
@@ -77,7 +107,7 @@ myApp.controller('upload', ['$scope','$http','FileUploader', function($scope,$ht
     // CALLBACKS
 
     uploader.onWhenAddingFileFailed = function(item /*{File|FileLikeObject}*/, filter, options) {
-        console.info('onWhenAddingFileFailed', item, filter, options);
+        console.info('onWhenAddingFileFailed', item.__proto__.remove());
     };
     uploader.onAfterAddingFile = function(fileItem) {
         console.info('onAfterAddingFile', fileItem);
@@ -103,6 +133,7 @@ myApp.controller('upload', ['$scope','$http','FileUploader', function($scope,$ht
     };
     uploader.onCancelItem = function(fileItem, response, status, headers) {
         console.info('onCancelItem', fileItem, response, status, headers);
+        $scope.msg = undefined;
     };
     uploader.onCompleteItem = function(fileItem, response, status, headers) {
         console.info('onCompleteItem', fileItem, response, status, headers);
@@ -111,7 +142,8 @@ myApp.controller('upload', ['$scope','$http','FileUploader', function($scope,$ht
         console.info('onCompleteAll');
     };
 
-    console.info('uploader', uploader);
+    console.info(new FileUploader());
+
 }]);
 myApp.directive('ngThumb', ['$window', function($window) {
     var helper = {

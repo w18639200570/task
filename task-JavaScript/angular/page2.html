@@ -1,6 +1,121 @@
-<form enctype="multipart/form-data" target="uploadIframe">
-    <span class="file">
-       <input type="file">点击这里上传文件
-    </span>
-    <iframe id="uploadIframe"></iframe>
-</form>
+<div class="tablecap" ng-controller="upload">
+    <p>新增页</p>
+    <form novalidate name="formtwo" class="up" method="post" enctype="multipart/form-data">
+        <span>标题名称</span>
+        <input
+            class="form-control"
+            type="text"
+            ng-model="name"
+            name="name"
+            ng-minlength="2"
+            ng-maxlength="12"
+            required>&emsp;
+        <div class="testing" ng-messages="formtwo.name.$error" ng-show="formtwo.name.$touched"><p class="tests" ng-message="required">请输入标题</p>
+                <p class="tests" ng-message="minlength">标题最少为2位</p>
+                <p class="tests" ng-message="maxlength">标题最多为12位</p>
+                <p class="tests" ng-message="pattern">标题为字母或数字</p></div>
+        <div ng-messages="up.userName.$error" ng-if="go.userName.$touched">
+            <p ng-message="required">请输入标题名称</p>
+        </div><br>
+        <span>类&emsp;&emsp;型</span>
+        <select class="form-control" ng-model="type">
+            <option value="0" ng-selected="$scope.type=='0'||$scope.type==undefined" selected>首页banner</option>
+            <option value="1">找职位banner</option>
+            <option value="2">找精英banner</option> <option value="3">行业大图</option>
+        </select>
+        <select class="form-control industry" ng-model="industry" ng-if="type == 3" required>
+            <!--<option value="" selected>全部</option>-->
+            <option value="0" ng-selected="$scope.industry=='0'||$scope.industry==undefined">移动互联网</option>
+            <option value="1">电子商务</option> <option value="2">企业服务</option> <option value="3">O2O</option>
+            <option value="4">教育</option> <option value="5">金融</option> <option value="6">游戏</option>
+        </select>
+        <br> <span class="tip">说&emsp;&emsp;明</span>
+        <div class="edit">
+            <div class="ed" ng-model="text" contenteditable="true"></div>
+        </div>
+        <br> <span>跳转链接</span>
+        <input
+                class="form-control"
+                name="url"
+                type="text"
+                ng-maxlength="30"
+                ng-minlength="5"
+                pattern="^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$"
+                ng-model="ad"><div class="testing" ng-messages="formtwo.url.$error" ng-show="formtwo.url.$touched">
+        <p class="tests" ng-message="minlength">链接最少为5位</p>
+        <p class="tests" ng-message="maxlength">链接最多为30位</p>
+        <p class="tests" ng-message="pattern">链接为字母或数字</p></div><br>
+        <!--富文本-->
+
+        <!--<div>{{text}}{{ad}}</div>-->
+
+
+        <!--图片预览上传-->
+        <span>配&emsp;&emsp;图</span>
+        <a href="javascript:;" class="file">选择文件<input type="file" nv-file-select="" uploader="uploader" multiple/></a><br/>
+        <!--上传图片插件的各种功能-->
+        <div class="container">
+            <div class="col-xs-12" style="margin-bottom: 40px">
+
+                <p>总数: {{ uploader.queue.length }}</p>
+
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th width="50%">文件名</th>
+                            <th ng-show="uploader.isHTML5">大小</th>
+                            <th ng-show="uploader.isHTML5">进度</th>
+                            <th>状态</th>
+                            <th>操作</th>
+                        </tr>
+
+
+                        <tr ng-repeat="item in uploader.queue">
+                            <td>
+                                <strong>{{ item.file.name }}</strong>
+                                <!-- Image preview -->
+                                <!--auto height-->
+                                <!--<div ng-thumb="{ file: item.file, width: 100 }"></div>-->
+                                <!--auto width-->
+                                <div ng-show="uploader.isHTML5" ng-thumb="{ file: item._file, height: 100 }"></div>
+                                <!--fixed width and height -->
+                                <!--<div ng-thumb="{ file: item.file, width: 100, height: 100 }"></div>-->
+                            </td>
+                            <td ng-show="uploader.isHTML5" nowrap>{{ item.file.size/1024/1024|number:2 }} MB</td>
+                            <td ng-show="uploader.isHTML5">
+                                <div class="progress" style="margin-bottom: 0;">
+                                    <div class="progress-bar" role="progressbar" ng-style="{ 'width': item.progress + '%' }"></div>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <span ng-show="item.isSuccess"><i class="glyphicon glyphicon-ok"></i></span>
+                                <span ng-show="item.isCancel"><i class="glyphicon glyphicon-ban-circle"></i></span>
+                                <span ng-show="item.isError"><i class="glyphicon glyphicon-remove"></i></span>
+                            </td>
+                            <td nowrap>
+                                <button type="button" class="btn btn-success btn-xs" ng-click="item.upload()" ng-disabled="item.isReady || item.isUploading || item.isSuccess">
+                                    <span class="glyphicon glyphicon-upload"></span> 上传
+                                </button>
+                                <br><br>
+                                <button type="button" class="btn btn-warning btn-xs" ng-click="item.cancel()" ng-disabled="!item.isUploading">
+                                    <span class="glyphicon glyphicon-ban-circle"></span> 取消
+                                </button>
+                                <br><br>
+                                <button type="button" class="btn btn-danger btn-xs" ng-click="item.remove()">
+                                    <span class="glyphicon glyphicon-trash"></span> 删除
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <button ng-disabled="formtwo.$invalid" class="big btn btn-success" ng-click="save()">立即上线</button>
+                <button ng-disabled="formtwo.$invalid" class="big btn btn-success" ng-click="submit()">存为草稿</button>
+                <!--<button ng-click="ac()">test</button>-->
+            </div>
+        </div>
+
+
+    </form>
+</div>

@@ -23,5 +23,7 @@
     <orderEntry type="library" name="angular-file-upload" level="application" />
     <orderEntry type="library" name="es5-shim" level="application" />
     <orderEntry type="library" name="es5-sham" level="application" />
+    <orderEntry type="library" name="jquery.lazyload" level="application" />
+    <orderEntry type="library" name="wangEditor" level="application" />
   </component>
 </module>

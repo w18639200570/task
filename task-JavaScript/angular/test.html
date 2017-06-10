@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<select name="nameType"
+        id="nameType" style="height:35px;background-color:#FF9900">
+    <option selected value=""> 请选择 </option>
+    <option value="1"> 学生信息 / 按学号 </option>
+    <option value="2"> 学生信息 / 按姓名 </option>
+    <option value="3"> 学生信息 / 按班级 </option>
+    <option value="4"> 課程信息 / 按課程 </option>
+    <option value="5"> 課程信息 / 按姓名 </option>
+    <option value="6"> 課程信息 / 按學期 </option>
+</select>
+<input id="b" type="text" onchange="x()">
+<script>
+    var a = document.getElementById("nameType");
+    var b = document.getElementById("b");
+
+    var x = function(){
+        c = b.value+a.value;
+        console.log(c)
+    }
+</script>
+</body>
+</html>

@@ -17,7 +17,7 @@
     angular.module('a',[]).controller('upload',["$scope","$http", function($scope,$http){
         $scope.save = function() {
             var fd = new FormData();
-//            var fil = document.getElementsByTagName('input').files[0];
+            var fil = document.getElementsByTagName('input').files[0];
             var file = document.querySelector('input[type=file]').files[0];
             fd.append('file', file);
             console.log(fd);

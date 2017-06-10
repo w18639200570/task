@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../plugin/zeroModal20161028/zeroModal.min.js"></script>
+    <link rel="stylesheet" href="../plugin/zeroModal20161028/zeroModal.css">
+
+</head>
+<body>
+<h2>创建模态框（Modal）</h2>
+<!-- 按钮触发模态框 -->
+<a onclick="_confirm2()">确认框2 (confirm)</a><!-- 模态框（Modal） -->
+<button onclick="_confirm2()">kai</button>
+<script>
+    function _confirm1() {
+        zeroModal.confirm("确定提交审核吗？", function() {
+            alert('ok');
+            //return false;
+        });
+    }
+    function _confirm2() {
+        zeroModal.confirm({
+            content: '确定提交审核吗？',
+            contentDetail: '提交后将不能进行修改。',
+            okFn: function() {
+                alert('ok');
+            },
+            cancelFn: function() {
+//                alert('cancel');
+            }
+        });
+    }
+</script>
+</body>
+</html>

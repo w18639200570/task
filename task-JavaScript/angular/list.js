@@ -3,33 +3,11 @@
  */
 
 myApp.controller('listCtrl', function($scope, $http, $state){
-
-
-
 // 初始化请求数据
+
     $state.activePage = parseInt($state.params.page)||1;
     $state.size = $state.params.size ? parseInt($state.params.size) : 10;
-
-
-    console.log($state.params);
-    if ($state.params.type == undefined) {
-        $state.params.type = ''
-    }
-    if ($state.params.status == undefined) {
-        $state.params.status = ''
-    }
-    if ($state.params.startAt == undefined) {
-        $state.params.startAt = ''
-    }
-    if (isNaN($state.params.startAt)) {
-        $state.params.startAt = ''
-    }
-    if ($state.params.endAt == undefined) {
-        $state.params.endAt = ''
-    }
-    if (isNaN($state.params.endAt)) {
-        $state.params.endAt = ''
-    }
+    // 清空
     $scope.sea = function(){
         $state.go($state.current, {
             status:'',
@@ -38,28 +16,41 @@ myApp.controller('listCtrl', function($scope, $http, $state){
             endAt:''
         }, { reload: true })
     };
+    // 新增页
     $scope.seg = function(){
-        $state.go('PageTab.Page2', {
-        }, { reload: true })
+        $state.go('PageTab.add')
     };
-
-
     // 搜索请求
         $scope.sec = function (){
+            console.log($scope.begin);
             b = new Date($scope.begin);
             e = new Date($scope.end);
+            console.log($scope.type);
             $state.go($state.current, {
-                status:$scope.searchParams,
-                type:$scope.types,
-                startAt:b.valueOf(),
-                endAt:e.valueOf()
+                status:$scope.searchParams || '',
+                type:$scope.types ||'',
+                startAt:b.valueOf() || '',
+                endAt:e.valueOf() || '',
+                page:'',
+                size:''
             }, { reload: true })
         };
-
     // http请求
     $http({
         method : 'GET',
-        url : '/carrots-admin-ajax/a/article/search?page=' + $state.activePage + '&size=' + $state.size + '&status=' + $state.params.status + '&type=' + $state.params.type + '&startAt=' + $state.params.startAt + '&endAt=' + $state.params.endAt,
+        url : '/carrots-admin-ajax/a/article/search',
+        // '?page=' + $state.activePage + '&size=' + $state.size,
+
+
+        // + '&status=' + $state.params.status + '&type=' + $state.params.type + '&startAt=' + $state.params.startAt + '&endAt=' + $state.params.endAt,
+        params: {
+            page:$state.activePage || '',
+            size:$state.size || '',
+            status:$state.params.status || '',
+            type:$state.params.type || '',
+            startAt:$state.params.startAt || '',
+            endAt:$state.params.endAt || ''
+        },
         headers : {'Content-Type' : 'appliocation/x-www-form-urlencoded'}
     }).success(function(data){
         // 继承搜索参数
@@ -69,6 +60,7 @@ myApp.controller('listCtrl', function($scope, $http, $state){
         $scope.end = new Date(q);
         $scope.searchParams = $scope.end;
         $scope.begin = $scope.start;
+        console.log($state.params);
         $scope.types = $state.params.type;
         $scope.searchParams = $state.params.status;
         $scope.List = data.data.articleList;
@@ -112,17 +104,77 @@ myApp.controller('listCtrl', function($scope, $http, $state){
 
     // 自定义按钮
     $scope.up = function(index){
-        console.log($scope.List[index].title)
+        // var fd = new FormData();
+        // fd.append('id',$scope.List[index].id);
+        // fd.append('status',2);
+        zeroModal.confirm({
+            content: '确定上线吗？',
+            okFn: function() {
+                $http({
+                    method:'put',
+                    url:'/carrots-admin-ajax/a/u/article/status',
+                    params:{
+                        id:$scope.List[index].id || '',
+                        status:2
+                    },
+                    headers:{'Content-Type':undefined}
+                })
+                    .then(function(){
+                        $state.go($state.current,{},{reload:true})
+                    })
+            },
+            cancelFn: function() {
+                //                alert('cancel');
+            }
+        });
+
     };
     $scope.down = function(index){
-        console.log($scope.List[index].title)
+        zeroModal.confirm({
+            content: '确定下线吗？',
+            okFn: function() {
+                $http({
+                    method:'put',
+                    url:'/carrots-admin-ajax/a/u/article/status',
+                    params:{
+                        id:$scope.List[index].id || '',
+                        status:1
+                    },
+                    headers:{'Content-Type':undefined}
+                })
+                    .then(function(){
+                        $state.go($state.current,{},{reload:true})
+                    })
+            },
+            cancelFn: function() {
+            }
+        });
     };
+    // 跳转编辑页
     $scope.edit = function(index){
-        console.log($scope.List[index].title)
+        $state.go('PageTab.editor', {
+            id:$scope.List[index].id
+        }, { reload: true })
     };
     $scope.delete = function(index){
-        console.log($scope.List[index].title)
-    }
+        zeroModal.confirm({
+            content: '确定要删除吗？',
+            okFn: function() {
+                $http({
+                    method:'DELETE',
+                    url:'/carrots-admin-ajax/a/u/article/'+$scope.List[index].id
+                }).then(function(){
+                    $state.go($state.current, {
+                        page:'',
+                        size:''
+                    }, { reload: true })
+                })
+            },
+            cancelFn: function() {
+            }
+        });
+
+    };
 });
 
 
