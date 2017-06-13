@@ -1,0 +1,30 @@
+<form>
+    <label for="picUpload" class="btn chose-btn">选择图片</label>
+    <input type="file" id="picUpload" style="display:none">
+</form>
+<!--图片预览部分-->
+<img alt="图片预览" ng-src="{{imgUrl}}" class="img-preview">
+<!--展示部分-->
+<section class="up-info">
+    <section class="up-info-title">
+        <div class="name">图片名称</div>
+        <div class="size">图片大小</div>
+        <div class="progress">上传进度</div>
+        <div class="state">上传状态</div>
+        <div class="operate">操作</div>
+    </section>
+    <section class="up-info-data" ng-show="change == 1">
+        <div class="name" ng-bind="name"></div>
+        <div class="size">
+            <span ng-bind="size/1024/1024 | number:2"></span>Mb
+        </div>
+        <div class="progress">
+            <progress max="100" value="{{progress}}" class="progress-bar"></progress>
+            <div class="state"><span ng-show="progress == 100">成功</span></div>
+            <div class="operate">
+                <button id="up-btn" class="btn operate-btn" ng-disabled="progress == 100">上传</button>
+                <button id="delete-btn" class="btn operate-btn">删除</button>
+            </div>
+        </div>
+    </section>
+</section>

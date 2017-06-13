@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body ng-app="ap">
+<form name="datepickerForm" class="form-inline" role="form">
+    <!-- Basic example -->
+    <div class="form-group" ng-class="{'has-error': datepickerForm.date.$invalid}">
+        <label class="control-label"><i class="fa fa-calendar"></i> Date <small>(as date)</small></label>
+        <input type="text" class="form-control" ng-model="selectedDate" name="date" bs-datepicker>
+    </div>
+    <!-- Custom example -->
+    <div class="form-group" ng-class="{'has-error': datepickerForm.date2.$invalid}">
+        <label class="control-label"><i class="fa fa-calendar"></i> Date <small>(as number)</small></label>
+        <input type="text" class="form-control" ng-model="selectedDateAsNumber" data-date-format="yyyy-MM-dd" data-date-type="number" data-min-date="02/10/86" data-max-date="today" data-autoclose="1" name="date2" bs-datepicker>
+    </div>
+    <hr>
+    <!-- Date range example -->
+    <div class="form-group">
+        <label class="control-label"><i class="fa fa-calendar"></i> <i class="fa fa-arrows-h"></i> <i class="fa fa-calendar"></i> Date range <small>(dynamic)</small></label><br>
+        <div class="form-group col-xs-6">
+            <input type="text" class="form-control" ng-model="fromDate" data-max-date="{{untilDate}}" placeholder="From" bs-datepicker>
+        </div>
+        <div class="form-group col-xs-6">
+            <input type="text" class="form-control" ng-model="untilDate" data-min-date="{{fromDate}}" placeholder="Until" bs-datepicker>
+        </div>
+    </div>
+    <br><br><br><br><br><br><input type="text" class="form-control" size="20" bs-datepicker autoclose="true" data-date-format="yyyy-MM-dd" data-date-type="number">
+    <input type="text" class="form-control" ng-model="selectedDateAsNumber" data-date-format="yyyy-MM-dd" data-date-type="number" data-min-date="02/10/86" data-max-date="today" data-autoclose="1" name="date2" bs-datepicker>
+
+</form>
+
+
+
+<script src="//cdn.bootcss.com/angular.js/1.6.1/angular.js"></script>
+<script src="//cdn.bootcss.com/angular-strap/2.3.12/angular-strap.js"></script>
+<script src="//cdn.bootcss.com/angular-strap/2.3.12/angular-strap.tpl.js"></script>
+<script>
+    var app = angular.module('ap',['mgcrea.ngStrap']);
+    app.config(function($datepickerProvider) {
+        angular.extend($datepickerProvider.defaults, {
+            dateFormat: 'dd/MM/yyyy',
+            startWeek: 1
+        });
+    });
+//    app.controller('abc',function($scope,$datepicker){
+//
+//    })
+</script>
+</body>
+</html>
