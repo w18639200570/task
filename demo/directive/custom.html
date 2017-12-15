@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/angular.js/1.6.1/angular.js"></script>
+
 </head>
-<body>
-$END$
+<body ng-app="app">
+    <hello-word></hello-word>
+<script>
+    var app = angular.module('app',[]);
+    app.directive('helloWord',function(){
+        return {
+            restrict:'ACE',
+            replace:true,
+            template:'<div><input type="text" ng-model="message"><h1>hello,word!{{message}}</h1><button ng-click="clearMessage()">清除信息</button></div>',
+            link:function(scope,elem,attrs){
+                scope.$watch('message',function(value){
+                    console.log('Message Changed!');
+                });
+                scope.clearMessage = function(){
+                    scope.message = '';
+                }
+            }
+        }
+    })
+</script>
 </body>
 </html>

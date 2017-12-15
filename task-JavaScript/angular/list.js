@@ -39,10 +39,6 @@ myApp.controller('listCtrl', function($scope, $http, $state){
     $http({
         method : 'GET',
         url : '/carrots-admin-ajax/a/article/search',
-        // '?page=' + $state.activePage + '&size=' + $state.size,
-
-
-        // + '&status=' + $state.params.status + '&type=' + $state.params.type + '&startAt=' + $state.params.startAt + '&endAt=' + $state.params.endAt,
         params: {
             page:$state.activePage || '',
             size:$state.size || '',

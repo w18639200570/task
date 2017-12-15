@@ -2,9 +2,2213 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>职位列表
+    </title>
+    <style>
+    /*CSS 通用原子类*/
+    /*颜色*/
+    p {
+        margin: 5px 0;
+        word-break: break-all;
+    }
+    .cr {
+        color: red;
+    }
+    .p-text {
+        color: #afafaf;
+    }
+    .bg {
+        background-color: #29b078;
+    }
+    .bm {
+        background-color: #fafafa;
+    }
+    .bt {
+        background-color: #a8a8a8;
+    }
+    .bb {
+        background-color: #32c086;
+    }
+    .br {
+        background-color: #f01400;
+    }
+    .bj {
+        background-color: #f9a372;
+    }
+    /*边框*/
+    .bob {
+        border-bottom: solid 4px transparent;
+    }
+    .bo-r {
+        border-right: solid 1px #d0d6d9;
+    }
+    .bo {
+        border-bottom: solid 1px #d0d6d9;
+    }
+    .bo-1 {
+        border-bottom: solid 1px #edf1f2;
+    }
+    .bor {
+        border: solid 1px #edf1f2;
+    }
+    .bora {
+        border: solid 1px #f9a372;
+    }
+    /*文字排版*/
+    .f10 {
+        font-size: 10px;
+    }
+    .f11 {
+        font-size: 11px;
+    }
+    .f12 {
+        font-size: 12px;
+    }
+    .f13 {
+        font-size: 13px;
+    }
+    .f14 {
+        font-size: 14px;
+    }
+    .f16 {
+        font-size: 16px;
+    }
+    .f18 {
+        font-size: 18px;
+    }
+    .f20 {
+        font-size: 20px;
+    }
+    .fb {
+        font-weight: bold;
+    }
+    .fn {
+        font-weight: normal;
+    }
+    .t2 {
+        text-indent: 2em;
+    }
+    .lh150 {
+        line-height: 150%;
+    }
+    .lh180 {
+        line-height: 180%;
+    }
+    .lh200 {
+        line-height: 200%;
+    }
+    .unl {
+        text-decoration: underline;
+    }
+    .no_unl {
+        text-decoration: none;
+    }
+    .ve {
+        vertical-align: middle;
+    }
+    /*定位*/
+    .tl {
+        text-align: left;
+    }
+    .tc {
+        text-align: center;
+    }
+    .tr {
+        text-align: right;
+    }
+    .bc {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fl {
+        float: left;
+        display: inline;
+    }
+    .fr {
+        float: right;
+        display: inline;
+    }
+    .cb {
+        clear: both;
+    }
+    .cl {
+        clear: left;
+    }
+    .cr {
+        clear: right;
+    }
+    .clearfix:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    .clearfix {
+        display: inline-block;
+    }
+    * html .clearfix {
+        height: 1%;
+    }
+    .clearfix {
+        display: block;
+    }
+    .vm {
+        vertical-align: middle;
+    }
+    .pr {
+        position: relative;
+    }
+    .pa {
+        position: absolute;
+    }
+    .abs-right {
+        position: absolute;
+        right: 0;
+    }
+    .zoom {
+        zoom: 1;
+    }
+    .hidden {
+        visibility: hidden;
+    }
+    .none {
+        display: none;
+    }
+    /*清除浮动*/
+    .over {
+        overflow: hidden;
+        padding: 0 10px;
+    }
+    /*长度高度*/
+    .w10 {
+        width: 10px;
+    }
+    .w20 {
+        width: 20px;
+    }
+    .w30 {
+        width: 30px;
+    }
+    .w40 {
+        width: 40px;
+    }
+    .w50 {
+        width: 50px;
+    }
+    .w60 {
+        width: 60px;
+    }
+    .w70 {
+        width: 70px;
+    }
+    .w80 {
+        width: 80px;
+    }
+    .w90 {
+        width: 90px;
+    }
+    .w100 {
+        width: 100px;
+    }
+    .w150 {
+        width: 150px;
+    }
+    .w200 {
+        width: 200px;
+    }
+    .w250 {
+        width: 250px;
+    }
+    .w300 {
+        width: 300px;
+    }
+    .w350 {
+        width: 350px;
+    }
+    .w400 {
+        width: 400px;
+    }
+    .w450 {
+        width: 450px;
+    }
+    .w500 {
+        width: 500px;
+    }
+    .w550 {
+        width: 550px;
+    }
+    .w600 {
+        width: 600px;
+    }
+    .w650 {
+        width: 650px;
+    }
+    .w700 {
+        width: 700px;
+    }
+    .w750 {
+        width: 750px;
+    }
+    .w800 {
+        width: 800px;
+    }
+    .w850 {
+        width: 850px;
+    }
+    .w900 {
+        width: 900px;
+    }
+    .w950 {
+        width: 950px;
+    }
+    .w {
+        width: 100%;
+    }
+    .h10 {
+        height: 10px;
+    }
+    .h20 {
+        height: 20px;
+    }
+    .h30 {
+        height: 30px;
+    }
+    .h40 {
+        height: 40px;
+    }
+    .h50 {
+        height: 50px;
+    }
+    .h60 {
+        height: 60px;
+    }
+    .h70 {
+        height: 70px;
+    }
+    .h80 {
+        height: 80px;
+    }
+    .h90 {
+        height: 90px;
+    }
+    .h100 {
+        height: 100px;
+    }
+    .h150 {
+        height: 150px;
+    }
+    .h200 {
+        height: 200px;
+    }
+    .h250 {
+        height: 250px;
+    }
+    .h300 {
+        height: 300px;
+    }
+    .h400 {
+        height: 400px;
+    }
+    .h500 {
+        height: 500px;
+    }
+    .h {
+        height: 100%;
+    }
+    /*边距*/
+    .m0 {
+        margin: 0;
+    }
+    .m1 {
+        margin: 1px;
+    }
+    .m5 {
+        margin: 5px;
+    }
+    .m10 {
+        margin: 10px;
+    }
+    .m15 {
+        margin: 15px;
+    }
+    .m20 {
+        margin: 20px;
+    }
+    .m25 {
+        margin: 25px;
+    }
+    .m30 {
+        margin: 30px;
+    }
+    .m35 {
+        margin: 35px;
+    }
+    .m40 {
+        margin: 40px;
+    }
+    .m45 {
+        margin: 45px;
+    }
+    .m50 {
+        margin: 50px;
+    }
+    .m100 {
+        margin: 100px;
+    }
+    .mt0 {
+        margin-top: 0;
+    }
+    .mt5 {
+        margin-top: 5px;
+    }
+    .mt1 {
+        margin-top: 1px;
+    }
+    .mt10 {
+        margin-top: 10px;
+    }
+    .mt15 {
+        margin-top: 15px;
+    }
+    .mt20 {
+        margin-top: 20px;
+    }
+    .mt25 {
+        margin-top: 25px;
+    }
+    .mt30 {
+        margin-top: 30px;
+    }
+    .mt35 {
+        margin-top: 35px;
+    }
+    .mt40 {
+        margin-top: 40px;
+    }
+    .mt45 {
+        margin-top: 45px;
+    }
+    .mt50 {
+        margin-top: 50px;
+    }
+    .mt100 {
+        margin-top: 100px;
+    }
+    .mr0 {
+        margin-right: 0;
+    }
+    .mr1 {
+        margin-right: 1px;
+    }
+    .mr5 {
+        margin-right: 5px;
+    }
+    .mr10 {
+        margin-right: 10px;
+    }
+    .mr15 {
+        margin-right: 15px;
+    }
+    .mr20 {
+        margin-right: 20px;
+    }
+    .mr25 {
+        margin-right: 25px;
+    }
+    .mr30 {
+        margin-right: 30px;
+    }
+    .mr35 {
+        margin-right: 35px;
+    }
+    .mr40 {
+        margin-right: 40px;
+    }
+    .mr45 {
+        margin-right: 45px;
+    }
+    .mr50 {
+        margin-right: 50px;
+    }
+    .mr100 {
+        margin-right: 100px;
+    }
+    .mb0 {
+        margin-bottom: 0;
+    }
+    .mb1 {
+        margin-bottom: 1px;
+    }
+    .mb5 {
+        margin-bottom: 5px;
+    }
+    .mb10 {
+        margin-bottom: 10px;
+    }
+    .mb15 {
+        margin-bottom: 15px;
+    }
+    .mb20 {
+        margin-bottom: 20px;
+    }
+    .mb25 {
+        margin-bottom: 25px;
+    }
+    .mb30 {
+        margin-bottom: 30px;
+    }
+    .mb35 {
+        margin-bottom: 35px;
+    }
+    .mb40 {
+        margin-bottom: 40px;
+    }
+    .mb45 {
+        margin-bottom: 45px;
+    }
+    .mb50 {
+        margin-bottom: 50px;
+    }
+    .mb100 {
+        margin-bottom: 100px;
+    }
+    .ml0 {
+        margin-left: 0;
+    }
+    .ml1 {
+        margin-left: 1px;
+    }
+    .ml5 {
+        margin-left: 5px;
+    }
+    .ml10 {
+        margin-left: 10px;
+    }
+    .ml15 {
+        margin-left: 15px;
+    }
+    .ml20 {
+        margin-left: 20px;
+    }
+    .ml25 {
+        margin-left: 25px;
+    }
+    .ml30 {
+        margin-left: 30px;
+    }
+    .ml35 {
+        margin-left: 35px;
+    }
+    .ml40 {
+        margin-left: 40px;
+    }
+    .ml45 {
+        margin-left: 45px;
+    }
+    .ml50 {
+        margin-left: 50px;
+    }
+    .ml100 {
+        margin-left: 100px;
+    }
+    .p0 {
+        padding: 0;
+    }
+    .p1 {
+        padding: 1px;
+    }
+    .p5 {
+        padding: 5px;
+    }
+    .p10 {
+        padding: 10px;
+    }
+    .p15 {
+        padding: 15px;
+    }
+    .p20 {
+        padding: 20px;
+    }
+    .p25 {
+        padding: 25px;
+    }
+    .p30 {
+        padding: 30px;
+    }
+    .p35 {
+        padding: 35px;
+    }
+    .p40 {
+        padding: 40px;
+    }
+    .p45 {
+        padding: 45px;
+    }
+    .p50 {
+        padding: 50px;
+    }
+    .p100 {
+        padding: 100px;
+    }
+    .pt0 {
+        padding-top: 0;
+    }
+    .pt1 {
+        padding-top: 1px;
+    }
+    .pt5 {
+        padding-top: 5px;
+    }
+    .pt10 {
+        padding-top: 10px;
+    }
+    .pt15 {
+        padding-top: 15px;
+    }
+    .pt20 {
+        padding-top: 20px;
+    }
+    .pt25 {
+        padding-top: 25px;
+    }
+    .pt30 {
+        padding-top: 30px;
+    }
+    .pt35 {
+        padding-top: 35px;
+    }
+    .pt40 {
+        padding-top: 40px;
+    }
+    .pt45 {
+        padding-top: 45px;
+    }
+    .pt50 {
+        padding-top: 50px;
+    }
+    .pt100 {
+        padding-top: 100px;
+    }
+    .pl0 {
+        padding-left: 0;
+    }
+    .pl1 {
+        padding-left: 1px;
+    }
+    .pl5 {
+        padding-left: 5px;
+    }
+    .pl10 {
+        padding-left: 10px;
+    }
+    .pl15 {
+        padding-left: 15px;
+    }
+    .pl20 {
+        padding-left: 20px;
+    }
+    .pl30 {
+        padding-left: 30px;
+    }
+    .pl35 {
+        padding-left: 35px;
+    }
+    .pl40 {
+        padding-left: 40px;
+    }
+    .pl45 {
+        padding-left: 45px;
+    }
+    .pl50 {
+        padding-left: 50px;
+    }
+    .pl100 {
+        padding-left: 100px;
+    }
+    .pb0 {
+        padding-bottom: 0;
+    }
+    .pb1 {
+        padding-bottom: 1px;
+    }
+    .pb5 {
+        padding-bottom: 5px;
+    }
+    .pb10 {
+        padding-bottom: 10px;
+    }
+    .pb15 {
+        padding-bottom: 15px;
+    }
+    .pb20 {
+        padding-bottom: 20px;
+    }
+    .pb25 {
+        padding-bottom: 25px;
+    }
+    .pb30 {
+        padding-bottom: 30px;
+    }
+    .pb35 {
+        padding-bottom: 35px;
+    }
+    .pb40 {
+        padding-bottom: 40px;
+    }
+    .pb45 {
+        padding-bottom: 45px;
+    }
+    .pb50 {
+        padding-bottom: 50px;
+    }
+    .pb100 {
+        padding-bottom: 100px;
+    }
+    .pr0 {
+        padding-right: 0;
+    }
+    .pr1 {
+        padding-right: 1px;
+    }
+    .pr5 {
+        padding-right: 5px;
+    }
+    .pr10 {
+        padding-right: 10px;
+    }
+    .pr15 {
+        padding-right: 15px;
+    }
+    .pr20 {
+        padding-right: 20px;
+    }
+    .pr25 {
+        padding-right: 25px;
+    }
+    .pr30 {
+        padding-right: 30px;
+    }
+    .pr35 {
+        padding-right: 35px;
+    }
+    .pr40 {
+        padding-right: 40px;
+    }
+    .pr45 {
+        padding-right: 45px;
+    }
+    .pr50 {
+        padding-right: 50px;
+    }
+    .pr100 {
+        padding-right: 100px;
+    }
+    /*CSS 通用原子类*/
+    /*颜色*/
+    p {
+        margin: 5px 0;
+        word-break: break-all;
+    }
+    .cr {
+        color: red;
+    }
+    .p-text {
+        color: #afafaf;
+    }
+    .bg {
+        background-color: #29b078;
+    }
+    .bm {
+        background-color: #fafafa;
+    }
+    .bt {
+        background-color: #a8a8a8;
+    }
+    .bb {
+        background-color: #32c086;
+    }
+    .br {
+        background-color: #f01400;
+    }
+    .bj {
+        background-color: #f9a372;
+    }
+    /*边框*/
+    .bob {
+        border-bottom: solid 4px transparent;
+    }
+    .bo-r {
+        border-right: solid 1px #d0d6d9;
+    }
+    .bo {
+        border-bottom: solid 1px #d0d6d9;
+    }
+    .bo-1 {
+        border-bottom: solid 1px #edf1f2;
+    }
+    .bor {
+        border: solid 1px #edf1f2;
+    }
+    .bora {
+        border: solid 1px #f9a372;
+    }
+    /*文字排版*/
+    .f10 {
+        font-size: 10px;
+    }
+    .f11 {
+        font-size: 11px;
+    }
+    .f12 {
+        font-size: 12px;
+    }
+    .f13 {
+        font-size: 13px;
+    }
+    .f14 {
+        font-size: 14px;
+    }
+    .f16 {
+        font-size: 16px;
+    }
+    .f18 {
+        font-size: 18px;
+    }
+    .f20 {
+        font-size: 20px;
+    }
+    .fb {
+        font-weight: bold;
+    }
+    .fn {
+        font-weight: normal;
+    }
+    .t2 {
+        text-indent: 2em;
+    }
+    .lh150 {
+        line-height: 150%;
+    }
+    .lh180 {
+        line-height: 180%;
+    }
+    .lh200 {
+        line-height: 200%;
+    }
+    .unl {
+        text-decoration: underline;
+    }
+    .no_unl {
+        text-decoration: none;
+    }
+    .ve {
+        vertical-align: middle;
+    }
+    /*定位*/
+    .tl {
+        text-align: left;
+    }
+    .tc {
+        text-align: center;
+    }
+    .tr {
+        text-align: right;
+    }
+    .bc {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fl {
+        float: left;
+        display: inline;
+    }
+    .fr {
+        float: right;
+        display: inline;
+    }
+    .cb {
+        clear: both;
+    }
+    .cl {
+        clear: left;
+    }
+    .cr {
+        clear: right;
+    }
+    .clearfix:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    .clearfix {
+        display: inline-block;
+    }
+    * html .clearfix {
+        height: 1%;
+    }
+    .clearfix {
+        display: block;
+    }
+    .vm {
+        vertical-align: middle;
+    }
+    .pr {
+        position: relative;
+    }
+    .pa {
+        position: absolute;
+    }
+    .abs-right {
+        position: absolute;
+        right: 0;
+    }
+    .zoom {
+        zoom: 1;
+    }
+    .hidden {
+        visibility: hidden;
+    }
+    .none {
+        display: none;
+    }
+    /*清除浮动*/
+    .over {
+        overflow: hidden;
+        padding: 0 10px;
+    }
+    /*长度高度*/
+    .w10 {
+        width: 10px;
+    }
+    .w20 {
+        width: 20px;
+    }
+    .w30 {
+        width: 30px;
+    }
+    .w40 {
+        width: 40px;
+    }
+    .w50 {
+        width: 50px;
+    }
+    .w60 {
+        width: 60px;
+    }
+    .w70 {
+        width: 70px;
+    }
+    .w80 {
+        width: 80px;
+    }
+    .w90 {
+        width: 90px;
+    }
+    .w100 {
+        width: 100px;
+    }
+    .w150 {
+        width: 150px;
+    }
+    .w200 {
+        width: 200px;
+    }
+    .w250 {
+        width: 250px;
+    }
+    .w300 {
+        width: 300px;
+    }
+    .w350 {
+        width: 350px;
+    }
+    .w400 {
+        width: 400px;
+    }
+    .w450 {
+        width: 450px;
+    }
+    .w500 {
+        width: 500px;
+    }
+    .w550 {
+        width: 550px;
+    }
+    .w600 {
+        width: 600px;
+    }
+    .w650 {
+        width: 650px;
+    }
+    .w700 {
+        width: 700px;
+    }
+    .w750 {
+        width: 750px;
+    }
+    .w800 {
+        width: 800px;
+    }
+    .w850 {
+        width: 850px;
+    }
+    .w900 {
+        width: 900px;
+    }
+    .w950 {
+        width: 950px;
+    }
+    .w {
+        width: 100%;
+    }
+    .h10 {
+        height: 10px;
+    }
+    .h20 {
+        height: 20px;
+    }
+    .h30 {
+        height: 30px;
+    }
+    .h40 {
+        height: 40px;
+    }
+    .h50 {
+        height: 50px;
+    }
+    .h60 {
+        height: 60px;
+    }
+    .h70 {
+        height: 70px;
+    }
+    .h80 {
+        height: 80px;
+    }
+    .h90 {
+        height: 90px;
+    }
+    .h100 {
+        height: 100px;
+    }
+    .h150 {
+        height: 150px;
+    }
+    .h200 {
+        height: 200px;
+    }
+    .h250 {
+        height: 250px;
+    }
+    .h300 {
+        height: 300px;
+    }
+    .h400 {
+        height: 400px;
+    }
+    .h500 {
+        height: 500px;
+    }
+    .h {
+        height: 100%;
+    }
+    /*边距*/
+    .m0 {
+        margin: 0;
+    }
+    .m1 {
+        margin: 1px;
+    }
+    .m5 {
+        margin: 5px;
+    }
+    .m10 {
+        margin: 10px;
+    }
+    .m15 {
+        margin: 15px;
+    }
+    .m20 {
+        margin: 20px;
+    }
+    .m25 {
+        margin: 25px;
+    }
+    .m30 {
+        margin: 30px;
+    }
+    .m35 {
+        margin: 35px;
+    }
+    .m40 {
+        margin: 40px;
+    }
+    .m45 {
+        margin: 45px;
+    }
+    .m50 {
+        margin: 50px;
+    }
+    .m100 {
+        margin: 100px;
+    }
+    .mt0 {
+        margin-top: 0;
+    }
+    .mt5 {
+        margin-top: 5px;
+    }
+    .mt1 {
+        margin-top: 1px;
+    }
+    .mt10 {
+        margin-top: 10px;
+    }
+    .mt15 {
+        margin-top: 15px;
+    }
+    .mt20 {
+        margin-top: 20px;
+    }
+    .mt25 {
+        margin-top: 25px;
+    }
+    .mt30 {
+        margin-top: 30px;
+    }
+    .mt35 {
+        margin-top: 35px;
+    }
+    .mt40 {
+        margin-top: 40px;
+    }
+    .mt45 {
+        margin-top: 45px;
+    }
+    .mt50 {
+        margin-top: 50px;
+    }
+    .mt100 {
+        margin-top: 100px;
+    }
+    .mr0 {
+        margin-right: 0;
+    }
+    .mr1 {
+        margin-right: 1px;
+    }
+    .mr5 {
+        margin-right: 5px;
+    }
+    .mr10 {
+        margin-right: 10px;
+    }
+    .mr15 {
+        margin-right: 15px;
+    }
+    .mr20 {
+        margin-right: 20px;
+    }
+    .mr25 {
+        margin-right: 25px;
+    }
+    .mr30 {
+        margin-right: 30px;
+    }
+    .mr35 {
+        margin-right: 35px;
+    }
+    .mr40 {
+        margin-right: 40px;
+    }
+    .mr45 {
+        margin-right: 45px;
+    }
+    .mr50 {
+        margin-right: 50px;
+    }
+    .mr100 {
+        margin-right: 100px;
+    }
+    .mb0 {
+        margin-bottom: 0;
+    }
+    .mb1 {
+        margin-bottom: 1px;
+    }
+    .mb5 {
+        margin-bottom: 5px;
+    }
+    .mb10 {
+        margin-bottom: 10px;
+    }
+    .mb15 {
+        margin-bottom: 15px;
+    }
+    .mb20 {
+        margin-bottom: 20px;
+    }
+    .mb25 {
+        margin-bottom: 25px;
+    }
+    .mb30 {
+        margin-bottom: 30px;
+    }
+    .mb35 {
+        margin-bottom: 35px;
+    }
+    .mb40 {
+        margin-bottom: 40px;
+    }
+    .mb45 {
+        margin-bottom: 45px;
+    }
+    .mb50 {
+        margin-bottom: 50px;
+    }
+    .mb100 {
+        margin-bottom: 100px;
+    }
+    .ml0 {
+        margin-left: 0;
+    }
+    .ml1 {
+        margin-left: 1px;
+    }
+    .ml5 {
+        margin-left: 5px;
+    }
+    .ml10 {
+        margin-left: 10px;
+    }
+    .ml15 {
+        margin-left: 15px;
+    }
+    .ml20 {
+        margin-left: 20px;
+    }
+    .ml25 {
+        margin-left: 25px;
+    }
+    .ml30 {
+        margin-left: 30px;
+    }
+    .ml35 {
+        margin-left: 35px;
+    }
+    .ml40 {
+        margin-left: 40px;
+    }
+    .ml45 {
+        margin-left: 45px;
+    }
+    .ml50 {
+        margin-left: 50px;
+    }
+    .ml100 {
+        margin-left: 100px;
+    }
+    .p0 {
+        padding: 0;
+    }
+    .p1 {
+        padding: 1px;
+    }
+    .p5 {
+        padding: 5px;
+    }
+    .p10 {
+        padding: 10px;
+    }
+    .p15 {
+        padding: 15px;
+    }
+    .p20 {
+        padding: 20px;
+    }
+    .p25 {
+        padding: 25px;
+    }
+    .p30 {
+        padding: 30px;
+    }
+    .p35 {
+        padding: 35px;
+    }
+    .p40 {
+        padding: 40px;
+    }
+    .p45 {
+        padding: 45px;
+    }
+    .p50 {
+        padding: 50px;
+    }
+    .p100 {
+        padding: 100px;
+    }
+    .pt0 {
+        padding-top: 0;
+    }
+    .pt1 {
+        padding-top: 1px;
+    }
+    .pt5 {
+        padding-top: 5px;
+    }
+    .pt10 {
+        padding-top: 10px;
+    }
+    .pt15 {
+        padding-top: 15px;
+    }
+    .pt20 {
+        padding-top: 20px;
+    }
+    .pt25 {
+        padding-top: 25px;
+    }
+    .pt30 {
+        padding-top: 30px;
+    }
+    .pt35 {
+        padding-top: 35px;
+    }
+    .pt40 {
+        padding-top: 40px;
+    }
+    .pt45 {
+        padding-top: 45px;
+    }
+    .pt50 {
+        padding-top: 50px;
+    }
+    .pt100 {
+        padding-top: 100px;
+    }
+    .pl0 {
+        padding-left: 0;
+    }
+    .pl1 {
+        padding-left: 1px;
+    }
+    .pl5 {
+        padding-left: 5px;
+    }
+    .pl10 {
+        padding-left: 10px;
+    }
+    .pl15 {
+        padding-left: 15px;
+    }
+    .pl20 {
+        padding-left: 20px;
+    }
+    .pl30 {
+        padding-left: 30px;
+    }
+    .pl35 {
+        padding-left: 35px;
+    }
+    .pl40 {
+        padding-left: 40px;
+    }
+    .pl45 {
+        padding-left: 45px;
+    }
+    .pl50 {
+        padding-left: 50px;
+    }
+    .pl100 {
+        padding-left: 100px;
+    }
+    .pb0 {
+        padding-bottom: 0;
+    }
+    .pb1 {
+        padding-bottom: 1px;
+    }
+    .pb5 {
+        padding-bottom: 5px;
+    }
+    .pb10 {
+        padding-bottom: 10px;
+    }
+    .pb15 {
+        padding-bottom: 15px;
+    }
+    .pb20 {
+        padding-bottom: 20px;
+    }
+    .pb25 {
+        padding-bottom: 25px;
+    }
+    .pb30 {
+        padding-bottom: 30px;
+    }
+    .pb35 {
+        padding-bottom: 35px;
+    }
+    .pb40 {
+        padding-bottom: 40px;
+    }
+    .pb45 {
+        padding-bottom: 45px;
+    }
+    .pb50 {
+        padding-bottom: 50px;
+    }
+    .pb100 {
+        padding-bottom: 100px;
+    }
+    .pr0 {
+        padding-right: 0;
+    }
+    .pr1 {
+        padding-right: 1px;
+    }
+    .pr5 {
+        padding-right: 5px;
+    }
+    .pr10 {
+        padding-right: 10px;
+    }
+    .pr15 {
+        padding-right: 15px;
+    }
+    .pr20 {
+        padding-right: 20px;
+    }
+    .pr25 {
+        padding-right: 25px;
+    }
+    .pr30 {
+        padding-right: 30px;
+    }
+    .pr35 {
+        padding-right: 35px;
+    }
+    .pr40 {
+        padding-right: 40px;
+    }
+    .pr45 {
+        padding-right: 45px;
+    }
+    .pr50 {
+        padding-right: 50px;
+    }
+    .pr100 {
+        padding-right: 100px;
+    }
+    .text-c {
+        color: #29B078;
+    }
+    .display {
+        display: flex;
+        align-items: center;
+    }
+    .software {
+        color: #b8b8b8;
+        text-decoration: none;
+    }
+    .teacher {
+        padding-bottom: 10px;
+        width: 66px;
+    }
+    .teach {
+        position: relative;
+        right: 20px;
+        color: #b8b8b8;
+    }
+    a.software:hover {
+        border-bottom: solid 1px #26a26f;
+        padding-bottom: 10px;
+    }
+    .foot {
+        padding: 30px 0 0;
+        color: white;
+        background-color: #29B078;
+    }
+    .pb38 {
+        padding-bottom: 38px;
+    }
+    .decoration {
+        color: white;
+        text-decoration: none;
+    }
+    .copy {
+        margin-top: 20px;
+        text-align: center;
+        color: white;
+        border-top: solid 1px #32c086;
+    }
+    .displ {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    @media (max-width: 991px) {
+        .displ {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-top: 50px;
+        }
+    }
+    @media (max-width: 768px) {
+        .jn {
+            padding-top: 50px;
+        }
+    }
+    body {
+        margin: 0 auto;
+        min-width: 320px;
+    }
+    .display {
+        display: flex;
+        align-items: center;
+    }
+    .dis {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .disp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .phone {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-width {
+        width: 100%;
+        background-color: #29b078;
+    }
+    .nav-div {
+        background-color: #29B078;
+        padding: 10px 0 10px 0;
+    }
+    .nav {
+        list-style-type: none;
+        float: right;
+        margin: 0;
+        padding: 0;
+    }
+    @media screen and (max-width: 500px) {
+        .nav {
+            margin-right: 15px;
+        }
+    }
+    @media screen and (max-width: 540px) {
+        .nav {
+            display: none;
+            width: 100%;
+            float: none;
+        }
+    }
+    .nav-img {
+        height: 70px;
+        vertical-align: middle;
+    }
+    @media screen and (max-width: 500px) {
+        .nav-img {
+            margin-left: 15px;
+            margin-bottom: 10px;
+        }
+    }
+    .nav li {
+        float: left;
+    }
+    @media screen and (max-width: 500px) {
+        .nav li {
+            float: none;
+            text-align: center;
+        }
+    }
+    .nav li a {
+        display: block;
+        height: 80px;
+        padding: 25px 15px;
+        color: white;
+        background-color: #29b078;
+        text-decoration: none;
+    }
+    .nav li:hover a {
+        border-bottom: 3px solid white;
+    }
+    .hamburger-btn {
+        width: 40px;
+        height: 30px;
+        display: none;
+        background: url("img/three1.png");
+        border: none;
+        outline: none;
+        margin-top: 15px;
+    }
+    @media screen and (max-width: 500px) {
+        .hamburger-btn {
+            display: inline-block;
+            vertical-align: middle;
+            float: right;
+            margin-right: 15px;
+        }
+    }
+    /*轮播图*/
+    .banner {
+        height: 31.25vw;
+        position: relative;
+        overflow: hidden;
+    }
+    .banner img {
+        position: absolute;
+        width: 100vw;
+        right: 0;
+    }
+    #one {
+        animation: move_three 9s infinite;
+    }
+    @keyframes move_one {
+        0% {
+            left: 0;
+        }
+        66% {
+            left: 0;
+        }
+        100% {
+            left: 100vw;
+        }
+    }
+    @keyframes move_two {
+        0% {
+            left: 0;
+        }
+        33% {
+            left: 0;
+        }
+        66% {
+            left: 100vw;
+        }
+        100% {
+            left: 100vw;
+        }
+    }
+    @keyframes move_three {
+        0% {
+            left: 0;
+        }
+        33% {
+            left: 100vw;
+        }
+        66% {
+            left: 100vw;
+        }
+        100% {
+            left: 100vw;
+        }
+    }
+    /*自定义栅格*/
+    * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .row {
+        margin: 0 -15px;
+    }
+    .pull-left {
+        float: left !important;
+    }
+    .pull-right {
+        float: right !important;
+    }
+    .container:after,
+    .container:before,
+    .row:after,
+    .row:before {
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .clear:after {
+        display: block;
+        clear: both;
+        content: "";
+        visibility: hidden;
+        height: 0;
+    }
+    .clear {
+        zoom: 1;
+    }
+    .col-xs-5,
+    .col-xs-6,
+    .col-xs-7,
+    .col-xs-12,
+    .col-sm-6,
+    .col-sm-12,
+    .col-md-3,
+    .col-md-4,
+    .col-lg-3 {
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .col-xs-5,
+    .col-xs-6,
+    .col-xs-7,
+    .col-xs-12 {
+        float: left;
+    }
+    .col-xs-5 {
+        width: 41.66666666%;
+    }
+    .col-xs-6 {
+        width: 50%;
+    }
+    .col-xs-7 {
+        width: 58.33333333%;
+    }
+    .col-xs-12 {
+        width: 100%;
+    }
+    @media (min-width: 768px) {
+        .container {
+            width: 750px;
+        }
+        .col-sm-2 {
+            float: left;
+            width: 20%;
+        }
+        .col-sm-3 {
+            float: left;
+            width: 25%;
+        }
+        .col-sm-4 {
+            float: left;
+            width: 33.33%;
+        }
+        .col-sm-6 {
+            float: left;
+            width: 50%;
+        }
+        .col-sm-9 {
+            float: left;
+            width: 75%;
+        }
+        .col-sm-12 {
+            float: left;
+            width: 100%;
+        }
+    }
+    @media (min-width: 992px) {
+        .container {
+            width: 970px;
+        }
+        .col-md-2 {
+            float: left;
+            width: 16.66666666%;
+        }
+        .col-md-3 {
+            float: left;
+            width: 25%;
+        }
+        .col-md-4 {
+            float: left;
+            width: 33.33333333%;
+        }
+        .col-md-6 {
+            float: left;
+            width: 50%;
+        }
+        .col-md-9 {
+            float: left;
+            width: 75%;
+        }
+    }
+    @media (min-width: 1200px) {
+        .container {
+            width: 1170px;
+        }
+        .col-lg-3 {
+            float: left;
+            width: 25%;
+        }
+    }
+    .col-xs-5cs,
+    .col-sm-5cs,
+    .col-md-5cs,
+    .col-lg-5cs {
+        position: relative;
+        min-height: 1px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    @media (min-width: 768px) {
+        .col-sm-5cs {
+            width: 20%;
+            float: left;
+        }
+    }
+    @media (min-width: 992px) {
+        .col-md-5cs {
+            width: 20%;
+            float: left;
+        }
+    }
+    @media (min-width: 1200px) {
+        .col-lg-5cs {
+            width: 20%;
+            float: left;
+        }
+    }
+    .col-xs-1cs,
+    .col-sm-1cs,
+    .col-md-1cs,
+    .col-lg-1cs {
+        position: relative;
+        min-height: 1px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    @media (min-width: 768px) {
+        .col-sm-1cs {
+            width: 10%;
+            float: left;
+        }
+    }
+    @media (min-width: 992px) {
+        .col-md-1cs {
+            width: 10%;
+            float: left;
+        }
+    }
+    @media (min-width: 1200px) {
+        .col-lg-1cs {
+            width: 10%;
+            float: left;
+        }
+    }
+    .text-c {
+        color: #29B078;
+    }
+    .display {
+        display: flex;
+        align-items: center;
+    }
+    .software {
+        color: #b8b8b8;
+        text-decoration: none;
+    }
+    .teacher {
+        padding-bottom: 10px;
+        width: 66px;
+    }
+    .teach {
+        position: relative;
+        right: 20px;
+        color: #b8b8b8;
+    }
+    a.software:hover {
+        border-bottom: solid 1px #26a26f;
+        padding-bottom: 10px;
+    }
+    .foot {
+        padding: 30px 0 0;
+        color: white;
+        background-color: #29B078;
+    }
+    .pb38 {
+        padding-bottom: 38px;
+    }
+    .decoration {
+        color: white;
+        text-decoration: none;
+    }
+    .copy {
+        margin-top: 20px;
+        text-align: center;
+        color: white;
+        border-top: solid 1px #32c086;
+    }
+    .displ {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    @media (max-width: 991px) {
+        .displ {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-top: 50px;
+        }
+    }
+    @media (max-width: 768px) {
+        .jn {
+            padding-top: 50px;
+        }
+    }
+    main {
+        background-color: #fafafa;
+        padding-bottom: 150px;
+    }
+    .all {
+        color: black;
+    }
+    .all:hover {
+        color: white;
+        background-color: #29B078;
+    }
+    .web {
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    .wang {
+        margin-top: 30px;
+        background-color: white;
+        border: solid 1px #d0d6d9;
+    }
+    .img-people {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: solid 1px #d0d6d9;
+    }
+    .img-peo {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: solid 1px #d0d6d9;
+        padding: 8px;
+        margin: 0 -15px;
+    }
+    .ple {
+        height: 200px;
+        padding: 20px 0 20px 15px;
+    }
+    .plone {
+        padding-left: 15px;
+        margin: 7px 0;
+    }
+    .tips {
+        position: absolute;
+        word-break: break-all;
+        padding-right: 8%;
+    }
+    .dawa {
+        position:absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        opacity: 0;
+        text-align: center;
+        font-size: 16px;
+        z-index: 222;
+        transition: all 3s;
+        line-height: 40px;
+    }
+    .dawa:hover {
+        opacity: 1;
+    }
+    @media (max-width: 991px) {
+        .tips {
+            padding-right: 10% ;
+        }
+    }
+
+    </style>
 </head>
 <body>
-$END$
+<header>
+    <!--表头-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 phone">
+                <div>客服热线：010-594-78634</div>
+                <div class="display">
+                    <img src="img/wechat.png">
+                    <img src="img/qq1.png">
+                    <img src="img/weibo2.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav-width">
+        <div class="container">
+            <div class="row">
+                <!--导航栏-->
+                <div class="nav-div">
+                    <img class="nav-img" src="img/logo.png" >
+                    <button type="button" class="hamburger-btn" onclick="showUl()"></button>
+                    <ul class="nav" id="target-ul">
+                        <li><a href="task-14-1.html">首页</a></li>
+                        <li><a href="task-14-2.html">职业</a></li>
+                        <li><a href="task-14-3.html">推荐</a></li>
+                        <li><a href="#">关于</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var s=document.getElementById("target-ul");
+
+        function showUl() {
+            if(s.style.display==""){
+                s.style.display="block";
+            }else{
+                s.style.display="";
+            }
+        }
+    </script>
+    <!--导航栏完成-->
+</header>
+<main>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 bo">
+            <h4>首页><span class="text-c">职业</span></h4>
+        </div>
+        <div class="col-md-12 bo-1">
+            <p class="p-text">
+                方向：
+                <span class="all">全部</span> &nbsp &nbsp
+                <span class="all">前端开发</span> &nbsp &nbsp
+                <span class="all">后端开发</span> &nbsp &nbsp
+                <span class="all">移动开发</span> &nbsp &nbsp
+                <span class="all">整站开发</span> &nbsp &nbsp
+                <span class="all">运营维护</span> &nbsp &nbsp
+            </p>
+        </div>
+        <!--前端开发-->
+        <div class="col-md-12 bo">
+            <h4>前端开发</h4>
+        </div>
+        <div class="col-md-4 col-sm-6 web">
+            <div class="col-md-4 col-sm-6 dawa">
+                <h3>ios工程师</h3>
+                <p>ios是由苹果公司开发的移动操作系统，ios与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此
+                    同样属于Unix的商业操作系统。国内ios开发起步较晚，人才培养机制是远远跟不上市场发展的速度。有限
+                    的ios开发人才成了国内企业必争的资源。国内ios开发起步较晚，人才培养机制是远远跟不上市场发
+                    展的速度。有限的ios开发人才成了国内企业必争的资源。</p>
+
+            </div>
+            <div class="wang">
+
+                <div class="col-md-12 img-people">
+                    <img src="img/people.png" class="ple">
+                    <div class="over">
+                        <h4>Web前端开发工程师</h4>
+                        <p> Web前端开发工程师,主要职责是利用/HTML/CSS/Javascript/flash等各种Web技术进行产品的开发</p>
+                    </div>
+                </div>
+                <div class="img-people">
+                    <div class="col-md-6 col-sm-6 col-xs-6 bo-r ">
+                        <p>门槛 <span>&nbsp<img src="img/star.png"></span></p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 ">
+                        <p>难易程度 <span>&nbsp<img src="img/star.png"> &nbsp <img src="img/star.png"></span></p>
+                    </div>
+                </div>
+                <div class="img-people">
+                    <div class="col-md-6 col-sm-6 col-xs-6 bo-r ">
+                        <p>成长周期 &nbsp <span class="cr">1-3 &nbsp</span>年</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 ">
+                        <p>稀缺程度&nbsp <span class="cr">345 &nbsp</span>家需要</p>
+                    </div>
+                </div>
+                <div class="img-people">
+                    <div class="col-md-6 col-sm-6 col-xs-6 bo-r disp ">
+                        <p>薪资待遇</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 ">
+                        <p class="img-peo ">0-1年 <span>5k-10k/月</span></p>
+                        <p class="img-peo ">1-3年 <span>10k-20k/月</span></p>
+                        <p class="img-peo ">0-1年 <span>20k-50k/月</span></p>
+                    </div>
+                </div>
+                <div class="img-people">
+                    <div class="col-md-12">
+                        <h4 class="plone">有<span class="cr">123</span>人正在学习</h4>
+                    </div>
+                </div>
+                <div class="img-people">
+                    <div class="col-md-12">
+                        <p class="plone">提示：在你学习之前你应掌握XXXXX、XXXX、XXXX等语言基础。</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--<div class="col-md-4 col-sm-6 web">-->
+            <!--<div class="wang">-->
+                <!--<div class="col-md-4 col-sm-6 tips">-->
+                    <!--<div class="col-md-12 dawa">-->
+                        <!--<h3>ios工程师</h3>-->
+                        <!--<p>ios是由苹果公司开发的移动操作系统，ios与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此-->
+                            <!--同样属于Unix的商业操作系统。国内ios开发起步较晚，人才培养机制是远远跟不上市场发展的速度。有限-->
+                            <!--的ios开发人才成了国内企业必争的资源。国内ios开发起步较晚，人才培养机制是远远跟不上市场发-->
+                            <!--展的速度。有限的ios开发人才成了国内企业必争的资源。</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-md-12 img-people">-->
+                    <!--<img src="img/people.png" class="ple">-->
+                    <!--<div class="over">-->
+                        <!--<h4>Web前端开发工程师</h4>-->
+                        <!--<p> Web前端开发工程师,主要职责是利用/HTML/CSS/Javascript/flash等各种Web技术进行产品的开发</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="img-people">-->
+                    <!--<div class="col-md-6 col-sm-6 col-xs-6 bo-r ">-->
+                        <!--<p>门槛 <span>&nbsp<img src="img/star.png"></span></p>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-6 col-sm-6 col-xs-6 ">-->
+                        <!--<p>难易程度 <span>&nbsp<img src="img/star.png"> &nbsp <img src="img/star.png"></span></p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="img-people">-->
+                    <!--<div class="col-md-6 col-sm-6 col-xs-6 bo-r ">-->
+                        <!--<p>成长周期 &nbsp <span class="cr">1-3 &nbsp</span>年</p>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-6 col-sm-6 col-xs-6 ">-->
+                        <!--<p>稀缺程度&nbsp <span class="cr">345 &nbsp</span>家需要</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="img-people">-->
+                    <!--<div class="col-md-6 col-sm-6 col-xs-6 bo-r disp ">-->
+                        <!--<p>薪资待遇</p>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-6 col-sm-6 col-xs-6 ">-->
+                        <!--<p class="img-peo ">0-1年 <span>5k-10k/月</span></p>-->
+                        <!--<p class="img-peo ">1-3年 <span>10k-20k/月</span></p>-->
+                        <!--<p class="img-peo ">0-1年 <span>20k-50k/月</span></p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="img-people">-->
+                    <!--<div class="col-md-12">-->
+                        <!--<h4 class="plone">有<span class="cr">123</span>人正在学习</h4>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="img-people">-->
+                    <!--<div class="col-md-12">-->
+                        <!--<p class="plone">提示：在你学习之前你应掌握XXXXX、XXXX、XXXX等语言基础。</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="col-md-4 col-sm-6 web">-->
+            <!--<div class="wang">-->
+                <!--<div class="col-md-4 col-sm-6 tips">-->
+                    <!--<div class="col-md-12 dawa">-->
+                        <!--<h3>ios工程师</h3>-->
+                        <!--<p>ios是由苹果公司开发的移动操作系统，ios与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此-->
+                            <!--同样属于Unix的商业操作系统。国内ios开发起步较晚，人才培养机制是远远跟不上市场发展的速度。有限-->
+                            <!--的ios开发人才成了国内企业必争的资源。国内ios开发起步较晚，人才培养机制是远远跟不上市场发-->
+                            <!--展的速度。有限的ios开发人才成了国内企业必争的资源。</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-md-12 img-people">-->
+                    <!--<img src="img/people.png" class="ple">-->
+                    <!--<div class="over">-->
+                        <!--<h4>Web前端开发工程师</h4>-->
+                        <!--<p> Web前端开发工程师,主要职责是利用/HTML/CSS/Javascript/flash等各种Web技术进行产品的开发</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="img-people">-->
+                    <!--<div class="col-md-6 col-sm-6 col-xs-6 bo-r ">-->
+                        <!--<p>门槛 <span>&nbsp<img src="img/star.png"></span></p>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-6 col-sm-6 col-xs-6 ">-->
+                        <!--<p>难易程度 <span>&nbsp<img src="img/star.png"> &nbsp <img src="img/star.png"></span></p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="img-people">-->
+                    <!--<div class="col-md-6 col-sm-6 col-xs-6 bo-r ">-->
+                        <!--<p>成长周期 &nbsp <span class="cr">1-3 &nbsp</span>年</p>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-6 col-sm-6 col-xs-6 ">-->
+                        <!--<p>稀缺程度&nbsp <span class="cr">345 &nbsp</span>家需要</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="img-people">-->
+                    <!--<div class="col-md-6 col-sm-6 col-xs-6 bo-r disp ">-->
+                        <!--<p>薪资待遇</p>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-6 col-sm-6 col-xs-6 ">-->
+                        <!--<p class="img-peo ">0-1年 <span>5k-10k/月</span></p>-->
+                        <!--<p class="img-peo ">1-3年 <span>10k-20k/月</span></p>-->
+                        <!--<p class="img-peo ">0-1年 <span>20k-50k/月</span></p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="img-people">-->
+                    <!--<div class="col-md-12">-->
+                        <!--<h4 class="plone">有<span class="cr">123</span>人正在学习</h4>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="img-people">-->
+                    <!--<div class="col-md-12">-->
+                        <!--<p class="plone">提示：在你学习之前你应掌握XXXXX、XXXX、XXXX等语言基础。</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+</div>
+</main>
+<footer>
+    <div class="foot">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div>
+                        <p class="pb38">技能树 — 改变你我</p>
+                        <a href="#" class="decoration">
+                            关于我们 &nbsp;|
+                        </a>
+                        <a href="#" class="decoration">
+                            &nbsp;联系我们 &nbsp;|
+                        </a>
+                        <a href="#" class="decoration">
+                            &nbsp;企业合作
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 jn">
+                    <p  class="pb5">旗下网站</p>
+                    <a href="#" class="decoration">
+                        <p class="pb5">草船云孵化器 &nbsp;&nbsp;&nbsp;最强IT特训营</p>
+                    </a>
+                    <p>
+                        <a href="#" class="decoration">
+                            葡萄藤轻游戏 &nbsp;&nbsp;&nbsp;桌游精灵
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-4 displ">
+                    <div>
+                        <p>微信公共平台</p>
+                        <img src="img/code.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            Copyright © 2015技能树 www.jnshu.com All Rights Reserved | 京ICP
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>

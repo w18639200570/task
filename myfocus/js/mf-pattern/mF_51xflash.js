@@ -1,4 +1,4 @@
-﻿myFocus.pattern.extend({//*********************51xflash(仅支持4帧)******************
+myFocus.pattern.extend({//*********************51xflash(仅支持4帧)******************
 	'mF_51xflash':function(settings,$){
 		var o=document.getElementById(settings.id),list=o.getElementsByTagName('li');
 		for(var j=0,len=list.length;j<len;j++){

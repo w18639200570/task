@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta charset="utf-8">
+    <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
 </head>
 <body>
-$END$
+
+<div ng-app="myApp" ng-controller="myCtrl" >
+    回写时设置不可选，即设ng-disabled="true"
+    <div ng-repeat="item in list">
+        <input ng-model="abc[index]" type="checkbox" name="tagName"  ng-checked="isSelected(item.id)" value="item.id" ng-disabled="false" > {{item.shortName}}
+    </div>
+    结果：{{result}}
+    <button ng-click="tt()">ssss</button>
+</div>
+
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope) {
+        //创建checkbox用的
+        $scope.list=[{"id":1,"shortName":"张三"},{"id":2,"shortName":"李四"},{"id":3,"shortName":"王二"}];
+
+        //在添加页面得到的结果
+        //你会发现，顺序也不会影响结果
+        $scope.result = [3,1];
+
+        //被选中条件：ng-checked的结果为true
+        $scope.isSelected = function(id){
+            return $scope.result.indexOf(id)!=-1;
+            //只要返回的结果为true，则对应的checkbox就会被选中，
+            //所以我的思路是看存添加页面的结果里是否含有当前id即value值，
+            //有就返回的true，没有就返回false
+        };
+        $scope.tt = function(){
+            console.log($scope.abc);
+        }
+    });
+</script>
 </body>
 </html>

@@ -2,9 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
-<body>
-$END$
+<body ng-app="test" ng-controller="one">
+
+<input type="text" size="10" class="form-control" ng-model="sharedDate1" data-autoclose="1" placeholder="Date" bs-datepicker popup-placement="bottom-right">
+
+<input type="text" size="8" class="form-control" ng-model="sharedDate" data-time-format="HH:mm:ss a" data-autoclose="0" placeholder="Time" bs-timepicker>
+<button ng-click="tt()">tttt</button>
+<button ng-click="modal()">modal</button>
+
+<script src="http://cdn.bootcss.com/angular.js/1.6.1/angular.js"></script>
+<script src="//cdn.bootcss.com/angular.js/1.6.1/angular-animate.js"></script>
+<script src="//cdn.bootcss.com/angular-strap/2.3.12/angular-strap.js"></script>
+<script src="//cdn.bootcss.com/angular-strap/2.3.12/angular-strap.tpl.js"></script>
+<script>
+    (function(){
+        'use strict';
+
+        angular
+            .module('test', [
+                'mgcrea.ngStrap'
+            ])
+    })();
+    angular
+        .module('test', [
+            'mgcrea.ngStrap'
+        ])
+        .controller('one',function($scope,$modal){
+            $scope.dateOptions = {
+                formatYear: 'yy',
+                maxDate: new Date(2020, 5, 22),
+                minDate: new Date(),
+//                popupPlacement:bottomRight,
+                startingDay: 1
+            };
+            var modal = $modal({
+                scope:$scope,
+                title:'我的模态框',
+                content:"test<input type='text' value='xxxx'>",
+//                template:"moban.html",
+                show:true
+            });
+            $scope.modal = function(){
+                modal.$promise.then(modal.show);
+            };
+            $scope.tt = function (){
+                console.log($scope.sharedDate);
+                console.log($scope.sharedDate1);
+                console.log(new Date($scope.sharedDate).valueOf() + 28800000);
+                console.log(new Date($scope.sharedDate1).valueOf());
+            };
+        })
+
+</script>
 </body>
 </html>

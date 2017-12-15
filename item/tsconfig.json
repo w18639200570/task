@@ -1,10 +1,31 @@
 {
-  "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
-    "sourceMap": true
+  "task": {
+    "step": 1,
+    "type": 4,
+    "using": 2,
+    "bookId": "84",
+    "periodID": "569",
+    "answerType": "1",
+    "name": "dfas"
   },
-  "exclude": [
-    "node_modules"
+  "unitList": [
+    {
+      "type": 2,
+      "introduce": "asfsf"
+    }
+  ],
+  "answerList": [
+    {
+      "type": 1,
+      "result": "true",
+      "introduce": "asf",
+      "orderType": 2
+    },
+    {
+      "type": 1,
+      "result": "",
+      "introduce": "saf",
+      "orderType": 2
+    }
   ]
 }

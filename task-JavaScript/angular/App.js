@@ -29,7 +29,58 @@ var myApp = angular.module("myApp", ['ngMessages','ui.router','angularFileUpload
             //     url:'/search?page'
             // })
         ;
+    }).directive('contenteditable',  function() {
+        return {
+            restrict: 'A',
+            require: '?ngModel',
+            link: function(scope, element, attrs, ngModel) {
+                if (!ngModel) return;
+
+                ngModel.$render = function() {
+                    element.html(ngModel.$viewValue || '');
+                };
+
+                element.on('blur keyup change', function() {
+                    scope.$evalAsync(read);
+                });
+                read(); // initialize
+
+                function read() {
+                    var html = element.html();
+                    if ( attrs.stripBr && html == '<br>' ) {    //清除 <br>
+                        html = '';
+                    }
+                    ngModel.$setViewValue(html);
+                }
+            }
+        };
     });
+
+//     .directive('autoHeight', function(){
+//     function autoHeight(elem){
+//         elem.style.height = 'auto';
+//         elem.scrollTop = 0; //防抖动
+//         elem.style.height = elem.scrollHeight + 'px';
+//     }
+//
+//     return {
+//         scope: {},
+//         link: function (scope, ele, attrs) {
+//             var oriEle = $(ele).get(0);
+//             $(oriEle).focus();
+//             $(oriEle).bind('keyup click', function(e) {
+//                 autoHeight($(this).get(0));
+//             });
+//             var timer = setInterval(function(){
+//                 if($(oriEle).val()) {
+//                     autoHeight(oriEle);
+//                     clearInterval(timer);
+//                 }
+//             }, 100);
+//         }
+//     };
+// });
+
 // myApp.controller('listCtrl', function($scope, $http){
 //     $http({
 //         method : 'GET',
@@ -84,6 +135,7 @@ var myApp = angular.module("myApp", ['ngMessages','ui.router','angularFileUpload
 //     $scope.delete = function(index){
 //         console.log($scope.List[index].title)
 //     }
+
 // }).directive('pagination', [
 //     '$state',
 //     function($state){

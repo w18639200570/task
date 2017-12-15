@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        p {
+            height:200px;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <p id="test">test</p>
+
+<script src="//cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="//cdn.bootcss.com/bootbox.js/4.4.0/bootbox.js"></script>
+<script>
+    $("#test").on('click',function(){
+        bootbox.prompt('abc',function(result){
+            console.log(result);
+        });
+    })
+</script>
 </body>
 </html>

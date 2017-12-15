@@ -1,5 +1,32 @@
 {
-  "name": "$package_name$",
-  "version": "0.0.1",
-  $END$
+  "task": {
+    "step": 1,
+    "type": 4,
+    "using": 2,
+    "bookId": "84",
+    "periodID": "578",
+    "answerType": "1",
+    "name": "sdasd"
+  },
+  "unitList": [
+    {
+      "type": 2,
+      "introduce": "asd"
+    }
+  ],
+  "answerList": [
+    {
+      "type": 1,
+      "result": "true",
+      "introduce": "asd",
+      "orderType": 2
+    },
+    {
+      "type": 1,
+      "result": "",
+      "introduce": "asd",
+      "orderType": 2
+    }
+  ]
 }
+

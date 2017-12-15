@@ -9,7 +9,7 @@
         }
         .content {display:none;}
     </style>
-    <script src="//cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
 </head>
 <body>
 
@@ -21,17 +21,23 @@
 </ul>
 <button onclick="test()">qiehuan</button>
 <script>
-    $(functio)
+    // $(functio)
 
-    var $li_1 = $("<li>a</li>");
-    var $li_2 = $("<li>g</li>");
-    $("ul").append($li_1).append($li_2);
-        $("ul li").click(function(){
-            $(this).clone().appendTo("ul");
-        })
-    function test(){
-        $("p").toggleClass("aother")
+    // var $li_1 = $("<li>a</li>");
+    // var $li_2 = $("<li>g</li>");
+    // $("ul").append($li_1).append($li_2);
+    //     $("ul li").click(function(){
+    //         $(this).clone().appendTo("ul");
+    //     })
+    // function test(){
+    //     $("p").toggleClass("aother")
+    // }
+    $("*").css("border","red dashed 2px")
+    var a = 'asdfasfasfasf';
+    function leng(leng){
+        alert(leng.length)
     }
+    leng(a);
 </script>
 </body>
 </html>

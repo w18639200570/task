@@ -81,8 +81,8 @@ main .col-xs-4 {
 
 .content .col-xs-7 {
     margin: 5px 0 5px 20px;
-    text-overflow: ellipsis;
     overflow: hidden;
+    text-overflow: ellipsis;
     white-space: nowrap;
 }
 

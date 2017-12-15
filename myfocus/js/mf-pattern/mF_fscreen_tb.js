@@ -1,4 +1,4 @@
-﻿myFocus.pattern.extend({//*********************fscreen******************
+myFocus.pattern.extend({//*********************fscreen******************
 	'mF_fscreen_tb':function(settings,$){
 		var $focus=$(settings);
 		var $picList=$focus.find('.pic li');

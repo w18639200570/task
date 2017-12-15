@@ -1,59 +1,16 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
-    <inspection_tool class="CssNoGenericFontName" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="CssUnknownProperty" enabled="true" level="WARNING" enabled_by_default="true">
-      <option name="myCustomPropertiesEnabled" value="true" />
-      <option name="myIgnoreVendorSpecificProperties" value="false" />
-      <option name="myCustomPropertiesList">
-        <value>
-          <list size="5">
-            <item index="0" class="java.lang.String" itemvalue="appearance" />
-            <item index="1" class="java.lang.String" itemvalue="appearnce" />
-            <item index="2" class="java.lang.String" itemvalue="star" />
-            <item index="3" class="java.lang.String" itemvalue="pointer-events" />
-            <item index="4" class="java.lang.String" itemvalue="text-decoration-skip" />
-          </list>
-        </value>
-      </option>
-    </inspection_tool>
     <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="10">
-            <item index="0" class="java.lang.String" itemvalue="text" />
-            <item index="1" class="java.lang.String" itemvalue="thumb" />
-            <item index="2" class="java.lang.String" itemvalue=";font-size:" />
-            <item index="3" class="java.lang.String" itemvalue="xlink:href" />
-            <item index="4" class="java.lang.String" itemvalue="ng-contr1oller" />
-            <item index="5" class="java.lang.String" itemvalue="ng-app" />
-            <item index="6" class="java.lang.String" itemvalue="ng-bind-template" />
-            <item index="7" class="java.lang.String" itemvalue="ng-model" />
-            <item index="8" class="java.lang.String" itemvalue="ng-repeat" />
-            <item index="9" class="java.lang.String" itemvalue="ng-controller" />
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="ng-model" />
           </list>
         </value>
       </option>
       <option name="myCustomValuesEnabled" value="true" />
     </inspection_tool>
-    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
-      <option name="myValues">
-        <value>
-          <list size="10">
-            <item index="0" class="java.lang.String" itemvalue="nobr" />
-            <item index="1" class="java.lang.String" itemvalue="noembed" />
-            <item index="2" class="java.lang.String" itemvalue="comment" />
-            <item index="3" class="java.lang.String" itemvalue="noscript" />
-            <item index="4" class="java.lang.String" itemvalue="embed" />
-            <item index="5" class="java.lang.String" itemvalue="script" />
-            <item index="6" class="java.lang.String" itemvalue="lable" />
-            <item index="7" class="java.lang.String" itemvalue="span" />
-            <item index="8" class="java.lang.String" itemvalue="div" />
-            <item index="9" class="java.lang.String" itemvalue="p" />
-          </list>
-        </value>
-      </option>
-      <option name="myCustomValuesEnabled" value="true" />
-    </inspection_tool>
+    <inspection_tool class="JSHint" enabled="true" level="ERROR" enabled_by_default="true" />
   </profile>
 </component>

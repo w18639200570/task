@@ -1,4 +1,4 @@
-﻿myFocus.pattern.extend({//*********************奇艺******************
+myFocus.pattern.extend({//*********************奇艺******************
 	'mF_qiyi':function(settings,$){
 		var $focus=$(settings);
 		var $slider=$focus.addHtml('<div class="slider"></div>');

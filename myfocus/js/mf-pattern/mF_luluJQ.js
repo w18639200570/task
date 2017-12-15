@@ -1,4 +1,4 @@
-﻿myFocus.pattern.extend({//*********************luluJQ******************
+myFocus.pattern.extend({//*********************luluJQ******************
 	'mF_luluJQ':function(settings,$){
 		var $focus=$(settings);
 		$focus.find('.pic a').each(function(){

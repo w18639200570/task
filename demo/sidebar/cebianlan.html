@@ -1,10 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="indexApp">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdn.bootcss.com/angular.js/1.6.1/angular.js"></script>
+
+    <!--<link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">-->
+    <script src="//cdn.bootcss.com/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.js"></script>
+    <script src="//cdn.bootcss.com/angular.js/1.6.1/angular-animate.js"></script>
 </head>
-<body>
-$END$
+<body ng-controller="indexCtrl">
+<div class="col-sm-6">
+    <uib-accordion close-others="oneAtATime">
+        <div uib-accordion-group class="panel-default" is-open="status.open">
+            <uib-accordion-heading>第二个头部
+                <i class="pull-right glyphicon"
+                        ng-class="{'glyphicon-chevron-down': status.open,
+                   'glyphicon-chevron-right': !status.open}">
+                </i>
+            </uib-accordion-heading>
+            第二个内容
+        </div>
+        <!--is-open="status.open" 是否禁用-->
+        <div uib-accordion-group class="panel-default" is-open="status.open1">
+            <uib-accordion-heading>第三个头部
+                <i class="pull-right glyphicon"
+                        ng-class="{'glyphicon-chevron-down': status.open1,
+                   'glyphicon-chevron-right': !status.open1}">
+                </i>
+            </uib-accordion-heading>
+            第三个内容
+        </div>
+    </uib-accordion>
+</div>
+<script>
+    angular.module('indexApp',['ui.bootstrap','ngAnimate'])
+        .controller('indexCtrl',  function ($scope) {
+            $scope.oneAtATime = true;
+
+
+            $scope.addItem = function() {
+                var newItemNo = $scope.items.length + 1;
+                $scope.items.push('Item ' + newItemNo);
+            };
+
+        });
+</script>
 </body>
 </html>

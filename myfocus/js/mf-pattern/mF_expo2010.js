@@ -1,4 +1,4 @@
-﻿myFocus.pattern.extend({//*********************2010世博******************
+myFocus.pattern.extend({//*********************2010世博******************
 	'mF_expo2010':function(settings,$){
 		var $focus=$(settings);
 		var $picList=$focus.find('.pic li');
