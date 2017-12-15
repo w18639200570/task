@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f58a802-32bc-46c5-a9ab-eed94eac1d6d" name="Default" comment="">
+    <list default="true" id="2f58a802-32bc-46c5-a9ab-eed94eac1d6d" name="Default" comment="test">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/bgimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/go-site.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/hds-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/hds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/mffd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/p1-wenzi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/p1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/p2-wenzi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/p2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/peoples.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/szp-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/szp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/ydy-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/ydy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/ydymffd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/ys.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/zxm-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/img/zxm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/css/animate.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduct-jnshu/js/wow.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -566,7 +591,7 @@
       <workItem from="1513176780951" duration="267000" />
       <workItem from="1513270353115" duration="76000" />
       <workItem from="1513298441388" duration="4089000" />
-      <workItem from="1513343948235" duration="1142000" />
+      <workItem from="1513343948235" duration="1240000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1513351522071</created>
@@ -582,11 +607,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513351772022</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1513351810457</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1513351810457</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290084000" />
+    <option name="totallyTimeSpent" value="290182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
