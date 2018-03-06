@@ -5,8 +5,8 @@
     <file url="file://$PROJECT_DIR$/demo/umeditor.html" libraries="{WebGL, angular}" />
     <file url="file://$PROJECT_DIR$/directive/isteven-multi-select/isteven-multi-select.js" libraries="{angular}" />
     <file url="file://$PROJECT_DIR$/item/sortable.html" libraries="{angular-1.0.1}" />
-    <file url="file://$PROJECT_DIR$/task-JavaScript/angular/App.js" libraries="{angular, angular-1.0.1}" />
+    <file url="file://$PROJECT_DIR$/task-JavaScript/angular/App.js" libraries="{angular, angular-1.0.1, angular-ui-router, angular2-all-testing.umd.dev}" />
     <file url="file://$PROJECT_DIR$/task-JavaScript/angular/editor.js" libraries="{angular, angular-1.0.1}" />
-    <file url="PROJECT" libraries="{AreaRestriction_min, echarts, echarts.common}" />
+    <file url="PROJECT" libraries="{AreaRestriction_min, city-picker, echarts, echarts.common, jquery-weui}" />
   </component>
 </project>

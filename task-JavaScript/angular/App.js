@@ -2,6 +2,37 @@
  * Created by Shinelon on 2017/4/21.
  */
 var myApp = angular.module("myApp", ['ngMessages','ui.router','angularFileUpload'])
+    .run(function($rootScope, $state){
+        console.log($state);
+        $rootScope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams){
+            // 让登录页不再返回其他页面
+            console.log($state);
+            if(fromState.name == 'login' && sessionStorage.getItem('search') && typeof(sessionStorage.getItem('search')) != 'object'||fromState.name == 'login'&&sessionStorage.getItem('openId') && sessionStorage.getItem('search')){
+                console.log('关闭浏览器，登录');
+                $rootScope.out();
+            }
+            // 让登录页不再返回其他页面
+            if(toState.name == 'detail.hospitalList'&&sessionStorage.getItem('openId')&&fromState.name!='detail.upload'&&fromState.name!=''||toState.name == 'detail.stages'&&sessionStorage.getItem('openId')&&fromState.name!='detail.assure'&&fromState.name!=''||toState.name == 'detail.history'&&sessionStorage.getItem('openId')&&fromState.name!=''||toState.name == 'detail.facility'&&sessionStorage.getItem('openId')&&fromState.name!=''||toState.name == 'detail.insurance'&&sessionStorage.getItem('openId')&&fromState.name!=''||toState.name == 'detail.recruit'&&sessionStorage.getItem('openId')&&fromState.name!=''||toState.name == 'detail.talents'&&sessionStorage.getItem('openId')&&fromState.name!=''){
+                console.log('关闭浏览器，登录后返回列表');
+                $rootScope.out();
+            }
+            // 如果返回登录页
+            if(toState.name == 'login' && !sessionStorage.getItem('openId')){
+                console.log('关闭浏览器，返回登录');
+                $rootScope.out();
+            }
+            // 登录完返回列表页
+            if(toState.name == 'detail.hospitalList' && sessionStorage.login||toState.name == 'detail.stages' && sessionStorage.login){
+                console.log('关闭浏览器，返回登录');
+                $rootScope.out();
+            }
+            // 新增医院和订单之后不可返回新增
+            if(fromState.name == 'detail.hospitalList' && toState.name == 'detail.upload' || fromState.name == 'detail.stages' && toState.name == 'detail.assure'){
+                console.log('关闭浏览器，新增');
+                $rootScope.out();
+            }
+        });
+    })
     .config(function($stateProvider, $urlRouterProvider){
         $urlRouterProvider.when("", "/PageTab");
         $stateProvider
